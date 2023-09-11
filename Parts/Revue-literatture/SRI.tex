@@ -55,7 +55,7 @@ Un Système de Recherche d'Information a systématiquement deux éléments princ
 Pour un SRI, cette base de données est structuré par un expert en base de données (Database Manager). Il est responsable de stockage des documents, des index, ainsi que met en place la relation entre les documents et les index (Fichier inversé). Cette base de données stocke alors l'ensemble de documents utilisé par le système afin de répondre aux besoins de l'utilisateur \citep{vsm-for-arabic-language}.
 
 \subsubsection{Algorithme de classement}
-Un algorithme de classement permet de classer les documents suivant l'ordre de pertinence par rapport a la requête de l'utilisateur. Cette algorithme qui se charge de calculer la pertinence entre la requête et les documents dans la base de données. L'algorithme de classement souvent utilisé dans le modèle vectoriel est déjà présenté dans la section (Section mesure de similarité).
+Un algorithme de classement permet de classer les documents suivant l'ordre de pertinence par rapport a la requête de l'utilisateur. Cette algorithme qui se charge de calculer la pertinence entre la requête et les documents dans la base de données. L'algorithme de classement souvent utilisé dans le modèle vectoriel est déjà présenté dans la section \ref{sec:mesure-similarite}.
 
 \subsection{Catégorie de recherche}
 Tout d'abord, il y a quatre catégories de recherche cité par \citeauthor{ir-on-web} \citep{ir-on-web} tel que:
@@ -110,14 +110,14 @@ L'évaluation de performance permet d'identifier la performance et la robustesse
 Dans cette évaluation, on analyse aussi la performance d'indexation du SRI, l’interaction avec le Système d'Exploitation, ainsi que le délais dans le canaux de communication.
 
 \subsubsection{Évaluation de performance de recherche}
-L'évaluation de performance de recherche possède un grand défi, est qui est généralement traité par des chercheurs. Le but est de maximiser la précision des résultats de recherche par rapport au requête de l'utilisateur. Pour bien assimiler cette partie, on va voir comment est structuré la collection des documents du point de vue du système, on va illustrer ce qu'on appelle matrice de contingence dans la figure \ref{matrice-contingence}.
+L'évaluation de performance de recherche possède un grand défi, est qui est généralement traité par des chercheurs. Le but est de maximiser la précision des résultats de recherche par rapport au requête de l'utilisateur. Pour bien assimiler cette partie, on va voir comment est structuré la collection des documents du point de vue du système, on va illustrer ce qu'on appelle matrice de contingence dans la Figure~\ref{fig:matrice-contingence}.
 
 \begin{figure}[htbp]
 	\begin{center}
 		\fbox{\includegraphics[width=10cm, angle=0]{Figures/matrice-contingence.png}}
-		\caption{Matrice de contingence \citep{vsm-for-arabic-language}}
 	\end{center}
-	\label{matrice-contingence}
+	\caption{Matrice de contingence \citep{vsm-for-arabic-language}}
+	\label{fig:matrice-contingence}
 \end{figure}
 
 Dans ce matrice, il y a quatre catégories tel que:
@@ -130,13 +130,13 @@ Dans ce matrice, il y a quatre catégories tel que:
 
 Pour cette évaluation, on va voir quelques mesures parmi les plus populaires, tel que la \textit{précision}, le \textit{rappel}, et la \textit{F-mesure}. A bien noter que la notion d'ensemble des documents pertinents dans cette évaluation est défini par un expert, qui juge qu'un document est pertinent par rapport a un requête. C'est grâce au connaissance de documents pertinents a l'avance qu'on peut juger le système.
 
-On va illustrer dans la figure \ref{precision-recall} la classe des documents pour mieux élaborer la notion de précision et rappel.
+On va illustrer dans la Figure~\ref{fig:precision-recall} la classe des documents pour mieux élaborer la notion de précision et rappel.
 \begin{figure}[htbp]
 	\begin{center}
 		\fbox{\includegraphics[width=10cm, angle=0]{Figures/Precision-Recall.png}}
-		\caption{Ensemble des documents \citep{modern-ir}}
 	\end{center}
-	\label{precision-recall}
+	\caption{Ensemble des documents \citep{modern-ir}}
+	\label{fig:precision-recall}
 \end{figure}
 
 \subsubsubsection{Précision}
@@ -182,14 +182,14 @@ D'autres mesure de performance sont utilisés comme \textit{accuracy}, \textit{F
 Il y a beaucoup des moteurs de recherche où on peut trouver des thèses malagasy mais dans le cadre de ce mémoire, on va analyser quelques uns qui sont populaire et qui concerne le mieux notre étude.
 
 \subsubsection{Thèses malgache en ligne}
-Thèse malgache en ligne \citep{these-malgache-en-ligne} est un SRI orienté WEB specialisé pour la recherche des thèses souténues dans les six universités publiques de Madagascar depuis 2006. Actuellement il regroupe actuellement \textbf{31160} documents, plus précisement des thèses. Ce SRI est hebergé dans le serveur de l'université d'Antananarivo, et est mis en place par les equipes au sein de l'université. Le statistique des documents est dans la figure \ref{statistic-tme}, les resultats de recherche ainsi que la pagination est illustré dans la figure \ref{resultat-tme} et \ref{pagination-tme}.
+Thèse malgache en ligne \citep{these-malgache-en-ligne} est un SRI orienté WEB specialisé pour la recherche des thèses souténues dans les six universités publiques de Madagascar depuis 2006. Actuellement il regroupe actuellement \textbf{31160} documents, plus précisement des thèses. Ce SRI est hebergé dans le serveur de l'université d'Antananarivo, et est mis en place par les equipes au sein de l'université. Le statistique des documents est dans la figure \ref{fig:statistic-tme}, les resultats de recherche ainsi que la pagination est illustré dans la figure \ref{fig:resultat-tme} et \ref{fig:pagination-tme}.
 
 \begin{figure}[htbp]
 	\begin{center}
 		\fbox{\includegraphics[width=16cm, angle=0]{Figures/SRI/tme-statistics.PNG}}
-		\caption{Statistique des documents \citep{these-malgache-en-ligne}}
 	\end{center}
-	\label{statistic-tme}
+	\caption{Statistique des documents \citep{these-malgache-en-ligne}}
+	\label{fig:statistic-tme}
 \end{figure}
 
 Ce SRI a pour objectif de faciliter les recherches de thèses, généralement d'auteur malagasy afin de'explorer et de mettre en evidence les fruits de recherche malagasy. Ainsi de faciliter l'accès a ces documents pour les enseignants ainsi que pour les étudiants qui cherche des travaux rattachés a son thème.
@@ -201,17 +201,17 @@ Ce Système a quelques lacunes malgré ses avantages. La prémière problème qu
 \begin{figure}[htbp]
 	\begin{center}
 		\fbox{\includegraphics[width=16cm, angle=0]{Figures/SRI/tme-results.PNG}}
-		\caption{Resultat de recherche \citep{these-malgache-en-ligne}}
 	\end{center}
-	\label{resultat-tme}
+	\caption{Resultat de recherche \citep{these-malgache-en-ligne}}
+	\label{fig:resultat-tme}
 \end{figure}
 
 \begin{figure}[htbp]
 	\begin{center}
 		\fbox{\includegraphics[width=16cm, angle=0]{Figures/SRI/tme-pagination.PNG}}
-		\caption{Pagination \citep{these-malgache-en-ligne}}
 	\end{center}
-	\label{pagination-tme}
+	\caption{Pagination \citep{these-malgache-en-ligne}}
+	\label{fig:pagination-tme}
 \end{figure}
 
 \subsubsection{Fiofa.mg}
@@ -227,7 +227,7 @@ Dans le cadre de recherche des thèses malagasy, ce système est moins efficace 
 
 Ci-dessous un exemple de bibliothèque en ligne dans la figure (Ref figure).
 
-\subsubsection{Google Scholar, Mémoire Online et d'autres}
+\subsubsection{Google Scholar, theses.fr et d'autres - a verifier}
 Les géants du moteurs de recherche académique tel que google scholar, Mémoire online, HAL, et d'autres peuvent bien être utilisé pour rechercher des thèses malagasy. Ces systèmes sont performants, puissant en terme d'algorithme utilisés, et stock une grande volume des documents. Certains système propose d'appercu du document, exportation des bibliographie, liste des articles connexes ainsi qu'un système de securité et d'authentification. Il est aussi possible de faire une filtre par année ou par catégorie.
 
 Malgré tous ces atouts, c'est pas suffisant pour les travaux de recherches malagasy. Ces moteurs n'arrivent pas a indexer beaucups des documents (thèses) malagasy. Par exemple, dans mémoire online, il y a seulement 80 thèses dont l'auteur est malagasy \citep{memoire-online}. Alors pour rechercher des travaux de recherche malagasy dans ces moteurs est un veritable défi.

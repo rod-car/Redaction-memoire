@@ -26,24 +26,24 @@ Citons quelques définitions de la Recherche d'Information:
     On appelle SRI ou moteur de recherche, un ensemble de programmes informatiques, qui met en œuvre des techniques et moyens pour trouver les documents pertinents afin de satisfaire le besoin d'information de l'utilisateur \citep{approche-semantique}.
 \end{definition}
 
-Voici un courte historique de la recherche d'information jusqu'au 1998 qui est l'arrivé de Google, illustré dans a figure \ref{ir-history}.
+Voici un courte historique de la recherche d'information jusqu'au 1998 qui est l'arrivé de Google, illustré dans la Figure~\ref{fig:ir-history}.
 
 \begin{figure}[htbp]
     \begin{center}
         \fbox{\includegraphics[width=15cm, angle=0]{Figures/ir-history.png}}
-        \caption{Historique de la recherche d'information \citep{ir-course}}
     \end{center}
-    \label{ir-history}
+    \caption{Historique de la recherche d'information \citep{ir-course}}
+    \label{fig:ir-history}
 \end{figure}
 
-Le principe de base de la recherche d'information est illustré dans la figure \ref{processus-ri}.
+Le principe de base de la recherche d'information est illustré dans la Figure~\ref{fig:processus-ri}.
 
 \begin{figure}[htbp]
     \begin{center}
         \fbox{\includegraphics[width=15cm, angle=0]{Figures/processus-ri-simple.png}}
-        \caption{Processus de base de la RI \citep{amelioration-ri-approche-semantique}}
     \end{center}
-    \label{processus-ri}
+    \caption{Processus de base de la RI \citep{amelioration-ri-approche-semantique}}
+    \label{fig:processus-ri}
 \end{figure}
 
 \subsection{Pourquoi rechercher une information ?}
@@ -108,7 +108,7 @@ Pour l'approche du machine learning, il y a des algorithmes qui se base sur l'ap
 \end{itemize}
 
 \subsection{Besoin d'information}
-
+\label{sec:besoin-information}
 \begin{definition}
     C'est la besoin d'information qui déclenche la recherche d'information de l'utilisateur comme cité ci-dessus. C'est une sensation qui porterait un individu a s'engager dans une activité de recherche d'information (\cite{thesaurus-ir-web}).
 \end{definition}
@@ -180,20 +180,20 @@ Pour plus de détails sur ces facteurs d'influences, voir \citetitle[section 2.2
 Le modèle de processus le plus utilisé est le modèle en U. C'est un modèle qui traite les documents et la requête séparément et faire une appariement après.
 
 \subsubsection{Introduction (Processus en U)}
-La processus en U se déroule en général quatre étapes \citep{modern-ir} et qu'il y a d'un coté la traitement des documents et de l'autre coté la traitements de la requête. L'indexation des documents: créer la base documentaires dans la base de données; traitement et opérations sur la requête: traiter la requête de l'utilisateur, retirer les mots vides; l'appariement de la requête et les documents: pour savoir quelles documents répond mieux a la requête de l'utilisateur; Et enfin la reformulation de la requête de l'utilisateur: pour améliorer les résultats obtenues. La figure \ref{processus-u} présente la processus de la recherche d'information en U.
+La processus en U se déroule en général quatre étapes \citep{modern-ir} et qu'il y a d'un coté la traitement des documents et de l'autre coté la traitements de la requête. L'indexation des documents: créer la base documentaires dans la base de données; traitement et opérations sur la requête: traiter la requête de l'utilisateur, retirer les mots vides; l'appariement de la requête et les documents: pour savoir quelles documents répond mieux a la requête de l'utilisateur; Et enfin la reformulation de la requête de l'utilisateur: pour améliorer les résultats obtenues. La Figure~\ref{fig:processus-u} présente la processus de la recherche d'information en U.
 
 \begin{figure}[htbp]
     \begin{center}
         \fbox{\includegraphics[width=15cm, angle=0]{Figures/Processus-U.png}}
-        \caption{Processus en U de la RI \citep{thesaurus-ir-web}}
     \end{center}
-    \label{processus-u}
+    \caption{Processus en U de la RI \citep{thesaurus-ir-web}}
+    \label{fig:processus-u}
 \end{figure}
 
 Pour la suite, on va essayer d’expliquer en détails ce que font chaque partie de ce processus pour mieux élaborer l'étape de la recherche d'information.
 
 \subsubsection{Première étape: Besoin d'information}
-Comme la définition dans la section 2.1.4, pour qu'une recherche d'information eu lieu, il faudra une besoin d'information. A ce stade la base documentaire est déjà mis en place et est déjà prête pour l'utilisation. L'utilisateur doit ensuite transformer son besoin en requête et obtenir des mots clés. Le système applique un traitement de texte sur la requête pour obtenir une requête finale qui sera utilisé par l'appariement. La requête pourra contenir un ou plusieurs mots clés \citep{modern-ir}.
+Comme définit dans la section~\ref{sec:besoin-information}, pour qu'une recherche d'information eu lieu, il faudra une besoin d'information. A ce stade la base documentaire est déjà mis en place et est déjà prête pour l'utilisation. L'utilisateur doit ensuite transformer son besoin en requête et obtenir des mots clés. Le système applique un traitement de texte sur la requête pour obtenir une requête finale qui sera utilisé par l'appariement. La requête pourra contenir un ou plusieurs mots clés \citep{modern-ir}.
 
 \begin{definition}[Requête ou Query]
     La requête est une interface entre l'utilisateur et le programme, formulé sous-forme des mots-clés par l'utilisateur décrits en langage naturel \citep{amelioration-ri-approche-semantique}.
@@ -276,7 +276,9 @@ La troisième approche qui est la combinaison des deux est la \textit{TF-IDF}. L
 Une fois ces termes sélectionné avec les poids correspondant, on crée un index inversé ou fichier inversé pour stocker ces termes. Cet index inversé va faire correspondre le document identifié par un ID avec les termes qui le compose avec le poids correspondant \citep*{vsm, vsm-for-arabic-language, sarch-engine-vsm, modern-ir}. Tous ces notions va être détaillé un peu plus bas dans le document lorsqu'on abordera le modèle utilisé dans le cadre de ce mémoire.
 
 \subsubsection{Étape d’appariement}
-Pour pouvoir satisfaire le besoin de l'utilisateur, il faut apparier la requête de l'utilisateur et les documents (fichier inversé) en utilisant un algorithme d'appariement. Ces algorithmes permet de calculer la similarité entre un document et une requête et savoir quels sont les documents qui correspondent le mieux avec la requête avec un degré de similarité. Mathématiquement, c'est calculer la distance euclidien entre la requête et le document.
+\label{sec:etape-appariement}
+Pour pouvoir satisfaire le besoin de l'utilisateur, il faut apparier la requête de l'utilisateur et les documents (fichier inversé) en utilisant un algorithme d'appariement. Ces algorithmes permet de calculer la similarité entre un document et une requête et savoir 
+quels sont les documents qui correspondent le mieux avec la requête avec un degré de similarité. Mathématiquement, c'est calculer la distance euclidien entre la requête et le document.
 
 On calcule ces mesures pour déterminer la pertinence entre la requête de l'utilisateur et les documents dans le corpus, on l'appelle \textit{pertinence système}. Il y a aussi le jugement qui provient de l'utilisateur en vue des résultats qu'il obtient par rapport a sa demande, on l'appelle \textit{pertinence utilisateur} \citep{vsm-images}.
 
@@ -313,7 +315,7 @@ Pour bien formaliser la recherche d'information, il est nécessaire de définir 
 \end{definition}
 
 \subsubsection{Taxonomie de modèle}
-Selon \citeauthor{modern-ir} il y a quatre familles principales des modèles de RI qui est illustré dans la figure \ref{modele-ri}:
+Selon \citeauthor{modern-ir} il y a quatre familles principales des modèles de RI qui est illustré dans la Figure~\ref{fig:modele-ri}:
 
 \begin{itemize}
     \item \textbf{Les modèles basé sur les textes du document}: les modèles de RI classique (\textit{Théorie des ensembles, Algébrique, Probabiliste}), et les modèles basé sur le texte semi-structuré (\textit{Texte semi-structuré})
@@ -324,9 +326,9 @@ Selon \citeauthor{modern-ir} il y a quatre familles principales des modèles de 
 \begin{figure}[htbp]
     \begin{center}
         \fbox{\includegraphics[width=15cm, angle=0]{Figures/modele-ri.png}}
-        \caption{Taxonomie de modèle de RI \citep{soulier2014:def-evaluation-modele}}
     \end{center}
-    \label{modele-ri}
+    \caption{Taxonomie de modèle de RI \citep{soulier2014:def-evaluation-modele}}
+    \label{fig:modele-ri}
 \end{figure}
 
 Dans le cadre de ce mémoire, on va analyser la famille des modèles classiques basé sur les textes du document, car ce qui concerne mieux notre étude.
@@ -342,14 +344,14 @@ Ces modèles sont des modèles de recherche, mais il y a aussi des modèles pour
 Dans le modèle ensembliste, il y a quelques modèles, mais dans le cadre de ce mémoire, on va voir les deux principaux.
 
 \subsubsubsection{Modèle Booléen (Boolean Model)}
-Un exemple de réquête dans le modèle Booléen est illustré sur la figure \ref{boolean-model}.
+Un exemple de réquête dans le modèle Booléen est illustré sur la Figure~\ref{fig:boolean-model}.
 
 \begin{figure}[htbp]
     \begin{center}
         \fbox{\includegraphics[width=15cm, angle=0]{Figures/boolean-model-example.png}}
-        \caption{Exemple de diagramme de requête de modèle Booléen \citep{model-ir}}
     \end{center}
-    \label{boolean-model}
+    \caption{Exemple de diagramme de requête de modèle Booléen \citep{model-ir}}
+    \label{fig:boolean-model}
 \end{figure}
 
 Ce un modèle de base dans la recherche d'information. Ce modèle est le premier modèle utilisé dans la recherche d'information. Dans ce modèle, les documents et les requêtes sont représentés comme des mots clés (ensemble des mots). Ce modèle est simple, facile a mettre en place et utilise l'algèbre de Boole. La stratégie de recherche est basé sur la décision binaire.
@@ -357,7 +359,7 @@ Ce modèle a possède un avantage d'être facile a mettre en place, simple et ex
 
 Les termes sont pondérés de façon binaire.
 
-Tous les termes d'indexation ont la même poids, soit il existe dans le document soit non. S'il existe dans le document, son poids est 1, sinon 0. La similarité entre \textit{q} et $\textit{d\_{j}}$ est égal a 1 si le document terme $\textit{d\_{j}}$ valide l'expression booléen \textit{q}, sinon 0. Un document est donc jugé pertinent par le système s'il valide l'expression booléen de la requête.
+Tous les termes d'indexation ont la même poids, soit il existe dans le document soit non. S'il existe dans le document, son poids est 1, sinon 0. La similarité entre $q$ et $d_{j}$ est égal a 1 si le document terme $d_{j}$ valide l'expression booléen $q$, sinon 0. Un document est donc jugé pertinent par le système s'il valide l'expression booléen de la requête.
 
 Dans ce modèle, la requête est exprimé en utilisant les opérateurs booléens ET (AND), OU (OR) et NON (NOT).
 
@@ -382,7 +384,7 @@ Par contre, ce modèle a quelques inconvénients, il est difficile de transforme
 En vue de ces inconvénients, le modèle booléen est amélioré afin de résoudre certains problèmes avec le modèle Booléen. Premièrement, le modèle Booléen étendue a mis en place la possibilité de faire une similarité partiel et la pondération des termes. Il est étendu en ajoutant la fonctionnalité du modèle vectoriel qui est la combinaison de formulation de requête avec les caractéristiques du modèle vectoriel. Ce modèle est introduit par Salton, Fox, et Wu en 1983. Mais ce modèle n'a pas été largement utilisé \citep{modern-ir}.
 
 \subsubsubsection{D'autres modèles}
-Il y a aussi d'autres modèles dans la catégorie ensembliste, tel que le modèle de Fuzzy (Fuzzy Set Model, Region Models), \dots, mais ça dépasse le cadre de ce mémoire. Pour plus de détails, voir chapitre 2 \citep{modern-ir} et chapitre 1 \citep{model-ir}.
+Il y a aussi d'autres modèles dans la catégorie ensembliste, tel que le modèle de Fuzzy (Fuzzy Set Model, Region Models), \dots, mais qui ne sont pas detaillé dans le cadre de ce mémoire. Pour plus de détails, voir chapitre 2 \citep{modern-ir} et chapitre 1 \citep{model-ir}.
 
 \subsubsection{Modèle algébrique}
 Dans cette catégorie, on va analyser le modèle vectoriel principal.
@@ -390,14 +392,14 @@ Dans cette catégorie, on va analyser le modèle vectoriel principal.
 \subsubsubsection{Modèle Vectoriel (Vector Space Model)}
 Ce modèle a un alternative qui est le Modèle Vectoriel Généralisé par Salton (Salton et al 1991 - A rechercher), qui se base sur des vecteurs. Les documents et les requêtes sont représentés par un vecteur dans un t-espace vectoriel (représentation algébrique). Ce modèle accorde une appariement partielle, et les termes ne sont pas pondérés de manières binaires. Les pondérations des termes le plus souvent utilisé sont la TF, IDF, et la TF-IDF (Reference section Pondération) \citep*{sarch-engine-vsm}.
 
-Un score de similarité est alors exprimé comme un mesure de proximité entre deux entités correspondant a l'angle qui sépare les deux vecteurs. On va analyser brièvement ces mesures dans la section (Mesure de similarité). (Figure 1.4 model-ir)
+Un score de similarité est alors exprimé comme un mesure de proximité entre deux entités correspondant a l'angle qui sépare les deux vecteurs. On va analyser brièvement ces mesures dans la section \ref{sec:mesure-similarite}.
 
 \begin{figure}[htbp]
     \begin{center}
         \fbox{\includegraphics[width=10cm, angle=0]{Figures/vector-model.png}}
-        \caption{Répresentation du document et la requête dans le modèle vectoriel \citep{model-ir}}
     \end{center}
-    \label{vector-model}
+    \caption{Répresentation du document et la requête dans le modèle vectoriel \citep{model-ir}}
+    \label{fig:vector-model}
 \end{figure}
 
 Le modèle vectoriel a certains avantages: Facile a mettre en œuvre, possibilité d'avoir un appariement approximatif avec un degré de pertinence (L'utilisateur reçoit des documents qui pourrait lui intéressé), possibilité d'organiser les résultats suivant leur pertinence (L'utilisateur passe moins de temps a filtrer les résultats puisqu'ils sont déjà ordonné), ainsi ce modèle peut définir une limité pour la mesure de similarité et de n'afficher que les documents qui sont en dessus de cette limite pour éliminer les résultats le moins pertinent. Ce modèle est populaire, et plus utilisé par les moteurs de recherche actuel. \citep*{approche-semantique, modern-ir, soulier2014:def-evaluation-modele}
@@ -430,13 +432,12 @@ Dans le modèle probabiliste, le framework pour modéliser les documents et la r
 \begin{figure}[htbp]
     \begin{center}
         \fbox{\includegraphics[width=15cm, angle=0]{Figures/probabilistic-model.png}}
-        \caption{Diagramme de collection pour le terme social dans le modèle probabiliste \citep{model-ir}}
     \end{center}
-    \label{probabilistic-model}
+    \caption{Diagramme de collection pour le terme social dans le modèle probabiliste \citep{model-ir}}
+    \label{fig:probabilistic-model}
 \end{figure}
 
-Le principe du modèle probabiliste est de donner la requête q de l'utilisateur et un document $d\_{j}$ dans la collection. Puis le modèle estime la probabilité que l'utilisateur trouve le document $d\_{j}$ pertinent. Le modèle assume que ce probabilité de pertinence dépends seulement de la requête et la représentation du document. La mesure de similarité utilise la formule de Bayes (Bayes's rule).
-(Ajouter la définition mathématique ici et la formule mathématique de sa similarité - Première page du cahier) Section 1.4 \citep{model-ir} ou chapitre 2 \citep{modern-ir}.
+Le principe du modèle probabiliste est de donner la requête $q$ de l'utilisateur et un document $d_{j}$ dans la collection. Puis le modèle estime la probabilité que l'utilisateur trouve le document $d_{j}$ pertinent. Le modèle assume que ce probabilité de pertinence dépends seulement de la requête et la représentation du document. La mesure de similarité utilise la formule de Bayes (Bayes's rule). Pour plus de détails voir Section 1.4 \citep{model-ir} ou chapitre 2 \citep{modern-ir}.
 
 \begin{definition}[Modèle probabiliste]
     On note $w_{ij} \in \{0, 1\}$ le poids du terme $i$ dans le document $j$, et $w_{iq} \in \{0, 1\}$ le poids du terme $i$ dans la reqête $q$.\\
@@ -469,7 +470,6 @@ Le principe du modèle probabiliste est de donner la requête q de l'utilisateur
     Tel qu'au départ:\\
     $ P(k_{i}/R) $: $ 0.5 $ \\
     $ P(k_{i}/R) = \frac{n_{i}}{N} $ avec $ n_{i} $ le nombre de documents qui contient le terme $ k_{i} $, et $ N $ le nombre total des documents.
-
 \end{definition}
 
 Ce modèle a un avantage d'avoir le classement des résultats suivant leur probabilité d'être pertinent dans l'ordre décroisant. Mais a quelques inconvénients qui est le besoin de savoir initialement la séparation des documents en ensembles pertinent et non pertinent, le modèle ne prend pas en compte le fréquence de terme dans un document ce qui implique que tous les poids des termes sont binaire, ainsi les termes d'indexation sont indépendants \citep{modern-ir}.
@@ -478,6 +478,7 @@ Ce modèle a un avantage d'avoir le classement des résultats suivant leur proba
 Il y a d'autres modèles dans ce catégorie, mais comme tous les autres on va pas rentrer dans les détails puisque ça va a l'ncontre de notre analye. On cite le Réseau d'Inférence (Inference Network), Réseau Bayésien (Bayesian Network), le modèle de Poisson (The 2-Poisson model) \citep{model-ir}. Pour plus de détails voir \citep{modern-ir}.
 
 \subsection{Mesure de similarité}
+\label{sec:mesure-similarite}
 Citons quelques méthode de similarité \citep*{vsm-for-arabic-language, sarch-engine-vsm, vsm}:
 \begin{itemize}
     \item[•] \textbf{Produit scalaire (Dot Product)}: c'est le produit scalaire entre deux vecteurs. La requête et les documents sont représenté par des vecteurs de même dimension.
@@ -486,7 +487,7 @@ Citons quelques méthode de similarité \citep*{vsm-for-arabic-language, sarch-e
     \item[•] \textbf{Coefficient de dice (Jaccard Coefficient)}: même que celle de Jaccard, mais double le poids de vecteur
 \end{itemize}
 
-Puisque nous-nous intéressons au modèle vectoriel dans le cadre de ce mémoire, on va analyser les mesures de similarité utilisé dans ce modèle. Il y a principalement quatre mesures de similarité comme on a présenté dans la section (Étape d’appariement). Ces mesures sont utilisé pour déterminer la pertinence système c'est a dire la pertinence des documents par rapport a la requête de l'utilisateur. A bien noter que tous les poids des termes d'indexation sont normalisé avec TF-IDF avant la calcul de ces mesures. Ces mesures sont optionnelles, mais la mesure de similarité le plus populaire est celle de Cosinus \citep{vsm}.
+Puisque nous-nous intéressons au modèle vectoriel dans le cadre de ce mémoire, on va analyser les mesures de similarité utilisé dans ce modèle. Il y a principalement quatre mesures de similarité comme on a présenté dans la section \ref{sec:etape-appariement}. Ces mesures sont utilisé pour déterminer la pertinence système c'est a dire la pertinence des documents par rapport a la requête de l'utilisateur. A bien noter que tous les poids des termes d'indexation sont normalisé avec TF-IDF avant la calcul de ces mesures. Ces mesures sont optionnelles, mais la mesure de similarité le plus populaire est celle de Cosinus \citep{vsm}.
 
 La pondération des termes se traduit alors comme suit:
 \[

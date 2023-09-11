@@ -20,14 +20,14 @@ Le domaine de TLN a quelques divisions tel que:
     \item \textbf{Speech Understanding}: Demarre avec un langage orale. Permet de savoir comment un langage orale va se traduire en texte.
 \end{itemize}
 
-Le domaine NL par rapport a l'intelligence artificielle est illustré dans la figure \ref{nlp-ref-ai}.
+Le domaine NL par rapport a l'intelligence artificielle est illustré dans la Figure~\ref{fig:nlp-ref-ai}.
 
 \begin{figure}[htbp]
     \begin{center}
         \fbox{\includegraphics[width=13cm, angle=0]{Figures/NLP/nlp-ref-ai.png}}
-        \caption{Position du TLN par rapport a l'IA \citep{devopedia-nlp}}
     \end{center}
-    \label{nlp-ref-ai}
+    \caption{Position du TLN par rapport a l'IA \citep{devopedia-nlp}}
+    \label{fig:nlp-ref-ai}
 \end{figure}
 
 Certains notion qu'on abordera ici sont déja presenté dans la section (Processus de recherche d'information), donc certains notions ne seront pas détaillés.
@@ -44,7 +44,7 @@ En 1950, l'homme pense que la meilleur qualité totalement automatique peut prod
 Enfin, la NLP a connu beaucoup d'évolution ainsi des nombreuses lacunes. A partir des années 1980, la NLP a evolué beaucoup plus vite par la dispositions des ressources computationel ainsi que des ordinateurs performants.
 
 \subsection{Les niveaux de langage}
-Un langage comporte géneralement cinq niveaux ou étape de traitement \citep*{automatic-nlp, handbook-nlp} et qui est illustré dans la figure \ref{nlp-stage}:
+Un langage comporte géneralement cinq niveaux ou étape de traitement \citep*{automatic-nlp, handbook-nlp} et qui est illustré dans la Figure~\ref{fig:nlp-stage}:
 \begin{itemize}
     \item \textbf{Phonétique et phonologie}: la liaison des mots et des phrases au son qui les réalisent a l'oral. Cette niveau n'est past utile dans le traitement de langage textuelle.
     \item \textbf{Morphologie}: la façon dont les mots sont construits, et de connaitre leurs rôles dans la phrase.
@@ -56,9 +56,9 @@ Un langage comporte géneralement cinq niveaux ou étape de traitement \citep*{a
 \begin{figure}[htbp]
     \begin{center}
         \fbox{\includegraphics[width=8cm, angle=0]{Figures/NLP/nlp-stage.png}}
-        \caption{Etape d'analyse de texte dans NLP \citep{handbook-nlp}}
     \end{center}
-    \label{nlp-stage}
+    \caption{Etape d'analyse de texte dans NLP \citep{handbook-nlp}}
+    \label{fig:nlp-stage}
 \end{figure}
 
 \subsection{Phonologie}
@@ -117,22 +117,22 @@ La normalisation de texte permet de fusionner les différentes formes de token e
 C'est de determiner comment le texte doit être divisé en phrase pour un traitement plus avancé. En identiiant les délimiteurs de phrase (souvent un point pour la langue delimité par un espace). Souvent la segmentation de phrase est referencé comme \textit{detection de dilimiteur de phrase} ou \textit{desambiguition de délimiteur de phrase} ou encore \textit{reconnaissance de délimiteur de phrase} \citep{handbook-nlp}.
 
 \subsubsection{Catégories grammaticales}
-Les catégories grammaticales est une information morphosyntaxique importante. Ces catégories sont souvent des noms, verbe, adjectif, mais qui varie selon le système. Par exemple \textit{Penn Treebank} contient 45 catégories. Sur la figure \ref{categorie-grammaticale} un exemple de catégorie grammaticale pour la phrase \textit{\og Qui veut noyer son chien l’accuse de la rage \fg{}}, et qui illustre aussi la problème d'ambiguité pour cette phrase. En général 25\% du lexique est de forme ambigus pour la langue française. Et un exemple de description morphosyntaxique illustré dans la figure \ref{exemple-desc-morphosyntaxique}.
+Les catégories grammaticales est une information morphosyntaxique importante. Ces catégories sont souvent des noms, verbe, adjectif, mais qui varie selon le système. Par exemple \textit{Penn Treebank} contient 45 catégories. Sur la Figure~\ref{fig:categorie-grammaticale} un exemple de catégorie grammaticale pour la phrase \textit{\og Qui veut noyer son chien l’accuse de la rage \fg{}}, et qui illustre aussi la problème d'ambiguité pour cette phrase. En général 25\% du lexique est de forme ambigus pour la langue française. Et un exemple de description morphosyntaxique illustré dans la Figure~\ref{fig:exemple-desc-morphosyntaxique}.
 
 \begin{figure}[htbp]
     \begin{center}
         \fbox{\includegraphics[width=15cm, angle=0]{Figures/NLP/classe-grammatical.png}}
-        \caption{Catégorie grammaticale \citep{handbook-nlp}}
     \end{center}
-    \label{categorie-grammaticale}
+    \caption{Catégorie grammaticale \citep{handbook-nlp}}
+    \label{fig:categorie-grammaticale}
 \end{figure}
 
 \begin{figure}[htbp]
     \begin{center}
         \fbox{\includegraphics[width=10cm, angle=0]{Figures/NLP/description-morphosyntaxique.png}}
-        \caption{Description morphosyntaxique \citep{handbook-nlp}}
     \end{center}
-    \label{exemple-desc-morphosyntaxique}
+    \caption{Description morphosyntaxique \citep{handbook-nlp}}
+    \label{fig:exemple-desc-morphosyntaxique}
 \end{figure}
 
 \subsection{Analyse lexicale}
@@ -141,34 +141,34 @@ Un humain ou un Système NLP interptète le sens de chaque mot individuellement.
 Un analyse lexicale utilise un lexicon, qui est determiné et choisi par le système NLP. Un lexicon peut être \textbf{simple} c'est à dire des mots et ses \textit{pos} ou peut être \textbf{complexe} et contient l'information de classe sémantique des mots \citep{natural-language-processing}.
 
 \subsection{Syntaxe}
-La syntaxe décrit comment les lemmes ou fléxions sont ordonnées pour créer des constituants, composant aux-mêmes des phrases. Souvent, l'analyse syntaxique est representé de façon hierarchique. Dans l'analyse syntaxique, on travaille avec les mots, les phrases, ainsi que l'étape de la formation du mots a la phrase \citep{automatic-nlp}. L'analyse syntaxique est une analyse complexe avec différentes niveaux, les détails ne seront pas traité dans ce dévoir, mais présent dans la section 3 \citep{automatic-nlp} et section A DETERMINER (Handbook NLP).
+La syntaxe décrit comment les lemmes ou fléxions sont ordonnées pour créer des constituants, composant aux-mêmes des phrases. Souvent, l'analyse syntaxique est representé de façon hierarchique. Dans l'analyse syntaxique, on travaille avec les mots, les phrases, ainsi que l'étape de la formation du mots a la phrase \citep{automatic-nlp}. L'analyse syntaxique est une analyse complexe avec différentes niveaux, les détails ne seront pas traité dans ce dévoir, mais présent dans \citetitle[section 3]{automatic-nlp} \citep{automatic-nlp}.
 
-L'analyse syntaxique selon (Auteur NLP tout court), se focalise sur l'analyse des mots dans une phrase, pour decouvrir la structure grammaricale de la phrase, qui necessite l'utilisation de la grammaire et un parseur. Dans l'analye syntaxique, l'ordre et le depenance des mots contribue au sens: par exemple, la phrase \textit{\og Le chat attaque le chien \fg{}} et la phrase \textit{\og Le chien attaque le chat \fg{}} ont un sens différent car ses termes de sytaxe est différent, pourtant ils sont composé des mêmes mots \citep{natural-language-processing}.
+L'analyse syntaxique selon \citeauthor{natural-language-processing}, se focalise sur l'analyse des mots dans une phrase, pour decouvrir la structure grammaricale de la phrase, qui necessite l'utilisation de la grammaire et un parseur. Dans l'analye syntaxique, l'ordre et le depenance des mots contribue au sens: par exemple, la phrase \textit{\og Le chat attaque le chien \fg{}} et la phrase \textit{\og Le chien attaque le chat \fg{}} ont un sens différent car ses termes de sytaxe est différent, pourtant ils sont composé des mêmes mots \citep{natural-language-processing}.
 
 \subsubsection{Analyse syperficielle}
-\citep{automatic-nlp} Le but de l'analyse superficielle ou partielle, est de reconnaitre les syntagmes simples, non récursif d'un énoncé sans lier les uns aux autres; d'obtenir des résultats moins riches mais plus sûr et plus rapide. Cette approche s'oppose a l'analyse profonde ou complète qui cherche a regrouper chaque phrase dans une unique representation.
+Le but de l'analyse superficielle ou partielle \citep{automatic-nlp}, est de reconnaitre les syntagmes simples, non récursif d'un énoncé sans lier les uns aux autres; d'obtenir des résultats moins riches mais plus sûr et plus rapide. Cette approche s'oppose a l'analyse profonde ou complète qui cherche a regrouper chaque phrase dans une unique representation.
 
 \textbf{Cass} est un exemple de d'analyseur partielle efficace, qui consiste en une cascade d'automates à états finis.
 
 \subsubsection{Analyse en dépendance}
 L’analyse syntaxique en dépendance diffère surtout de l’analyse en constituants (comme les règles hors-contexte) par le mode de représentation. Les deux approches n’ont pas de différence au niveau de leur couverture ou de leur expressivité (A reformuler). L'idée est de relier les mots et non les constituants \citep{automatic-nlp}.
 
-Un exemple de grammaire de dépendance est la \emph{Link Grammar} qui définit la lexique et les contraintes d'attachement, comme illustré dans la figure \ref{link-grammar} et \ref{link-grammar-syntax}
+Un exemple de grammaire de dépendance est la \emph{Link Grammar} qui définit la lexique et les contraintes d'attachement, comme illustré dans la Figure~\ref{fig:link-grammar} et la Figure~\ref{fig:link-grammar-syntax}
 
 \begin{figure}[htbp]
     \begin{center}
         \fbox{\includegraphics[width=13cm, angle=0]{Figures/NLP/lexic-link-grammar.png}}
-        \caption{Exemple de définition de la lexique \emph{Link Grammar} \citep{automatic-nlp}}
     \end{center}
-    \label{link-grammar}
+    \caption{Exemple de définition de la lexique \emph{Link Grammar} \citep{automatic-nlp}}
+    \label{fig:link-grammar}
 \end{figure}
 
 \begin{figure}[htbp]
     \begin{center}
         \fbox{\includegraphics[width=13cm, angle=0]{Figures/NLP/syntax-link-grammar.png}}
-        \caption{Exemple d'analyse syntaxique avec \emph{Link Grammar} \citep{automatic-nlp}}
     \end{center}
-    \label{link-grammar-syntax}
+    \caption{Exemple d'analyse syntaxique avec \emph{Link Grammar} \citep{automatic-nlp}}
+    \label{fig:link-grammar-syntax}
 \end{figure}
 
 \subsection{Sémantique}
