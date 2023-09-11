@@ -1,0 +1,112 @@
+\glsdefs@newdocentry{RTS}%
+{%
+name={RTS},%
+sort={RTS},%
+type={acronym},%
+first={Real-Time System\glsspace (RTS)},%
+firstplural={Real-Time System\acrpluralsuffix \glsspace (RTS\acrpluralsuffix )},%
+text={RTS},%
+plural={RTS\acrpluralsuffix },%
+description={Real-Time System},%
+descriptionplural={Real-Time System\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Real-Time System},%
+longplural={Real-Time Systems},%
+short={RTS},%
+shortplural={RTSs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{GPOS}%
+{%
+name={GPOS},%
+sort={GPOS},%
+type={acronym},%
+first={General Purpose Operating System\glsspace (GPOS)},%
+firstplural={General Purpose Operating System\acrpluralsuffix \glsspace (GPOS\acrpluralsuffix )},%
+text={GPOS},%
+plural={GPOS\acrpluralsuffix },%
+description={General Purpose Operating System},%
+descriptionplural={General Purpose Operating System\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={General Purpose Operating System},%
+longplural={General Purpose Operating Systems},%
+short={GPOS},%
+shortplural={GPOSs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{RTOS}%
+{%
+name={RTOS},%
+sort={RTOS},%
+type={acronym},%
+first={Real-Time Operating System\glsspace (RTOS)},%
+firstplural={Real-Time Operating System\acrpluralsuffix \glsspace (RTOS\acrpluralsuffix )},%
+text={RTOS},%
+plural={RTOS\acrpluralsuffix },%
+description={Real-Time Operating System},%
+descriptionplural={Real-Time Operating System\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Real-Time Operating System},%
+longplural={Real-Time Operating Systems},%
+short={RTOS},%
+shortplural={RTOSs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{PGF}%
+{%
+name={PGF},%
+sort={PGF},%
+type={acronym},%
+first={Portable Graphics Format\glsspace (PGF)},%
+firstplural={Portable Graphics Format\acrpluralsuffix \glsspace (PGF\acrpluralsuffix )},%
+text={PGF},%
+plural={PGF\acrpluralsuffix },%
+description={Portable Graphics Format},%
+descriptionplural={Portable Graphics Format\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Portable Graphics Format},%
+longplural={Portable Graphics Formats},%
+short={PGF},%
+shortplural={PGFs},%
+counter={page},%
+parent={},%
+%
+}%
+

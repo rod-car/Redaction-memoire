@@ -1,0 +1,1066 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{model-ri-cours}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c2888854665988c79b637ae5bab8d075}{%
+           family={{A. Rozenknop}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{c2888854665988c79b637ae5bab8d075}
+      \strng{fullhash}{c2888854665988c79b637ae5bab8d075}
+      \strng{bibnamehash}{c2888854665988c79b637ae5bab8d075}
+      \strng{authorbibnamehash}{c2888854665988c79b637ae5bab8d075}
+      \strng{authornamehash}{c2888854665988c79b637ae5bab8d075}
+      \strng{authorfullhash}{c2888854665988c79b637ae5bab8d075}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labeldatesource}{nodate}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Cours Master Recherche Paris 13, Recherche et extraction d'information}
+      \field{title}{Modèles en Recherche d'Information}
+    \endentry
+    \entry{vsm-for-arabic-language}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a23074a303b7666adb4e31d30cf96426}{%
+           family={Abu-Salih},
+           familyi={A\bibinithyphendelim S\bibinitperiod},
+           given={Bilal},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a23074a303b7666adb4e31d30cf96426}
+      \strng{fullhash}{a23074a303b7666adb4e31d30cf96426}
+      \strng{bibnamehash}{a23074a303b7666adb4e31d30cf96426}
+      \strng{authorbibnamehash}{a23074a303b7666adb4e31d30cf96426}
+      \strng{authornamehash}{a23074a303b7666adb4e31d30cf96426}
+      \strng{authorfullhash}{a23074a303b7666adb4e31d30cf96426}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{CoRR}
+      \field{title}{Applying Vector Space Model (VSM) Techniques in Information Retrieval for Arabic Language.}
+      \field{volume}{abs/1801.03627}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb http://dblp.uni-trier.de/db/journals/corr/corr1801.html#abs-1801-03627
+      \endverb
+      \verb{url}
+      \verb http://dblp.uni-trier.de/db/journals/corr/corr1801.html#abs-1801-03627
+      \endverb
+      \keyw{dblp}
+    \endentry
+    \entry{art-nlp}{journal}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c474ac1f04779ec638255e31b7ad6419}{%
+           family={Andrea\bibnamedelima Ferrario},
+           familyi={A\bibinitperiod\bibinitdelim F\bibinitperiod},
+           given={Mara\bibnamedelima Nägelin},
+           giveni={M\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c474ac1f04779ec638255e31b7ad6419}
+      \strng{fullhash}{c474ac1f04779ec638255e31b7ad6419}
+      \strng{bibnamehash}{c474ac1f04779ec638255e31b7ad6419}
+      \strng{authorbibnamehash}{c474ac1f04779ec638255e31b7ad6419}
+      \strng{authornamehash}{c474ac1f04779ec638255e31b7ad6419}
+      \strng{authorfullhash}{c474ac1f04779ec638255e31b7ad6419}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{1}
+      \field{title}{The Art of Natural Language Processing: Classical, Modern and Contemporary Approaches to Text Document Classification}
+      \field{year}{2020}
+    \endentry
+    \entry{classification-text-documents}{journal}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e5327666ccf169e1e81ceb65b93417f7}{%
+           family={B\bibnamedelima S\bibnamedelima Harish},
+           familyi={B\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim H\bibinitperiod},
+           given={S\bibnamedelima Manjunath},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0,
+           suffix={D\bibnamedelima S\bibnamedelima Guru},
+           suffixi={D\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim G\bibinitperiod},
+           suffixun=0}}%
+      }
+      \strng{namehash}{e5327666ccf169e1e81ceb65b93417f7}
+      \strng{fullhash}{e5327666ccf169e1e81ceb65b93417f7}
+      \strng{bibnamehash}{e5327666ccf169e1e81ceb65b93417f7}
+      \strng{authorbibnamehash}{e5327666ccf169e1e81ceb65b93417f7}
+      \strng{authornamehash}{e5327666ccf169e1e81ceb65b93417f7}
+      \strng{authorfullhash}{e5327666ccf169e1e81ceb65b93417f7}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{07}
+      \field{title}{Representation and Classification of Text Documents: A Brief Review}
+      \field{year}{2010}
+    \endentry
+    \entry{modern-ir}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=0e3b9dc4750427d6328226d323a11060}{%
+           family={Baeza-Yates},
+           familyi={B\bibinithyphendelim Y\bibinitperiod},
+           given={Ricardo\bibnamedelima A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bef726478fa40b0b7afcee5de5c9089d}{%
+           family={Ribeiro-Neto},
+           familyi={R\bibinithyphendelim N\bibinitperiod},
+           given={Berthier\bibnamedelima A.},
+           giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {ACM Press / Addison-Wesley}%
+      }
+      \strng{namehash}{dd51a521b110a2880c90934e30cc0685}
+      \strng{fullhash}{dd51a521b110a2880c90934e30cc0685}
+      \strng{bibnamehash}{dd51a521b110a2880c90934e30cc0685}
+      \strng{authorbibnamehash}{dd51a521b110a2880c90934e30cc0685}
+      \strng{authornamehash}{dd51a521b110a2880c90934e30cc0685}
+      \strng{authorfullhash}{dd51a521b110a2880c90934e30cc0685}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{0-201-39829-X}
+      \field{title}{Modern Information Retrieval}
+      \field{year}{1999}
+      \verb{urlraw}
+      \verb http://www.ischool.berkeley.edu/~hearst/irbook/glossary.html
+      \endverb
+      \verb{url}
+      \verb http://www.ischool.berkeley.edu/~hearst/irbook/glossary.html
+      \endverb
+      \keyw{information ir lecture retrieval standard vorlesung}
+    \endentry
+    \entry{thesaurus-ir-web}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=4f720caa993bc494d62d40857a400069}{%
+           family={Bellaouar},
+           familyi={B\bibinitperiod},
+           given={Slimane},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ad1a245ed9befd945ecedeffef0908c5}{%
+           family={Djoudi},
+           familyi={D\bibinitperiod},
+           given={Mahieddine},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bbd4c74d0442f6936104adf50ffbd90e}{%
+           family={Zidat},
+           familyi={Z\bibinitperiod},
+           given={Samir},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2cfa3554c8f1bda6c6ce78d848987af3}
+      \strng{fullhash}{2cfa3554c8f1bda6c6ce78d848987af3}
+      \strng{bibnamehash}{2cfa3554c8f1bda6c6ce78d848987af3}
+      \strng{authorbibnamehash}{2cfa3554c8f1bda6c6ce78d848987af3}
+      \strng{authornamehash}{2cfa3554c8f1bda6c6ce78d848987af3}
+      \strng{authorfullhash}{2cfa3554c8f1bda6c6ce78d848987af3}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Conférence Internationale des Technologies de l'Information et de la Communication, CITIC'09, Sétif, Algérie}
+      \field{title}{Construction et utilisation d'un thésaurus pour la recherche d'information sur le web}
+      \field{type}{inproceedings}
+      \field{year}{2009}
+      \keyw{Information Literacy}
+    \endentry
+    \entry{construction-memoire-organisationnel-benayache}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4fa50ed39c3675d3f07634395abf7250}{%
+           family={Benayache},
+           familyi={B\bibinitperiod},
+           given={Ahcène},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Université de Technologie de Compiègne}%
+      }
+      \strng{namehash}{4fa50ed39c3675d3f07634395abf7250}
+      \strng{fullhash}{4fa50ed39c3675d3f07634395abf7250}
+      \strng{bibnamehash}{4fa50ed39c3675d3f07634395abf7250}
+      \strng{authorbibnamehash}{4fa50ed39c3675d3f07634395abf7250}
+      \strng{authornamehash}{4fa50ed39c3675d3f07634395abf7250}
+      \strng{authorfullhash}{4fa50ed39c3675d3f07634395abf7250}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Thèse de doctorat}
+      \field{title}{Construction d'une mémoire organisationnelle de formation et évaluation dans un contexte e-learning}
+      \field{type}{phdthesis}
+      \field{year}{2005}
+    \endentry
+    \entry{evaluation-of-ir-system}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=dd18ee9a127505cefe2eee1425a022d8}{%
+           family={Blair},
+           familyi={B\bibinitperiod},
+           given={David\bibnamedelima C.},
+           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=95ebc60b5bf9f853dd1bb91825a367f2}{%
+           family={Maron},
+           familyi={M\bibinitperiod},
+           given={M.\bibnamedelimi E.},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York, NY, USA}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{1c09bef2f44284c5665e7c7fd5d940f6}
+      \strng{fullhash}{1c09bef2f44284c5665e7c7fd5d940f6}
+      \strng{bibnamehash}{1c09bef2f44284c5665e7c7fd5d940f6}
+      \strng{authorbibnamehash}{1c09bef2f44284c5665e7c7fd5d940f6}
+      \strng{authornamehash}{1c09bef2f44284c5665e7c7fd5d940f6}
+      \strng{authorfullhash}{1c09bef2f44284c5665e7c7fd5d940f6}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{An evaluation of a large, operational full-text document-retrieval system (containing roughly 350,000 pages of text) shows the system to be retrieving less than 20 percent of the documents relevant to a particular search. The findings are discussed in terms of the theory and practice of full-text document retrieval.}
+      \field{issn}{0001-0782}
+      \field{journaltitle}{Commun. ACM}
+      \field{month}{3}
+      \field{number}{3}
+      \field{title}{An Evaluation of Retrieval Effectiveness for a Full-Text Document-Retrieval System}
+      \field{volume}{28}
+      \field{year}{1985}
+      \field{pages}{289\bibrangedash 299}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1145/3166.3197
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1145/3166.3197
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1145/3166.3197
+      \endverb
+    \endentry
+    \entry{boubee-tricot-2010}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=cdb4f91a682e8bd4a4d2f4dc94d8d2b7}{%
+           family={Boubée},
+           familyi={B\bibinitperiod},
+           given={Nicole},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=66e4bf828437d7b0c397549514ee00e3}{%
+           family={Tricot},
+           familyi={T\bibinitperiod},
+           given={André},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Villeurbanne}%
+      }
+      \list{publisher}{1}{%
+        {Presses de l’enssib}%
+      }
+      \strng{namehash}{2b2c34cefd39c5f355902caa79649ec7}
+      \strng{fullhash}{2b2c34cefd39c5f355902caa79649ec7}
+      \strng{bibnamehash}{2b2c34cefd39c5f355902caa79649ec7}
+      \strng{authorbibnamehash}{2b2c34cefd39c5f355902caa79649ec7}
+      \strng{authornamehash}{2b2c34cefd39c5f355902caa79649ec7}
+      \strng{authorfullhash}{2b2c34cefd39c5f355902caa79649ec7}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9782375460412}
+      \field{note}{DOI: https://doi.org/10.4000/books.pressesenssib.799}
+      \field{title}{Qu'est-ce que rechercher de l'information? Nouvelle édition}
+      \field{year}{2010}
+      \verb{urlraw}
+      \verb http://books.openedition.org/pressesenssib/799
+      \endverb
+      \verb{url}
+      \verb http://books.openedition.org/pressesenssib/799
+      \endverb
+    \endentry
+    \entry{handbook-nlp}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7ff87ecd8a4eae51460a5bedbf2cc873}{%
+           family={{Dale, Robert et Moisl, Hermann et Somers, Harold}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{7ff87ecd8a4eae51460a5bedbf2cc873}
+      \strng{fullhash}{7ff87ecd8a4eae51460a5bedbf2cc873}
+      \strng{bibnamehash}{7ff87ecd8a4eae51460a5bedbf2cc873}
+      \strng{authorbibnamehash}{7ff87ecd8a4eae51460a5bedbf2cc873}
+      \strng{authornamehash}{7ff87ecd8a4eae51460a5bedbf2cc873}
+      \strng{authorfullhash}{7ff87ecd8a4eae51460a5bedbf2cc873}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labeldatesource}{nodate}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Handbook for Natural Language Processing}
+    \endentry
+    \entry{devopedia-nlp}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=422462407fd38c5eff6d21113ca81078}{%
+           family={{Devopedia}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{422462407fd38c5eff6d21113ca81078}
+      \strng{fullhash}{422462407fd38c5eff6d21113ca81078}
+      \strng{bibnamehash}{422462407fd38c5eff6d21113ca81078}
+      \strng{authorbibnamehash}{422462407fd38c5eff6d21113ca81078}
+      \strng{authornamehash}{422462407fd38c5eff6d21113ca81078}
+      \strng{authorfullhash}{422462407fd38c5eff6d21113ca81078}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed on 2023-09-08}
+      \field{title}{Natural Language Processing}
+      \field{year}{Year}
+      \verb{urlraw}
+      \verb https://devopedia.org/natural-language-processing
+      \endverb
+      \verb{url}
+      \verb https://devopedia.org/natural-language-processing
+      \endverb
+    \endentry
+    \entry{ir-course}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=95c45461be2aab1d0c26ff0385815c15}{%
+           family={{Dr. LOUNNAS Bilal}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{95c45461be2aab1d0c26ff0385815c15}
+      \strng{fullhash}{95c45461be2aab1d0c26ff0385815c15}
+      \strng{bibnamehash}{95c45461be2aab1d0c26ff0385815c15}
+      \strng{authorbibnamehash}{95c45461be2aab1d0c26ff0385815c15}
+      \strng{authornamehash}{95c45461be2aab1d0c26ff0385815c15}
+      \strng{authorfullhash}{95c45461be2aab1d0c26ff0385815c15}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Coours de recherche d'information, Université Mohamed Boudiaf - M'Sila}
+      \field{title}{Information retrieval (IR)}
+      \field{year}{2023}
+    \endentry
+    \entry{model-ir}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c2b65fb75969f45d586f748263f41922}{%
+           family={Hiemstra},
+           familyi={H\bibinitperiod},
+           given={Djoerd},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c2b65fb75969f45d586f748263f41922}
+      \strng{fullhash}{c2b65fb75969f45d586f748263f41922}
+      \strng{bibnamehash}{c2b65fb75969f45d586f748263f41922}
+      \strng{authorbibnamehash}{c2b65fb75969f45d586f748263f41922}
+      \strng{authornamehash}{c2b65fb75969f45d586f748263f41922}
+      \strng{authorfullhash}{c2b65fb75969f45d586f748263f41922}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Model de recherche d'information}
+      \field{year}{1999}
+      \keyw{information ir lecture retrieval standard vorlesung}
+    \endentry
+    \entry{j-velo:sys-user}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ced571bd2b77236425139b7c0355cfac}{%
+           family={{Jérôme VELO}},
+           familyi={J\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Université d'Antananarivo}%
+      }
+      \strng{namehash}{ced571bd2b77236425139b7c0355cfac}
+      \strng{fullhash}{ced571bd2b77236425139b7c0355cfac}
+      \strng{bibnamehash}{ced571bd2b77236425139b7c0355cfac}
+      \strng{authorbibnamehash}{ced571bd2b77236425139b7c0355cfac}
+      \strng{authornamehash}{ced571bd2b77236425139b7c0355cfac}
+      \strng{authorfullhash}{ced571bd2b77236425139b7c0355cfac}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Thèse de doctorat en cotutelle pour l’obtention du grade de docteur en informatique des universites de rouen et d’antananarivo}
+      \field{title}{Interactions entre un utilisateur et un systeme informatique : application a un systeme d’e-administration}
+      \field{type}{phdthesis}
+      \field{year}{2009}
+    \endentry
+    \entry{jdn-moteur-de-recherche}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ea3916f86aaed0e8e262397200b99e0c}{%
+           family={{Journal du Net}},
+           familyi={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{ea3916f86aaed0e8e262397200b99e0c}
+      \strng{fullhash}{ea3916f86aaed0e8e262397200b99e0c}
+      \strng{bibnamehash}{ea3916f86aaed0e8e262397200b99e0c}
+      \strng{authorbibnamehash}{ea3916f86aaed0e8e262397200b99e0c}
+      \strng{authornamehash}{ea3916f86aaed0e8e262397200b99e0c}
+      \strng{authorfullhash}{ea3916f86aaed0e8e262397200b99e0c}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Moteur de recherche : définition, traduction et acteurs}}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.journaldunet.fr/web-tech/dictionnaire-du-webmastering/1203539-moteur-de-recherche-definition-traduction-et-acteurs/
+      \endverb
+      \verb{url}
+      \verb https://www.journaldunet.fr/web-tech/dictionnaire-du-webmastering/1203539-moteur-de-recherche-definition-traduction-et-acteurs/
+      \endverb
+      \warn{\item Entry 'jdn-moteur-de-recherche' (Bibliography/Website.bib): Invalid format '03/08/2023' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{ri-sur-le-web}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=aa8519a554202b81d9709a0361481fe4}{%
+           family={{Kien QUACHTAT}},
+           familyi={K\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Ecole normal supérieur de CACHAN}%
+      }
+      \strng{namehash}{aa8519a554202b81d9709a0361481fe4}
+      \strng{fullhash}{aa8519a554202b81d9709a0361481fe4}
+      \strng{bibnamehash}{aa8519a554202b81d9709a0361481fe4}
+      \strng{authorbibnamehash}{aa8519a554202b81d9709a0361481fe4}
+      \strng{authornamehash}{aa8519a554202b81d9709a0361481fe4}
+      \strng{authorfullhash}{aa8519a554202b81d9709a0361481fe4}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Recherche d'information sur le WEB et moteurs de recherche: le cas des lycéens}
+      \field{type}{Thèse de doctorat}
+      \field{year}{2012}
+    \endentry
+    \entry{lebigdata}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2d56bd557249494381f4f0a70107af89}{%
+           family={{LeBigData}},
+           familyi={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{2d56bd557249494381f4f0a70107af89}
+      \strng{fullhash}{2d56bd557249494381f4f0a70107af89}
+      \strng{bibnamehash}{2d56bd557249494381f4f0a70107af89}
+      \strng{authorbibnamehash}{2d56bd557249494381f4f0a70107af89}
+      \strng{authornamehash}{2d56bd557249494381f4f0a70107af89}
+      \strng{authorfullhash}{2d56bd557249494381f4f0a70107af89}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Base de données}}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.lebigdata.fr/base-de-donnees
+      \endverb
+      \verb{url}
+      \verb https://www.lebigdata.fr/base-de-donnees
+      \endverb
+      \warn{\item Entry 'lebigdata' (Bibliography/Website.bib): Invalid format '03/08/2023' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{natural-language-processing}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f58f8bb3262004b24e666c5ff9ed930f}{%
+           family={Liddy},
+           familyi={L\bibinitperiod},
+           given={Elizabeth\bibnamedelima D},
+           giveni={E\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f58f8bb3262004b24e666c5ff9ed930f}
+      \strng{fullhash}{f58f8bb3262004b24e666c5ff9ed930f}
+      \strng{bibnamehash}{f58f8bb3262004b24e666c5ff9ed930f}
+      \strng{authorbibnamehash}{f58f8bb3262004b24e666c5ff9ed930f}
+      \strng{authornamehash}{f58f8bb3262004b24e666c5ff9ed930f}
+      \strng{authorfullhash}{f58f8bb3262004b24e666c5ff9ed930f}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Natural language processing}
+      \field{year}{2001}
+    \endentry
+    \entry{vsm-images}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=72862692adbed4483b2a31136e7626c4}{%
+           family={Martinet},
+           familyi={M\bibinitperiod},
+           given={Jean},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Université Joseph-Fourier - Grenoble I}%
+      }
+      \strng{namehash}{72862692adbed4483b2a31136e7626c4}
+      \strng{fullhash}{72862692adbed4483b2a31136e7626c4}
+      \strng{bibnamehash}{72862692adbed4483b2a31136e7626c4}
+      \strng{authorbibnamehash}{72862692adbed4483b2a31136e7626c4}
+      \strng{authornamehash}{72862692adbed4483b2a31136e7626c4}
+      \strng{authorfullhash}{72862692adbed4483b2a31136e7626c4}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{12}
+      \field{title}{{Un modèle vectoriel relationnel de recherche d’information adapté aux images}}
+      \field{type}{Theses}
+      \field{year}{2004}
+      \keyw{Recherche d’Information,Indexation d’Images,Modèle Vectoriel,Graphe Conceptuel,Pondération,Évaluation}
+    \endentry
+    \entry{amelioration-ri-approche-semantique}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=594c49b2b989091957bd51e5d4345c96}{%
+           family={Mazari},
+           familyi={M\bibinitperiod},
+           given={Ahmed\bibnamedelima Cherif},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Université de Mohamed Kheider Biskra}%
+      }
+      \strng{namehash}{594c49b2b989091957bd51e5d4345c96}
+      \strng{fullhash}{594c49b2b989091957bd51e5d4345c96}
+      \strng{bibnamehash}{594c49b2b989091957bd51e5d4345c96}
+      \strng{authorbibnamehash}{594c49b2b989091957bd51e5d4345c96}
+      \strng{authornamehash}{594c49b2b989091957bd51e5d4345c96}
+      \strng{authorfullhash}{594c49b2b989091957bd51e5d4345c96}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Contribution à l’amélioration de la recherche d’information par utilisation des méthodes sémantiques: application à la langue arabe}
+      \field{type}{phdthesis}
+      \field{year}{2022}
+    \endentry
+    \entry{memoire-online}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=adabe3a8cbcaa4a255b3f8ab4a4a98ad}{%
+           family={{Mémoire Online}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{adabe3a8cbcaa4a255b3f8ab4a4a98ad}
+      \strng{fullhash}{adabe3a8cbcaa4a255b3f8ab4a4a98ad}
+      \strng{bibnamehash}{adabe3a8cbcaa4a255b3f8ab4a4a98ad}
+      \strng{authorbibnamehash}{adabe3a8cbcaa4a255b3f8ab4a4a98ad}
+      \strng{authornamehash}{adabe3a8cbcaa4a255b3f8ab4a4a98ad}
+      \strng{authorfullhash}{adabe3a8cbcaa4a255b3f8ab4a4a98ad}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 03/08/2023}
+      \field{title}{Mémoire Online}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://ranks.nl/stopwords/french
+      \endverb
+      \verb{url}
+      \verb https://ranks.nl/stopwords/french
+      \endverb
+    \endentry
+    \entry{mdn-search-engine}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fd2e1bf0766fdefa8b13261277cd4f7e}{%
+           family={{Mozilla Developer Network}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{fd2e1bf0766fdefa8b13261277cd4f7e}
+      \strng{fullhash}{fd2e1bf0766fdefa8b13261277cd4f7e}
+      \strng{bibnamehash}{fd2e1bf0766fdefa8b13261277cd4f7e}
+      \strng{authorbibnamehash}{fd2e1bf0766fdefa8b13261277cd4f7e}
+      \strng{authornamehash}{fd2e1bf0766fdefa8b13261277cd4f7e}
+      \strng{authorfullhash}{fd2e1bf0766fdefa8b13261277cd4f7e}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Search Engine}}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://developer.mozilla.org/fr/docs/Glossary/Search_engine
+      \endverb
+      \verb{url}
+      \verb https://developer.mozilla.org/fr/docs/Glossary/Search_engine
+      \endverb
+      \warn{\item Entry 'mdn-search-engine' (Bibliography/Website.bib): Invalid format '03/08/2023' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{oracle-database}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=30162ed78b6c10f731411f2fc440c24f}{%
+           family={{Oracle}},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{fullhash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{bibnamehash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{authorbibnamehash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{authornamehash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{authorfullhash}{30162ed78b6c10f731411f2fc440c24f}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{What is Database}}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.oracle.com/fr/database/what-is-database/
+      \endverb
+      \verb{url}
+      \verb https://www.oracle.com/fr/database/what-is-database/
+      \endverb
+      \warn{\item Entry 'oracle-database' (Bibliography/Website.bib): Invalid format '03/08/2023' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{paradis:tel-00005009}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8a8c5f629e6a61fe32a20a841e0b6280}{%
+           family={Paradis},
+           familyi={P\bibinitperiod},
+           given={Francois},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Université Joseph-Fourier - Grenoble I}%
+      }
+      \strng{namehash}{8a8c5f629e6a61fe32a20a841e0b6280}
+      \strng{fullhash}{8a8c5f629e6a61fe32a20a841e0b6280}
+      \strng{bibnamehash}{8a8c5f629e6a61fe32a20a841e0b6280}
+      \strng{authorbibnamehash}{8a8c5f629e6a61fe32a20a841e0b6280}
+      \strng{authornamehash}{8a8c5f629e6a61fe32a20a841e0b6280}
+      \strng{authorfullhash}{8a8c5f629e6a61fe32a20a841e0b6280}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{11}
+      \field{title}{{Un modèle d'indexation pour les documents textuels structurés}}
+      \field{type}{Theses}
+      \field{year}{1996}
+      \verb{file}
+      \verb https://theses.hal.science/tel-00005009/file/tel-00005009.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://theses.hal.science/tel-00005009
+      \endverb
+      \verb{url}
+      \verb https://theses.hal.science/tel-00005009
+      \endverb
+      \keyw{information retrieval ; indexing model ; theme extraction ; electronic representation of documents ; structured textual documents. ; recherche d'informations ; modèle d'indexation ; extraction de thèmes ; représentation électronique de documents ; documents textuels structurés}
+    \endentry
+    \entry{classification-text-documents-ml}{journal}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=13707063bf5dd2438a2d62b490b075a9}{%
+           family={R\bibnamedelima Manikandan},
+           familyi={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Dr.\bibnamedelimi R\bibnamedelima Sivakumar},
+           giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{13707063bf5dd2438a2d62b490b075a9}
+      \strng{fullhash}{13707063bf5dd2438a2d62b490b075a9}
+      \strng{bibnamehash}{13707063bf5dd2438a2d62b490b075a9}
+      \strng{authorbibnamehash}{13707063bf5dd2438a2d62b490b075a9}
+      \strng{authornamehash}{13707063bf5dd2438a2d62b490b075a9}
+      \strng{authorfullhash}{13707063bf5dd2438a2d62b490b075a9}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{title}{Machine learning algorithms for text-documents classification: A review}
+      \field{year}{2018}
+    \endentry
+    \entry{stopwords_french}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=15d005e6d66d83e12e9ad96e28ce4dbd}{%
+           family={{Ranks NL}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{15d005e6d66d83e12e9ad96e28ce4dbd}
+      \strng{fullhash}{15d005e6d66d83e12e9ad96e28ce4dbd}
+      \strng{bibnamehash}{15d005e6d66d83e12e9ad96e28ce4dbd}
+      \strng{authorbibnamehash}{15d005e6d66d83e12e9ad96e28ce4dbd}
+      \strng{authornamehash}{15d005e6d66d83e12e9ad96e28ce4dbd}
+      \strng{authorfullhash}{15d005e6d66d83e12e9ad96e28ce4dbd}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 03/08/2023}
+      \field{title}{French Stopwords}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://ranks.nl/stopwords/french
+      \endverb
+      \verb{url}
+      \verb https://ranks.nl/stopwords/french
+      \endverb
+    \endentry
+    \entry{sarch-engine-vsm}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=cb4baa57ac6634d08adf1132f19ad760}{%
+           family={SAADOUNE},
+           familyi={S\bibinitperiod},
+           given={Billal},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {UNIVERSITY OF MOHAMED BOUDIAF - M’SILA}%
+      }
+      \strng{namehash}{cb4baa57ac6634d08adf1132f19ad760}
+      \strng{fullhash}{cb4baa57ac6634d08adf1132f19ad760}
+      \strng{bibnamehash}{cb4baa57ac6634d08adf1132f19ad760}
+      \strng{authorbibnamehash}{cb4baa57ac6634d08adf1132f19ad760}
+      \strng{authornamehash}{cb4baa57ac6634d08adf1132f19ad760}
+      \strng{authorfullhash}{cb4baa57ac6634d08adf1132f19ad760}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Development of search engine based on vector space model}
+      \field{type}{mathesis}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb http://dspace.univ-msila.dz:8080//xmlui/handle/123456789/15946
+      \endverb
+      \verb{url}
+      \verb http://dspace.univ-msila.dz:8080//xmlui/handle/123456789/15946
+      \endverb
+    \endentry
+    \entry{salton1989automatique}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ddbdef0dd42e7d3117e9dad467e61039}{%
+           family={Salton},
+           familyi={S\bibinitperiod},
+           given={Gérard},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ddbdef0dd42e7d3117e9dad467e61039}
+      \strng{fullhash}{ddbdef0dd42e7d3117e9dad467e61039}
+      \strng{bibnamehash}{ddbdef0dd42e7d3117e9dad467e61039}
+      \strng{authorbibnamehash}{ddbdef0dd42e7d3117e9dad467e61039}
+      \strng{authornamehash}{ddbdef0dd42e7d3117e9dad467e61039}
+      \strng{authorfullhash}{ddbdef0dd42e7d3117e9dad467e61039}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Lecture : Addison-Wesley}
+      \field{title}{Traitement automatique de texte : la transformation, l'analyse et la récupération de l'information par un ordinateur}
+      \field{volume}{169}
+      \field{year}{1989}
+    \endentry
+    \entry{vsm}{journal}{}
+      \name{author}{2}{}{%
+        {{un=2,uniquepart=given,hash=b86b524cae95c2f93aa6320838ea395b}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={Vaibhav},
+           giveni={V\bibinitperiod},
+           givenun=2}}%
+        {{un=2,uniquepart=given,hash=82f9d64d8ac09a1f411aa2d6ab6d4973}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={Vinay},
+           giveni={V\bibinitperiod},
+           givenun=2}}%
+      }
+      \strng{namehash}{ad669c2024642b84d2a7d656067425f4}
+      \strng{fullhash}{ad669c2024642b84d2a7d656067425f4}
+      \strng{bibnamehash}{ad669c2024642b84d2a7d656067425f4}
+      \strng{authorbibnamehash}{ad669c2024642b84d2a7d656067425f4}
+      \strng{authornamehash}{ad669c2024642b84d2a7d656067425f4}
+      \strng{authorfullhash}{ad669c2024642b84d2a7d656067425f4}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{07}
+      \field{title}{VECTOR SPACE MODEL: AN INFORMATION RETRIEVAL SYSTEM}
+      \field{year}{2022}
+    \endentry
+    \entry{soulier2014:def-evaluation-modele}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=46ddac93e415bcbd2debbfff7cd279ec}{%
+           family={Soulier},
+           familyi={S\bibinitperiod},
+           given={Laure},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Université de Toulouse}%
+      }
+      \list{language}{1}{%
+        {Français}%
+      }
+      \strng{namehash}{46ddac93e415bcbd2debbfff7cd279ec}
+      \strng{fullhash}{46ddac93e415bcbd2debbfff7cd279ec}
+      \strng{bibnamehash}{46ddac93e415bcbd2debbfff7cd279ec}
+      \strng{authorbibnamehash}{46ddac93e415bcbd2debbfff7cd279ec}
+      \strng{authornamehash}{46ddac93e415bcbd2debbfff7cd279ec}
+      \strng{authorfullhash}{46ddac93e415bcbd2debbfff7cd279ec}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{ffNNT: ff. fftel-01110721f}
+      \field{title}{Définition et évaluation de modèles de recherche d’information collaborative basés sur les compétences de domaine et les rôles des utilisateurs}
+      \field{type}{phdthesis}
+      \field{year}{2014}
+      \verb{urlraw}
+      \verb https://tel.archives-ouvertes.fr/tel-01110721/document
+      \endverb
+      \verb{url}
+      \verb https://tel.archives-ouvertes.fr/tel-01110721/document
+      \endverb
+    \endentry
+    \entry{automatic-nlp}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7610665c421663c53179571c4b6ddc22}{%
+           family={Tannier},
+           familyi={T\bibinitperiod},
+           given={Xavier},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7610665c421663c53179571c4b6ddc22}
+      \strng{fullhash}{7610665c421663c53179571c4b6ddc22}
+      \strng{bibnamehash}{7610665c421663c53179571c4b6ddc22}
+      \strng{authorbibnamehash}{7610665c421663c53179571c4b6ddc22}
+      \strng{authornamehash}{7610665c421663c53179571c4b6ddc22}
+      \strng{authorfullhash}{7610665c421663c53179571c4b6ddc22}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Ecole Nationale Supérieure des Mines de Saint-Etienne}
+      \field{title}{Traitement automatique du langage naturel pour l’extraction et la recherche d’informations}
+      \field{volume}{16}
+      \field{year}{2006}
+      \field{pages}{17}
+      \range{pages}{1}
+    \endentry
+    \entry{these-malgache-en-ligne}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=54360fd8bc424c400b9f243dff3a75fe}{%
+           family={{Université d'Antananarivo}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{54360fd8bc424c400b9f243dff3a75fe}
+      \strng{fullhash}{54360fd8bc424c400b9f243dff3a75fe}
+      \strng{bibnamehash}{54360fd8bc424c400b9f243dff3a75fe}
+      \strng{authorbibnamehash}{54360fd8bc424c400b9f243dff3a75fe}
+      \strng{authornamehash}{54360fd8bc424c400b9f243dff3a75fe}
+      \strng{authorfullhash}{54360fd8bc424c400b9f243dff3a75fe}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://bib.uiv-antananarivo.mg/these2}}
+      \field{note}{Thèses souténu dans les 6 Universités de Madagascar dépuis 2002}
+      \field{title}{Thèse malgache en ligne}
+      \field{year}{2016}
+      \warn{\item Entry 'these-malgache-en-ligne' (Bibliography/Website.bib): Invalid format '03/08/2023' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{wiki-database}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9c677286866aad38f8e9b660f5411814}{%
+           family={{Wikipedia}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhash}{9c677286866aad38f8e9b660f5411814}
+      \strng{bibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorbibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authornamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorfullhash}{9c677286866aad38f8e9b660f5411814}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Base de données}}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://fr.wikipedia.org/wiki/Base_de_donn%C3%A9es
+      \endverb
+      \verb{url}
+      \verb https://fr.wikipedia.org/wiki/Base_de_donn%C3%A9es
+      \endverb
+      \warn{\item Entry 'wiki-database' (Bibliography/Website.bib): Invalid format '03/08/2023' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{ir-on-web}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a2c092b53a5b43035f440b8efd559cb5}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Kiduk},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a2c092b53a5b43035f440b8efd559cb5}
+      \strng{fullhash}{a2c092b53a5b43035f440b8efd559cb5}
+      \strng{bibnamehash}{a2c092b53a5b43035f440b8efd559cb5}
+      \strng{authorbibnamehash}{a2c092b53a5b43035f440b8efd559cb5}
+      \strng{authornamehash}{a2c092b53a5b43035f440b8efd559cb5}
+      \strng{authorfullhash}{a2c092b53a5b43035f440b8efd559cb5}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ACM Computing Surveys}
+      \field{title}{Information Retrieval on the Web}
+      \field{year}{2000}
+      \field{pages}{n. pag.}
+      \range{pages}{-1}
+    \endentry
+    \entry{approche-semantique}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ff0ffa6ee607a0b7395ef0eea81ebf33}{%
+           family={ZIANI},
+           familyi={Z\bibinitperiod},
+           given={Chaima},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {UNIVERSITY OF MOHAMED BOUDIAF - M’SILA}%
+      }
+      \strng{namehash}{ff0ffa6ee607a0b7395ef0eea81ebf33}
+      \strng{fullhash}{ff0ffa6ee607a0b7395ef0eea81ebf33}
+      \strng{bibnamehash}{ff0ffa6ee607a0b7395ef0eea81ebf33}
+      \strng{authorbibnamehash}{ff0ffa6ee607a0b7395ef0eea81ebf33}
+      \strng{authornamehash}{ff0ffa6ee607a0b7395ef0eea81ebf33}
+      \strng{authorfullhash}{ff0ffa6ee607a0b7395ef0eea81ebf33}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Réalisation d’un moteur de recherche avec une approche sémantique}
+      \field{type}{mathesis}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://dspace.univ-bba.dz:443/xmlui/handle/123456789/3652
+      \endverb
+      \verb{url}
+      \verb https://dspace.univ-bba.dz:443/xmlui/handle/123456789/3652
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

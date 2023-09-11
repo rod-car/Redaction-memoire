@@ -1,0 +1,21 @@
+\documentclass{report}
+\usepackage{amsmath}
+
+\begin{document}
+
+Term Frequency (TF):
+\[
+TF(t, d) = \frac{\text{Nombre d'occurences du terme} t \text{ dans le document } d}{\text{Nombre total des termes dans le document } d}
+\]
+
+Inverse Document Frequency (IDF):
+\[
+IDF(t, D) = \log\frac{\text{Nombre total des documents dans le corpus } N}{\text{Nombre de documents qui contient le terme } t}
+\]
+
+Term Frequency-Inverse Document Frequency (TF-IDF):
+\[
+TF-IDF(t, d, D) = \text{TF}(t, d) \times \text{IDF}(t, D)
+\]
+
+\end{document}

@@ -1,0 +1,143 @@
+\documentclass[a4paper, 12pt]{report}
+
+% Packages
+\usepackage[utf8]{inputenc} % Input encoding
+\usepackage[T1]{fontenc} % Font encoding
+\usepackage{geometry} % Adjust page margins
+\usepackage{setspace} % Adjust line spacing
+\usepackage{titlesec} % Customize chapter and section headings
+\usepackage{graphicx} % Include images
+\usepackage[french]{babel}
+\usepackage{lipsum}
+\usepackage{amsthm}
+
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage[skip=10pt plus1pt, indent=20pt]{parskip}
+\usepackage{pifont}
+\setlist{noitemsep}
+
+\usepackage[
+	backend = biber,
+	style = authoryear,
+	block = none,
+	bibencoding=utf8,     
+	natbib=true,   
+	language=french,                  
+	sortcites=true,
+	autopunct=true,                
+	babel=hyphen,                       
+	hyperref=true,                          
+	block=space,
+	citetracker=true,
+	ibidtracker=context,
+	idemtracker=true,
+	pagetracker=true,
+	url=true,
+]{biblatex}
+
+% Bibliography resources
+%--------------------------------------------------------------------------------------------------------
+\addbibresource{Bibliography/Article.bib}
+\addbibresource{Bibliography/Book.bib}
+\addbibresource{Bibliography/Course.bib}
+\addbibresource{Bibliography/Inproceedings.bib}
+\addbibresource{Bibliography/Journal.bib}
+\addbibresource{Bibliography/Master-thesis.bib}
+\addbibresource{Bibliography/Phd-thesis.bib}
+\addbibresource{Bibliography/Website.bib}
+%--------------------------------------------------------------------------------------------------------
+
+\titleclass{\subsubsubsection}{straight}[\subsection]
+\newcounter{subsubsubsection}[subsubsection]
+\renewcommand\thesubsubsubsection{\thesubsubsection.\arabic{subsubsubsection}}
+
+\titleformat{\subsubsubsection}{\normalfont\normalsize\bfseries}{\thesubsubsubsection}{1em}{}
+\titlespacing*{\subsubsubsection}{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+\makeatletter
+\def\toclevel@subsubsubsection{4}
+\def\l@subsubsubsection{\@dottedtocline{4}{7em}{4em}}
+\makeatother
+
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{3}
+
+%\newgeometry{
+%	top = 0.75in,
+%	bottom = 0.75in,
+%	outer = 0.75in,
+%	inner = 1.5in
+%}
+
+% Page margins
+\geometry{
+	left=2.5cm,
+	right=2cm,
+	top=2.5cm,
+	bottom=2.5cm,
+	bindingoffset=0cm,
+}
+
+% Line spacing
+\onehalfspacing
+
+% Chapter and section headings formatting
+\titleformat{\chapter}[display]
+{\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{20pt}{\Huge}
+\titleformat{\section}
+{\normalfont\Large\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}
+{\normalfont\large\bfseries}{\thesubsection}{1em}{}
+
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}[section]
+
+\usepackage{fancyhdr}
+\begin{document}
+
+\pagestyle{fancy}
+\renewcommand{\sectionmark}[1]{\markboth{#1}{#1}}
+\fancyhead[R]{}
+\fancyhead[L]{\chaptername\ \thesection\ --\ \leftmark}
+
+\include{Parts/Header.tex}
+
+
+% Abstract
+\chapter*{Résumé}
+\addcontentsline{toc}{chapter}{Résumé}
+Lorem ipsum
+
+% Acknowledgments
+\chapter*{Remerciements}
+\addcontentsline{toc}{chapter}{Remerciements}
+\lipsum[8-9]
+
+% Table of contents
+\tableofcontents
+
+% List of figures (if applicable)
+\listoffigures
+
+% List of tables (if applicable)
+\listoftables
+
+\include{Parts/Introduction.tex}
+
+\include{Parts/Revue-literatture.tex}
+
+\include{Parts/Realisation.tex}
+
+\include{Parts/Conclusion.tex}
+
+\renewcommand*{\mkbibnamefamily}[1]{\textsc{\textbf{#1}}}
+\renewcommand*{\mkbibnameprefix}[1]{\textsc{\textbf{#1}}}
+
+\begingroup
+	\setlength\bibitemsep{5pt}
+	\printbibliography[heading=bibintoc]
+\endgroup
+
+% \bibliography{Bibliographie}
+
+\end{document}

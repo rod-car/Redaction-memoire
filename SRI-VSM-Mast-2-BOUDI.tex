@@ -1,0 +1,160 @@
+\documentclass[a4paper, 12pt]{report}
+\usepackage{csquotes}
+\usepackage{multicol}
+
+% Packages
+\usepackage[utf8]{inputenc} % Input encoding
+\usepackage[T1]{fontenc} % Font encoding
+\usepackage{geometry} % Adjust page margins
+\usepackage{setspace} % Adjust line spacing
+\usepackage{titlesec} % Customize chapter and section headings
+\usepackage{graphicx} % Include images
+\usepackage[french]{babel}
+\usepackage{lipsum}
+\usepackage{amsthm}
+
+\usepackage{calc}
+\usepackage{mwe}
+
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage[skip=10pt plus1pt, indent=20pt]{parskip}
+\usepackage{pifont}
+\setlist{noitemsep}
+
+\usepackage[
+	backend = biber,
+	style = authoryear,
+	block = none,
+	bibencoding=utf8,     
+	natbib=true,   
+	language=french,                  
+	sortcites=true,
+	autopunct=true,                
+	babel=hyphen,                       
+	hyperref=true,                          
+	block=space,
+	citetracker=true,
+	ibidtracker=context,
+	idemtracker=true,
+	pagetracker=true,
+	url=true,
+]{biblatex}
+
+% Bibliography resources
+%--------------------------------------------------------------------------------------------------------
+\addbibresource{Bibliography/Article.bib}
+\addbibresource{Bibliography/Book.bib}
+\addbibresource{Bibliography/Course.bib}
+\addbibresource{Bibliography/Inproceedings.bib}
+\addbibresource{Bibliography/Journal.bib}
+\addbibresource{Bibliography/Master-thesis.bib}
+\addbibresource{Bibliography/Phd-thesis.bib}
+\addbibresource{Bibliography/Website.bib}
+%--------------------------------------------------------------------------------------------------------
+
+\titleclass{\subsubsubsection}{straight}[\subsection]
+\newcounter{subsubsubsection}[subsubsection]
+\renewcommand\thesubsubsubsection{\thesubsubsection.\arabic{subsubsubsection}}
+
+\titleformat{\subsubsubsection}{\normalfont\normalsize\bfseries}{\thesubsubsubsection}{1em}{}
+\titlespacing*{\subsubsubsection}{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+\makeatletter
+\def\toclevel@subsubsubsection{4}
+\def\l@subsubsubsection{\@dottedtocline{4}{7em}{4em}}
+\makeatother
+
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{3}
+
+% Page margins
+\geometry{
+	left=2cm,
+	right=2cm,
+	top=2cm,
+	bottom=2cm,
+	bindingoffset=0cm,
+}
+
+% Line spacing
+\onehalfspacing
+
+% Chapter and section headings formatting
+\titleformat{\chapter}[display]
+{\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{20pt}{\Huge}
+\titleformat{\section}
+{\normalfont\Large\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}
+{\normalfont\large\bfseries}{\thesubsection}{1em}{}
+
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}[section]
+
+\usepackage{fancyhdr}
+\fancypagestyle{plain}{%
+\fancyhf{} % clear all header and footer fields
+\cfoot{\thepage} % the page number in the foot center
+\renewcommand{\headrule}{\hrule height 0pt \vspace{0mm}\hrule height 0pt} % remove plain header rule
+}  % reset the page style bcz the arabicore.sty was loaded in the babel
+
+\newcommand{\changefont}{%
+	\fontsize{9}{11}\selectfont
+}
+\fancyhf{}
+\pagestyle{fancy}
+\fancyhead[RE,LO]{\changefont \slshape \leftmark}
+\fancyfoot[C]{\changefont \thepage}
+
+\newcommand{\univlogo}{\includegraphics[width=20mm]{Figures/university_logo.png}}
+\newcommand{\faclogo}{\includegraphics[width=20mm]{Figures/fac-st.png}}
+
+\newlength\logowidth
+\setlength{\logowidth}{\widthof{\univlogo}}
+
+\begin{document}
+
+\pagenumbering{gobble}
+\include{Parts/Header.tex}
+
+\pagenumbering{roman}
+\cleardoublepage
+\phantomsection
+
+\chapter*{Résumé}
+\addcontentsline{toc}{chapter}{Résumé}
+Lorem ipsum
+
+\chapter*{Remerciements}
+\addcontentsline{toc}{chapter}{Remerciements}
+\lipsum[8-9]
+
+\phantomsection
+\addcontentsline{toc}{chapter}{Table des matières}
+\tableofcontents
+\clearpage
+\newpage
+
+\cleardoublepage
+\renewcommand{\listfigurename}{Liste des figures}
+\listoffigures
+\cleardoublepage
+
+\listoftables
+\cleardoublepage
+
+\pagenumbering{arabic}
+
+\include{Parts/Introduction.tex}
+\include{Parts/Revue-literatture.tex}
+\include{Parts/Realisation.tex}
+\include{Parts/Conclusion.tex}
+
+\renewcommand*{\mkbibnamefamily}[1]{\textsc{\textbf{#1}}}
+\renewcommand*{\mkbibnameprefix}[1]{\textsc{\textbf{#1}}}
+
+\begingroup
+	\setlength\bibitemsep{5pt}
+	\printbibliography[heading=bibintoc]
+\endgroup
+
+\end{document}

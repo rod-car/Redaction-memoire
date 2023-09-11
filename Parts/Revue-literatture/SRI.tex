@@ -1,0 +1,236 @@
+\section{Système de recherche d'information}
+\subsection{Introduction}
+Dans cette section, on va voire d'abord quelques définitions tiré des travaux de quelques chercheurs qui s'y intéressaient dans le domaine de la Recherche d'information et d'un encyclopédie, puis on va analyser ses composant et les types, et enfin on va voir comment analyser la performance d'un moteur de recherche et les mesures de performance souvent utilisé.
+
+\begin{definition}
+    Sélon \citeauthor{salton1989automatique}, un système de recherche d'information (RI) est un système qui permet de retrouver les documents pertinents à une requête d'utilisateur, à partir d'une base de documents volumineuse \citep{salton1989automatique}.
+\end{definition}
+
+\begin{definition}
+	On appelle Système de Recherche d'Information (SRI) un ensemble des programmes, qui sert a interfacer avec l'utilisateur, de prendre les requêtes et de les interpréter afin de faire une recherche dans l'index, appliquer un modèle d’appariement et retourné les documents jugés pertinents a l'utilisateur \citep{amelioration-ri-approche-semantique}.
+\end{definition}
+
+\begin{definition}
+	On appelle SRI ou moteur de recherche, un ensemble de programmes informatiques, qui met en œuvre des techniques et moyens pour trouver les documents pertinents afin de satisfaire le besoin d'information de l'utilisateur. En d'autres termes, permet de retrouver des informations grâce a l'utilisation des mots clés et termes de recherche \citep{approche-semantique}.
+\end{definition}
+
+\begin{definition}
+	Un Système de Recherche d'Information permet de récupérer la requête de l'utilisateur, de l'analyser, puis rechercher dans la base documentaire les documents qui correspondent (pertinent) a la requête et de retourner les résultats a l'utilisateur \citep{vsm}.
+\end{definition}
+
+\begin{definition}
+	Un moteur de recherche est un outil qui permet de rechercher sur le Web ou sur un ordinateur personnel des ressources, des contenus, des documents etc., à partir de mots clés \citep{jdn-moteur-de-recherche}.
+\end{definition}
+
+\begin{definition}
+	Un moteur de recherche est un système logiciel qui collecte des informations à partir des ressources documentaires (World Wide Web, \dots) et qui les présente aux utilisateurs qui recherchent des informations spécifiques \citep{mdn-search-engine}.
+\end{definition}
+
+\subsection{Objectif et efficacité}
+En général il y a deux catégorie de problème tel que le problème \textit{centré utilisateur} qui est le problème lié a la compréhension et l'analyse de comportement de l'utilisateur; et le problème \textit{centré système} qui est le problème lié a la création d'index efficace, traitements des requêtes avec plus de rapidité et efficacité ainsi que le développement d'un algorithme de classement pour améliorer les résultats \citep{modern-ir}. Mais le problème central d'un SRI se concentre sur le coté système (\textit{centré système}) qui est de savoir comment satisfaire la besoin d'information de l'utilisateur le plus rapide possible et efficace. C'est un problème plus délicat a résoudre puisqu'il y en a plusieurs facteurs relié a ces performances. Mais il y a des recherches qui traite (analyse) les comportement de l'utilisateur ainsi que ses impactes sur la recherche d’information et l'utilisation d'un SRI. Parmi ces différentes études, il y a celle qui est traité par \citeauthor{ri-sur-le-web} \citep{ri-sur-le-web} dans le cadre des lycéens.
+
+L'objectif d'un SRI est donc de localiser et retourner les documents pertinents par rapport a une requête pour répondre et satisfaire le besoin d'information de l'utilisateur. Le SRI relève donc le défi de rechercher des documents pertinents par rapport au requête de l'utilisateur parmi un très grand volume d'informations \citep{amelioration-ri-approche-semantique}.
+
+L'efficacité d'un SRI est jugé par la capacité de comprendre ce que l'utilisateur veut, ce que l'utilisateur demande a partir de la requête. Ainsi sur sa capacité de fournir les documents pertinents et les classer suivant leurs pertinences par rapport a la requête de l'utilisateur \citep{vsm}. Et aussi la rapidité de récupération des informations et l'accessibilité au niveau de l'interface utilisateur \citep{ir-on-web}.
+
+Pour notre cas, on se focalisera plus sur la performance relié au problème centré système que ceux qui est centré utilisateur.
+
+\subsection{Élément principaux}
+Un Système de Recherche d'Information a systématiquement deux éléments principaux, tel que la \textit{base de donnée} et l'\textit{algorithme de classement} \citep{approche-semantique}. Ces deux éléments sont indispensables pour un système d'information.
+
+\subsubsection{Base de données}
+\begin{definition}
+	Une base de données est une collection organisée d’informations structurées, généralement stockées
+	électroniquement dans un système informatique. Généralement contrôlée par un SGBD (Système de Gestion de Base de Données) \citep{oracle-database}.
+\end{definition}
+
+\begin{definition}
+	Une base de données ou BDD est une collection d’informations organisées afin d’être facilement consultables, gérables et mises à jour. Les bases de données informatiques sont utilisées dans un grand nombre d’entreprises pour stocker, organiser et analyser les données \citep{lebigdata}.
+\end{definition}
+
+\begin{definition}
+	Une base de données permet de stocker et de retrouver des données structurées, semi-structurées ou des données brutes ou de l'information, souvent en rapport avec un thème ou une activité	\citep{wiki-database}.
+\end{definition}
+
+Pour un SRI, cette base de données est structuré par un expert en base de données (Database Manager). Il est responsable de stockage des documents, des index, ainsi que met en place la relation entre les documents et les index (Fichier inversé). Cette base de données stocke alors l'ensemble de documents utilisé par le système afin de répondre aux besoins de l'utilisateur \citep{vsm-for-arabic-language}.
+
+\subsubsection{Algorithme de classement}
+Un algorithme de classement permet de classer les documents suivant l'ordre de pertinence par rapport a la requête de l'utilisateur. Cette algorithme qui se charge de calculer la pertinence entre la requête et les documents dans la base de données. L'algorithme de classement souvent utilisé dans le modèle vectoriel est déjà présenté dans la section (Section mesure de similarité).
+
+\subsection{Catégorie de recherche}
+Tout d'abord, il y a quatre catégories de recherche cité par \citeauthor{ir-on-web} \citep{ir-on-web} tel que:
+\begin{itemize}
+	\item \textbf{Recherche simple}: utilise la requête simple
+	\item \textbf{Recherche personnalisée}: utilise la requête personnalisée
+	\item \textbf{Recherche de dossier}
+	\item \textbf{Recherche des nouvelles courantes}: utilise la requête des news
+	\item \textbf{Contenu web}: suppression des liens mortes
+\end{itemize}
+
+\subsection{Type de moteur de recherche}
+Les moteurs de recherche sont catégorisé en deux catégories: moteur de recherche classique qui travaille avec les contenues statique des documents et le moteur de recherche sémantique \citep*{approche-semantique,thesaurus-ir-web}.
+
+Ci-dessous un tableau qui illustre la différence entre un moteur de recherche classique et moderne \citep{ir-on-web} (A analyser si ce tableau est vraiment nécessaire).
+
+\subsubsection{Classique ou traditionnel}
+Un moteur de recherche classique ou traditionnel traite les documents dont le contenu est statique. Le contenu des documents ne change pas au fil du temps. Ce qui veut dire que l'étape d'indexation des documents se fait une fois, il n'y a probablement pas de réindexation des documents. Cette approche est souvent utilisé pour la recherche des livres électronique, etc.
+
+\subsubsection{Sémantique ou moderne}
+Ce moteur de recherche provient du traditionnel. Le contenu des documents traités par ce type de SRI sont dynamiques et peuvent varier au fil du temps. Comme par exemple un site WEB qui met a jour fréquemment ses contenus, modifié ou supprimé. Dans de type de SRI, l'étape d'indexation est de plus en plus complexe, et l'étape de réindexation est nécessaire et souvent periodique pour récupérer les mise a jours des documents. Ce type de moteur de recherche est généralement utilisé pour la recherche sur le WEB.
+
+\subsection{Modèle adopté par un SRI}
+Un Système de Recherche d'Information peut adopter un modèle qui se base sur ces trois modèles qui est le modèle \textit{full-text}, le modèle \textit{keyword-based} et le modèle \textit{hypertext} \citep{modern-ir}.
+\begin{itemize}
+	\item \textbf{Full-text}: ce modèle utilise tous les termes de documents comme un terme d'indexation. C'est à dire pas de discrimination des mots vides. L'indexation et la tache de recherche sont simple, mais peut apporter des bruits.
+	\item \textbf{Keyword-based}: ce modèle utilise les mots clés pour représenter les documents, avec la suppression des mots vides. Les termes d'indexation sont donc des mots clés.
+	\item \textbf{Hypertext}: ce modèle se base sur des liens, souvent utilisé sur les documents WEB.
+\end{itemize}
+
+\subsection{Évaluation d'un SRI}
+Dans cette section, on va analyser comment bien définir la performance et évaluer un SRI. Il est important d’évaluer un SRI avant d’implémentation pour l'utilisation finale. Cette étape d'évaluation dépend du but finale du SRI. Généralement, il y a quatre trois catégories d'évaluation d'un SRI: \textit{évaluation fonctionnel} qui fait l'analyse des fonctionnalités du système, \textit{évaluation de performance} et l'\textit{évaluation de performance de recherche} \citep{modern-ir}.
+
+Dans ce troisième catégorie, on utilise des mesures mathématique dont les plus courant sont \textit{Précision (Precision)} et \textit{Rappel (Recall)}.
+
+Souvent dans l'étape d'évaluation, l'\textit{évaluation de performance de recherche} est plus difficile et compliqué, qui a un grand défi.
+
+\subsubsection{Évaluation fonctionnel}
+L'évaluation fonctionnel est la première étape d'évaluation d'un SRI. Il met en œuvre l'analyse des deux facteurs suivantes:
+\begin{itemize}
+	\item \textbf{Analyse de fonctionnalités}: analyser tous les fonctionnalités du système une par une pour voir s'il y a bien des failles ou bug. Cette analyse assurera que l'utilisateur finale du système faire face a des problèmes de fonctionnalités ou bug (analyse de l'interface graphique si c'est conviviale, l'accessibilité, etc.).
+	\item \textbf{Analyse d’erreur}: pour l'analyse d'erreur, on cherche a trouver un moyen pour faire échouer le système, trouver par tous les moyens de faire des traitements pour que le système fait un erreur. Cette analyse permet de voir des erreurs qui ne sont pas identifié avant et de pouvoir les corriger après.
+\end{itemize}
+
+\subsubsection{Évaluation de performance}
+L'évaluation de performance permet d'identifier la performance et la robustesse d'un SRI. Cette évaluation analyse généralement deux facteurs:
+\begin{itemize}
+	\item \textbf{Analyse de temps de réponse}: analyser le temps de réponse du système pour répondre a une requête de l'utilisateur. Le but est de minimiser ce temps de réponse pour satisfaire l'utilisateur. Le système doit être rapide en terme de réponse. Avec les machines de plus en plus performants, cet analyse est de moins en moins problématique mais a ne pas ignorer.
+	\item \textbf{Analyse de l’espace utilisé}: analyser aussi l'espace disque utiliser par le stockage des index et la collection des documents. Le système doit utiliser le moins d’espace possible, et doit être le plus léger possible.
+\end{itemize}
+
+Dans cette évaluation, on analyse aussi la performance d'indexation du SRI, l’interaction avec le Système d'Exploitation, ainsi que le délais dans le canaux de communication.
+
+\subsubsection{Évaluation de performance de recherche}
+L'évaluation de performance de recherche possède un grand défi, est qui est généralement traité par des chercheurs. Le but est de maximiser la précision des résultats de recherche par rapport au requête de l'utilisateur. Pour bien assimiler cette partie, on va voir comment est structuré la collection des documents du point de vue du système, on va illustrer ce qu'on appelle matrice de contingence dans la figure \ref{matrice-contingence}.
+
+\begin{figure}[htbp]
+	\begin{center}
+		\fbox{\includegraphics[width=10cm, angle=0]{Figures/matrice-contingence.png}}
+		\caption{Matrice de contingence \citep{vsm-for-arabic-language}}
+	\end{center}
+	\label{matrice-contingence}
+\end{figure}
+
+Dans ce matrice, il y a quatre catégories tel que:
+\begin{itemize}
+	\item \textbf{Récupéré et non pertinents}: se sont des documents non pertinents mais jugés pertinent par le système. On cherche a minimiser le nombre des documents dans cette catégorie. On les appelle faux positif.
+	\item \textbf{Récupéré et pertinents}: se sont des documents pertinents et qui sont sélectionnés par le système. On cherche a maximiser le nombre des documents dans cette catégorie. On l'appelle vrai positif.
+	\item \textbf{Non récupéré et non pertinents}: se sont des documents non pertinents qui ne sont pas sélectionnés par le système. On cherche aussi a maximiser le nombre des documents dans cette catégorie. On l'appelle vrai négatif.
+	\item \textbf{Non récupéré et pertinents}: se sont des documents pertinents mais qui ne sont pas récupérer par le système. On cherche a minimiser le nombre des documents dans cette catégorie. On l'appelle faux négatif.
+\end{itemize}
+
+Pour cette évaluation, on va voir quelques mesures parmi les plus populaires, tel que la \textit{précision}, le \textit{rappel}, et la \textit{F-mesure}. A bien noter que la notion d'ensemble des documents pertinents dans cette évaluation est défini par un expert, qui juge qu'un document est pertinent par rapport a un requête. C'est grâce au connaissance de documents pertinents a l'avance qu'on peut juger le système.
+
+On va illustrer dans la figure \ref{precision-recall} la classe des documents pour mieux élaborer la notion de précision et rappel.
+\begin{figure}[htbp]
+	\begin{center}
+		\fbox{\includegraphics[width=10cm, angle=0]{Figures/Precision-Recall.png}}
+		\caption{Ensemble des documents \citep{modern-ir}}
+	\end{center}
+	\label{precision-recall}
+\end{figure}
+
+\subsubsubsection{Précision}
+Le précision (precision en anglais) est la fraction du nombre de documents pertinent par le nombre de documents retournés par le système. En d'autre terme, la fraction des documents retournés qui sont pertinents. La précision calcule alors la performance du système a récupérer seulement les documents pertinents \citep*{evaluation-of-ir-system, ir-on-web,vsm-for-arabic-language}. Le but est de maximiser cette valeur.
+
+\[
+	Précision = \frac{\textit{Nombre de documents pertinents}}{\textit{Nombre de documents retournés par le système}} = \frac{|Ra|}{|A|}
+\]
+
+\subsubsubsection{Rappel}
+Le rappel (recall en annglais) est la fraction entre le nombre de documents pertinents retournés divisé et le nombre total des documents pertinents. En d'autre terme, c'est la fraction des documents pertinents qui sont retournés par le système. Le rappel permet de savoir comment le système a bien récupérer tous les documents pertinents \citep*{evaluation-of-ir-system, ir-on-web,vsm-for-arabic-language}. Le but est de minimiser cette valeur.
+
+\[
+	Précision = \frac{\textit{Nombre de documents pertinents}}{\textit{Nombre de tous les documents pertinents}} = \frac{|Ra|}{|R|}
+\]
+
+Il est nécessaire de noter que le rappel n'est efficace dans le cas où la base de données devient large, car le rappel diminue si la base de données augmente. 
+
+\subsubsection{Exemple de précision et rappel}
+(A discuter et a compléter pour illustrer un exemple après - Référence page WEB)
+
+\subsubsection{Courbe de précision-rappel}
+(A discuter et a compléter)
+
+\subsubsection{Problème de précision et le rappel}
+(A discuter et a compléter - Modern IR)
+
+\subsubsection{Moyenne harmonique}
+Cette mesure utilise la précision et le rappel.
+
+\[
+	F(j) = \frac{2}{\frac{1}{R(j)} + \frac{1}{P(j)}}
+\]
+\\Où:\\
+\textbf{\textit{R(j)}} est le rappel pour le j-ième document.\\
+\textbf{\textit{P(j)}} est la précision pour le j-ième document.\\
+\textbf{\textit{F(j)}} est la moyenne harmonique
+
+\subsubsection{Et d'autres mésures}
+D'autres mesure de performance sont utilisés comme \textit{accuracy}, \textit{F-measure}, \textit{E-measure}, \textit{x-precision}, etc. Il y a aussi de notion de silence et bruit \citep*{modern-ir, amelioration-ri-approche-semantique}.
+
+\subsection{Analyse du moteur de recherche existant}
+Il y a beaucoup des moteurs de recherche où on peut trouver des thèses malagasy mais dans le cadre de ce mémoire, on va analyser quelques uns qui sont populaire et qui concerne le mieux notre étude.
+
+\subsubsection{Thèses malgache en ligne}
+Thèse malgache en ligne \citep{these-malgache-en-ligne} est un SRI orienté WEB specialisé pour la recherche des thèses souténues dans les six universités publiques de Madagascar depuis 2006. Actuellement il regroupe actuellement \textbf{31160} documents, plus précisement des thèses. Ce SRI est hebergé dans le serveur de l'université d'Antananarivo, et est mis en place par les equipes au sein de l'université. Le statistique des documents est dans la figure \ref{statistic-tme}, les resultats de recherche ainsi que la pagination est illustré dans la figure \ref{resultat-tme} et \ref{pagination-tme}.
+
+\begin{figure}[htbp]
+	\begin{center}
+		\fbox{\includegraphics[width=16cm, angle=0]{Figures/SRI/tme-statistics.PNG}}
+		\caption{Statistique des documents \citep{these-malgache-en-ligne}}
+	\end{center}
+	\label{statistic-tme}
+\end{figure}
+
+Ce SRI a pour objectif de faciliter les recherches de thèses, généralement d'auteur malagasy afin de'explorer et de mettre en evidence les fruits de recherche malagasy. Ainsi de faciliter l'accès a ces documents pour les enseignants ainsi que pour les étudiants qui cherche des travaux rattachés a son thème.
+
+Ce SRI a un avantage majeur, qui est la rapidité de la recherche. Aussi il y a la possibilité de rechercher par un titre, auteur et conténu, ainsi que la mise en place de système de pagination pour classer les documents plus pertinents dans la prémière page. Ce SRI classe les résultats suivant l'ordre de pertinence décroissant. L'interface utilisateur est très simple ce qui implique que le chargement de la page est rapide.
+
+Ce Système a quelques lacunes malgré ses avantages. La prémière problème qui peut être remedié est l'insuffisance de nombre des documents stockés, car vu le nombre d'étudiants ayant souténu dans les six universités publiques de Madagascar, c'est pas suffisant. La deuxième, les documents sonts limités pour les etablissements publiques, alors qu'il pourra être interessant d'inclure les documents des établissement privés. La troisième c'est qu'il y a pas de système de catégorisation des documents. Et d'autres problèmes comme le nombre de documents retournés sont nombreux qui implique souvent beaucoup de pagination des resultats (pas de limite de pertinence), il est impossible de voir la resumé d'un document particulier ou afficher une appercu du document, et finalement il y a pas de notion de securité de document c'est a dire tous les documents sont exposés publiquement en tant qu'utilisateur anonyme.
+
+\begin{figure}[htbp]
+	\begin{center}
+		\fbox{\includegraphics[width=16cm, angle=0]{Figures/SRI/tme-results.PNG}}
+		\caption{Resultat de recherche \citep{these-malgache-en-ligne}}
+	\end{center}
+	\label{resultat-tme}
+\end{figure}
+
+\begin{figure}[htbp]
+	\begin{center}
+		\fbox{\includegraphics[width=16cm, angle=0]{Figures/SRI/tme-pagination.PNG}}
+		\caption{Pagination \citep{these-malgache-en-ligne}}
+	\end{center}
+	\label{pagination-tme}
+\end{figure}
+
+\subsubsection{Fiofa.mg}
+(Nécessite Internet)
+Objectif, Principe, Créateur ou fondateur, Avantages, Incovénients, Améliorations possibles
+
+\subsubsection{Bibliothèques universitaire en ligne}
+Les bibliothèques universitaire en ligne n'est plus ni moins qu'une version numérique des bibliothèques. Chaque université publique de Madagascar possède un. En général, c'est pas un SRI complet mais juste une liste des documents disponibles avec un simple recherche généralement sur le titre ou auteur. 
+
+L'objectif est d'exposer des documents pour faciliter l'accès aux étudiants, enseignants ou des personnes voulant acceder a des ressources. Mais en général, ce système fonctionne très bien avec un recherche simple dans le cas des livres par exemple, mas s'avère compliqué pour des recherches avancés. Ainsi les documents sont incomplètes. 
+
+Dans le cadre de recherche des thèses malagasy, ce système est moins efficace que Thèse malgache en ligne.
+
+Ci-dessous un exemple de bibliothèque en ligne dans la figure (Ref figure).
+
+\subsubsection{Google Scholar, Mémoire Online et d'autres}
+Les géants du moteurs de recherche académique tel que google scholar, Mémoire online, HAL, et d'autres peuvent bien être utilisé pour rechercher des thèses malagasy. Ces systèmes sont performants, puissant en terme d'algorithme utilisés, et stock une grande volume des documents. Certains système propose d'appercu du document, exportation des bibliographie, liste des articles connexes ainsi qu'un système de securité et d'authentification. Il est aussi possible de faire une filtre par année ou par catégorie.
+
+Malgré tous ces atouts, c'est pas suffisant pour les travaux de recherches malagasy. Ces moteurs n'arrivent pas a indexer beaucups des documents (thèses) malagasy. Par exemple, dans mémoire online, il y a seulement 80 thèses dont l'auteur est malagasy \citep{memoire-online}. Alors pour rechercher des travaux de recherche malagasy dans ces moteurs est un veritable défi.
+
+\subsection{Conclusion}
+En resumé, un Système de Recherche d'Information ou Moteur de Recherche est un système actuellement indissociable de la vie quotidienne, académique, personnel et professionnel. Il a pour but de satisfaire le besoin d'information de l'utilisateur en utiisant des algorithmes et des traitements partiulières sur les documents et la requêtes. Un SRI doit passer certains test avant d'être finalement implementé pour l'utilisation finale. Ces testes sera realisé pas des experts du domaine, et en utilisant des corpus de test (collection de test) pour pouvoir determiner la pertinence et la performance du SRI. Il y a actuellement beaucoup des moteurs de recherche, certains sont spécialisés dans un domaine spécifique, mais on a analysé justement quelques un qui est important dans le cadre de ce devoir.

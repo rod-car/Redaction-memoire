@@ -1,0 +1,42 @@
+\begin{titlepage}
+	\begin{center}
+		\vspace*{1cm}
+
+		\textsc{\LARGE Université de Toamasina}\\[1.5cm]
+
+		\includegraphics[width=4cm]{Figures/university_logo.png} % Adjust the width as needed
+
+		\vspace{1.5cm}
+
+		\textsc{\Large Mémoire de Master}\\[0.5cm]
+
+		\rule{\linewidth}{0.4mm} \\[0.4cm]
+		{\huge \bfseries Développement d'un moteur de recherche basé sur le modèle vectoriel pour améliorer la recherche des thèses malagasy \\[0.4cm]}
+		\rule{\linewidth}{0.4mm} \\[1.5cm]
+
+		\textsc{\Large Faculté des sciences et technologie}\\[0.5cm]
+
+		\vfill
+
+		\begin{minipage}{0.4\textwidth}
+			\begin{flushleft}
+				\large
+				\emph{Auteur:}\\
+				BOUDI Gislain Carino Rodrigue
+			\end{flushleft}
+		\end{minipage}
+		~
+		\begin{minipage}{0.4\textwidth}
+			\begin{flushright}
+				\large
+				\emph{Encadreur:}\\
+				VELO Jérome
+			\end{flushright}
+		\end{minipage}\\[2cm]
+
+		\vfill
+
+		{\large \today}
+
+	\end{center}
+\end{titlepage}

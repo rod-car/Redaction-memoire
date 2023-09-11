@@ -1,0 +1,45 @@
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Pondération:
+\[
+    d_{k} = q_{k} = tf(k, d) \cdot \log{\frac{N}{df{(k)}}}
+\]
+
+Inner Product (Dot Product):
+\[
+    Sim(\vec{d}, \vec{q}) = \vec{d} \cdot \vec{q} = \sum_{k=1}^{n} d_{k} \cdot d_{k}
+\]
+
+Cosine Similarity:
+\[
+    Sim(\vec{d}, \vec{q}) = \frac{\vec{d} \cdot \vec{q}}{\|\vec{d}\| \cdot \|\vec{q}\|} = \frac{\sum_{k=1}^{n} d_{k} \cdot d_{k}}{\sqrt{\sum_{k=1}^{n} (d_{k})^2} \cdot \sqrt{\sum_{k=1}^{n} (q_{k})^2}}
+\]
+
+Jaccard Similarity:
+\[
+    \text{Jaccard Similarity}(A, B) = \frac{|A \cap B|}{|A \cup B|}
+\]
+
+Dice Similarity:
+\[
+    \text{Dice Similarity}(A, B) = \frac{2 |A \cap B|}{|A| + |B|}
+\]
+
+Proba:
+\[
+    \text{Cosine Similarity}(P, Q) = \frac{\sum_{i} P(i) \cdot Q(i)}{\sqrt{\sum_{i} P(i)^2} \cdot \sqrt{\sum_{i} Q(i)^2}}
+\]
+
+\[
+    Sim(d_{j}, q) = \left\{
+        \begin{array}{ll}
+            1 & q \in d_{j}\\
+            0 & sinon
+        \end{array}
+        \right.
+\]
+
+\end{document}

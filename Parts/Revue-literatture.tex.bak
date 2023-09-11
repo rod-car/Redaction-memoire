@@ -1,0 +1,600 @@
+\chapter{Revue de la littérature}
+\section{Recherche d'information}
+\subsection{Introduction}
+La recherche d'information est un domaine étendu et ancien qui trouve ses racines au début des années 1950, peu après l'invention de l'ordinateur \citep{approche-semantique}. Elle suscite un grand intérêt parmi les chercheurs, devenant de plus en plus attrayante avec l'avènement de machines puissantes et performantes en matière de stockage, faciles à utiliser et fiables \citep{evaluation-of-ir-system}. La recherche d'information est désormais une tâche récurrente pour les utilisateurs, que ce soit sur smartphones, ordinateurs, etc., car elle répond à leurs besoins quotidiens \citep{thesaurus-ir-web}. Ce domaine traite des données non structurées, principalement des données textuelles comme le langage naturel \citep{modern-ir}.
+Citons quelques définitions de la Recherche d'Information:
+
+\begin{definition}
+	Selon Gérard Salton, père de la Recherche d'Information, la RI consiste a structurer, analyser, organiser, stocker, et rechercher de l'information. \citep{thesaurus-ir-web}
+\end{definition}
+
+\begin{definition}
+	Un activité de délivrer un ensemble des documents a l'utilisateur en fonction de son besoin d'information (\cite{thesaurus-ir-web}).
+\end{definition}
+
+\begin{definition}
+	C'est la Stockage, Gestion, Traitement, récupération des informations, documents ou site web pour satisfaire un besoin informationnel de l'utilisateur \citep{vsm-for-arabic-language}.
+\end{definition}
+
+\begin{definition}
+	La RI est un ensemble d'une base de documents et une phase de processus de recherche avec des méthodes, techniques permettant a l'utilisateur de récupérer un ou plusieurs documents \citep{ri-sur-le-web}.
+\end{definition}
+
+\begin{definition}[Système de Recherche d'Information]
+	On appelle SRI ou moteur de recherche, un ensemble de programmes informatiques, qui met en œuvre des techniques et moyens pour trouver les documents pertinents afin de satisfaire le besoin d'information de l'utilisateur \citep{approche-semantique}.
+\end{definition}
+
+\subsection{Pourquoi rechercher une information \?}
+Lorsqu'un utilisateur a un besoin informationnel (Besoin d'information) la RI est nécessaire pour satisfaire ce besoin. D'où l'initiation de sa Recherche d'information. C'est le besoin d'information de l'utilisateur qui déclenche alors le processus de RI qu'on va voir dans la section suivante.
+
+Le défi de la recherche d'informations est de satisfaire le mieux la demande de l'utilisateur en retournant un ensemble des documents correspondant a ses demandes parmi un grand volume de documents \citep{amelioration-ri-approche-semantique}.
+
+\subsection{C'est quoi une information \?}
+Une information est issu lorsqu'on donne un sens a un données. Un donnée est donc un unité élémentaire d'information, un octets constitué de bits c'est à dire des 0 et des 1. Un donnée est une représentation a laquelle une signification peur être rattaché, peut être quantitative ou qualitative et n'a pas de chance elle-même.
+
+Une information est donc une collection des données pour donner une forme a une message que ce soit imagée, écrite ou orale pour réduire l’incertitude et transmettre quelque chose qui déclenche une action \citep{thesaurus-ir-web}, \citep{construction-memoire-organisationnel-benayache}.
+
+Selon \citeauthor{j-velo:sys-user} \citep{j-velo:sys-user} une information est définie comme un fait, une réalité, qui augmente la connaissance des individus. Elle est constitué de \textit{données} et de \textit{sens} qui est attribué par un individu. Le sens dépend de l'individu qui reçoit la données.
+
+\subsection{C'est quoi un document \?}
+\citeauthor{thesaurus-ir-web} propose quelques définitions d'un document, on va citer deux parmi ceux qui sont cité \citep{thesaurus-ir-web}.
+
+\begin{definition}
+	Un document est généralement l'expression d'une pensée humaine.
+\end{definition}
+
+\begin{definition}
+	Un document représente toute base de connaissance fixé matériellement, susceptible d'être utilisé pour la consultation, l'étude ou la preuve (imprimé, manuscrit, représentation graphique, \dots).
+\end{definition}
+
+Un document composé de cinq éléments \citep{thesaurus-ir-web}:
+\begin{itemize}
+	\item \textbf{Support d'enregistrement}: papier, disque magnétique, CD/DVD-ROM, etc. C'est un support où le document est stocké.
+	\item \textbf{Forme d'enregistrement}: papier, codage ascii, codage vidéos, etc. C'est la forme de document dans le support.
+	\item \textbf{Support de restitution}: papier, écran d'ordinateur, haut-parleurs, etc.
+	\item \textbf{Forme physique de restitution}: écran sur papier, signal audio ou vidéos, etc.
+	\item \textbf{Forme sémantique de restitution}: représentation qui respecte une certaine structure ou forme selon laquelle elle soit intelligible par le l'utilisateur. Écriture, sons, images, animés, etc.
+\end{itemize}
+
+Un documents peut être structuré ou non structuré, peut être des textes, images, son ou bien des pages WEB (HTML).
+
+\subsection{C'est quoi la besoin d'information \?}
+
+\begin{definition}
+	C'est la besoin d'information qui déclenche la recherche d'information de l'utilisateur comme cité ci-dessus. C'est une sensation qui porterait un individu a s'engager dans une activité de recherche d'information (\cite{thesaurus-ir-web}).
+\end{definition}
+
+\begin{definition}
+	C'est une abstraction mentale dont l'utilisateur a besoin pour répondre a une question ou demande particulière et qui est exprimé en langage naturel \citep{amelioration-ri-approche-semantique} (Reformulation nécessaire).
+\end{definition}
+
+C'est cette besoin d'information que l'utilisateur doit traduire pour obtenir une requête afin qu'un SRI puisse satisfaire ce besoin, on dit souvent des mots clés de recherche \citep{modern-ir}.
+
+La besoin d'information se catégorisent en trois types selon \citeauthor{paradis:tel-00005009} \citep{paradis:tel-00005009} tel que:
+\begin{itemize}
+	\item[•] \textbf{Besoin vérificatif}: l'utilisateur recherche une donnée particulière, et savoir comment y accéder pour vérifier le texte avec des données qu'il possède déjà. En d'autre terme, l'utilisateur possède déjà les données ou la partie mais il a besoin de vérification. Le besoin ne change pas au cours de sa recherche, on dit que c'est \textit{stable}.
+	\item[•] \textbf{Besoin thématique connu}: l'utilisateur cherche a éclaircir, revoir ou trouver des nouvelles informations concernant un sujet ou domaine connu. La besoin peut changer (\textit{stable}) ou non (\textit{variable}) au cours de sa recherche ainsi qu'il peut se raffiner. Le besoin peut s'exprimer de façon incomplète.
+	\item[•] \textbf{Besoin thématique inconnu}: l'utilisateur cherche des nouveaux concepts ou relations hors des domaines ou sujet connus. La besoin est variable et toujours exprimé de façon incomplète.
+\end{itemize}
+
+Pour mieux élaborer ce processus, on va analyser dans la section suivante la processus général de la recherche d'information, la processus en U.
+
+\subsection{Tâche de recherche de l'utilisateur}
+Une tache de recherche c'est qu'un utilisateur doit faire pour satisfaire un besoin d'information \citep*{boubee-tricot-2010,ri-sur-le-web}.
+Les taches se catégorisent suivant deux types, une tache fermé et une tache ouverte. Une tâche fermé est une tache dont l'utilisateur cherche une réponse exacte sur une requête donnée, tandis qu'une tache ouverte est une tâche dont l'utilisateur cherche une réponse acceptable. Après certains études cités dans \citep{ri-sur-le-web} et d'autres chercheurs, que la tache ouverte utilise d'avantage la navigation, tandis que la tache fermé privilégie les moteurs de recherche.
+
+Il y a deux stratégies de recherche cité par \citeauthor{ir-on-web} \citep{ir-on-web} en utilisant des requêtes:
+\begin{itemize}
+	\item[•] \textbf{Bottom-up ou mixtes:} la recherche commence par une sphère étroite (précise) puis l’élargir de plus en plus. L'utilisateur fait une recherche de plus précise a une recherche plus générale.
+	\item[•] \textbf{Top-down:} la recherche commence par une sphère large (générale) puis le rétrécir de plus en plus. L'utilisateur fait une recherche de plus générale a une recherche de plus en plus précise.
+\end{itemize}
+
+Selon \citeauthor{ri-sur-le-web} \citep{ri-sur-le-web}, il y a trois type de taches:
+\begin{itemize}
+	\item[•] \textbf{Tache factuelle} est une tâche généralement fermé
+	\item[•] \textbf{Tache interprétative} est une tâche généralement ouverte
+	\item[•] \textbf{Tache d'exploitation} est une tâche complètement ouverte
+\end{itemize}
+
+\subsubsection{Tache factuelle}
+Une tache factuelle est catégorisé dans la tache fermé, on peut le considérer comme une tache fermé. Dans une tache factuelle, les utilisateurs formulent de requêtes dans un SRI ou moteur de recherche, et lisent les résumés de chaque document dans la page de résultat. Ils veulent trouver une réponse sur la page de résultat et privilégie le résumé qui contient les mots clés, et en cliquant juste pour confirmation. Dans cette tache les experts utilise plutôt la stratégie bottom-up tandis que les novices utilisent la stratégie bottom-up \citep{ri-sur-le-web}.
+
+\subsubsection{Tache interprétative}
+Une tache factuelle est catégorisé dans la tache ouverte, on peut le considérer comme une tache ouverte. Les utilisateurs commencent par le parcours des informations générales, puis affiner leurs recherche pour leurs besoins spécifiques. Ils privilégié la lecture de contenu des pages et la navigation, souvent une navigation interne a des pages web (via des liens internes) ou externes.
+
+\subsubsection{Tache d'exploitation}
+Une tache d'exploitation est une tache complètement ouverte. Les utilisateurs se concentrent plus sur la page de résultat pour trouver une résultat qui semble correspondre au besoin, puis cliquent et naviguent dans la page pour explorer. Ils veulent trouver de l'information basé sur les contenues de la page. Dans cette tache, les experts utilisent la stratégie top-down tandis que les novices utilisent la stratégie bottom-up \citep{ri-sur-le-web}.
+
+\subsection{Modèle de recherche de l'utilisateur: Approche de la recherche}
+En général il y a deux approche de recherche d'information, dont l'approche classique qui est le Ad-hoc et et l'approche moderne qui est le Filtering (Filtre en français) \citep{modern-ir}.
+
+\subsubsection{Ad-hoc: approche classique}
+L'approche classique est l'approche la plus utilisée, d'où c'est une approche conventionnel de la Recherche de l'Information. Dans une approche classique, les documents sont resté relativement statique (Les documents sont préparés a l'avance). Puis arrivé ensuite la requête des utilisateurs pour trouver une réponses dans ces documents. En d'autre terme, les documents restent statique jusqu’à ce que la requête de l'utilisateur arrive.
+
+\subsubsection{Filtering: approche moderne}
+L'approche moderne consiste a mettre en place un profile complexe de l'utilisateur pour savoir quel documents ou informations pourra lui interrelié. Dans cette approche, les requêtes (préférences, type d'informations qui lui intéressent, \dots) de l'utilisateur restent statique jusqu’à ce qu'un nouveau document arrive dans le système, et que ce système décide si c'est pertinent par rapport au profil de l'utilisateur. Cette approche est souvent utilisé pour les news, marketing, \dots
+
+\subsection{Processus de recherche d'information}
+Le modèle de processus le plus utilisé est le modèle en U. C'est un modèle qui traite les documents et la requête séparément et faire une appariement après.
+
+\subsubsection{Introduction (Processus en U)}
+La processus en U se déroule en général quatre étapes \citep{modern-ir} et qu'il y a d'un coté la traitement des documents et de l'autre coté la traitements de la requête. L'indexation des documents: créer la base documentaires dans la base de données; traitement et opérations sur la requête: traiter la requête de l'utilisateur, retirer les mots vides; l'appariement de la requête et les documents: pour savoir quelles documents répond mieux a la requête de l'utilisateur; Et enfin la reformulation de la requête de l'utilisateur: pour améliorer les résultats obtenues. La figure \ref{processus-u} présente la processus de la recherche d'information en U.
+
+\begin{figure}[htbp]
+	\begin{center}
+		\fbox{\includegraphics[width=15cm, angle=0]{Figures/Processus-U.png}}
+		\caption{Processus en U de la RI \citep{thesaurus-ir-web}}
+	\end{center}
+	\label{processus-u}
+\end{figure}
+
+Pour la suite, on va essayer d’expliquer en détails ce que font chaque partie de ce processus pour mieux élaborer l'étape de la recherche d'information.
+
+\subsubsection{Première étape: Besoin d'information}
+Comme la définition dans la section 2.1.4, pour qu'une recherche d'information eu lieu, il faudra une besoin d'information. A ce stade la base documentaire est déjà mis en place et est déjà prête pour l'utilisation. L'utilisateur doit ensuite transformer son besoin en requête et obtenir des mots clés. Le système applique un traitement de texte sur la requête pour obtenir une requête finale qui sera utilisé par l'appariement. La requête pourra contenir un ou plusieurs mots clés \citep{modern-ir}.
+
+La requête est une interface entre l'utilisateur et le programme, formulé sous-forme des mots-clés par l'utilisateur décrits en langage naturel \citep{amelioration-ri-approche-semantique}.
+
+\subsubsection{Classification}
+(A discuter si nécessaire ou pas)
+
+\subsubsection{Indexation des documents (Traitement de textes)}
+Pour travailler efficacement avec les documents et pour pouvoir rechercher des informations dedans, il faut représenter les documents sous formes des mots clés que contient le document, sous l'approche d'indexation \citep{ir-on-web}.
+
+\begin{definition}
+	L'indexation ou tokenisation en anglais est l'action de représenter les contenu des documents sous forme d'index.
+\end{definition}
+
+\begin{definition}
+	On appelle indexation ou processus d'indexation, le processus qui permet de construire les index a partir de l'analyse du documents tel que la vérification qu'un mot n'est pas dans un anti-dictionnaire (qui n'est pas un mot vide), et la lemmatisation ou racinisation pour trouver la racine des mots. Cette approche est formalisé en utilisant un langage d'indexation. \citep{paradis:tel-00005009}.
+\end{definition}
+
+\subsubsubsection{C'est quoi un index \?}
+Un index est est un mot ou groupe des mots sélectionné soit manuellement par un expert, soit automatiquement par un programme informatique (par un ordinateur) pour représenter un document. Les termes d'indexation (index terms) sont tous les index qui représentent un document. Un index est en général un nom ou groupe des noms.
+
+Selon Salton, qui traite généralement les index comme représentant du document, Un index est une représentation synthétique de l'information relative a un document, qui met en évidence sa sémantique en vue d'une requête. Selon d'autres auteurs, se sont des mots clés \citep{paradis:tel-00005009}.
+
+\subsubsubsection{Approche d'indexation}
+Comme on a évoqué précédemment et cité par dans \citep{ir-on-web} ainsi que dans \citep{amelioration-ri-approche-semantique}, il y a en général quatre approche d'indexation tel que l'\textit{indexation manuel}, l'\textit{indexation intelligent}, l’\textit{indexation automatique}, et l'\textit{indexation basé sur les métadonnées}. Il y a une approche \textit{semi-automatique} qui utilise a la fois l'indexation manuelle et automatique (une hybridation), cette approche consiste a créer les index automatiquement puis ces index sont validés par un expert \citep{paradis:tel-00005009}.
+
+\begin{itemize}
+	\item[•] \textbf{Indexation manuelle (Human Indexing):} indexation par un humain expert. Cette approche a une avantage d'être plus précise en sélection de terme d'indexation. Tandis qu'avec la croissance de volume d'informations, cette approche est de plus en plus obsolète, ainsi il se peut qu'il y a une incohérence entre les experts en sélectionnant les termes d'indexation. Cette approche est coûteux \citep{evaluation-of-ir-system}.
+	\item[•] \textbf{Indexation automatique (Automatic Indexing):} c'est un programme informatique qui fait l'indexation. Cette approche a une avantage d'être moins coûteux qu'un indexation manuel, résout l'incohérence entre les termes d'indexation sélectionné. Mais peut être moins efficace en sélectionnant les index, les index peuvent être moins précise. Cette approche utilise généralement la Traitement de Langage Naturel (NLP) et de la Statistique (Segmentation, Stop words removal).
+	\item[•] \textbf{Indexation intelligent (Intelligent Indexing / Agent-Based Indexing):} Utilisation des robots (Spiders / Crawlers) pour l'indexation du WEB. Un robot ou spiders est un programme informatique qui parcours les liens sur le web et index les documents trouées. Cette approche a trois problèmes en général (Robot Standard Exclusion), les robots peuvent causer des surcharge au niveau des serveurs, invasives, et la mise a jour fréquent des sites web.
+	\item[•] \textbf{Indexation basé sur les métadonnées:} utilisation et interprétation des métadonnées, souvent utilisé dans la recherche d'information sur le web (HTML).
+\end{itemize}
+
+Dans ce document, on focalisera sur l'indexation automatique des documents généralement textuelle (PDF, Document WORD) par un programme informatique.
+
+\subsubsection{Analyse lexical (Segmentation)}
+L'analyse lexical des textes permet de faire une analyse de la lexique. Cette analyse peut varier suivant la langue utilisée. On analyse généralement les ponctuations, les espaces entre les mots et la casse des lettres. On considère que la séparation des mots est le caractère espace. L'analyse lexical est alors l'action de convertir les textes du document en groupe des mots (stream of words) qui peuvent être sélectionné comme termes d'indexation. Les nombres sont souvent une mauvaise index sauf s'il est mixé avec un mot. Les expressions régulières sont souvent utiles pour extraire des nombres comme le numéro de carte de crédit, \dots \citep*{modern-ir, approche-semantique}.
+
+\subsubsubsection{Ponctuation}
+Les ponctuations sont normalement supprimés dans le cas d'analyse lexicales. Sauf dans le cas pour distinguer 'x.id' et 'xid.', la ponctuation ne doit pas être supprimé. \citep{modern-ir}
+
+\subsubsubsection{Casse des lettres}
+Il faut convertir tous les mots en majuscules ou en minuscules. Mais en particulier, les langages de commande (ligne de commande) de Linux, car l'utilisateur ne veut pas convertir la casse des lettres \citep{modern-ir}. Ça peut perdre aussi l'aspect sémantique après la conversation.
+
+\subsubsection{Élimination des mots vides (Stop words)}
+On appelle un mot vide, un mot qui est plus souvent utilisé dans un document ou dans les termes de recherche d'un utilisateur comme les prépositions, les articles, les conjonctions. Certains verbes, adverbes, et adjectifs pouvant être traité comme mots vides. Éliminer ces mots est important car un mot qui apparaît 80\% dans le corpus n'est pas utile pour la recherche d'information. C'est l'action de supprimer les mots insignifiants (pronoms personnels, préposition, \dots) \citep*{modern-ir, approche-semantique, sarch-engine-vsm}.
+
+Voici une liste non exhaustive des mots vides en français selon \citep{stopwords_french}: le, de, du, mais, donc, car, ceci, cela, qui. A noter que pour un SRI Full-text qui prend tous les mots comme des termes d'indexations, il n'y a pas de suppression des mots vides \citep{modern-ir}.
+
+\subsubsection{Lemmatisation et Stemming}
+La lemmatisation ou racinisation de mot est une partie de la traitement de langage naturel (TLN) qui extrait la racine d'un mot pour regrouper les variants (biologiste, biologique -> biologie; suis, est -> être). Cette approche réduit la taille des termes d'indexation \citep*{approche-semantique, sarch-engine-vsm}.
+
+Le Stemming regroupe aussi les variants d'un mot pour obtenir ce qu'on appelle un stem. Un stem est un portion d'un mot restant après la suppression de ses affixes (suffixes, préfixes), la suppression de pluriel, forme gérondif. Cette approche réduit aussi la taille des termes d'indexation. Le stemming ne permet pas de satisfaire la racinisation d'un mot (peut mal déterminer la racine), que certaine moteurs de recherche n'adopte pas le stemming \citep*{modern-ir, vsm}.
+
+Le stemming possède plusieurs techniques, mais on va citer les techniques principaux qui sont:
+
+\begin{itemize}
+	\item[•] \textbf{Table lookup}: regarder le stem dans un table, mais qui est moins pratique en terme de stockage et accessibilité.
+	\item[•] \textbf{Porter algorithme}: est une technique simple, intuitive, peut être implémenté efficacement. Cette approche utilise la suppression des affixes.
+	\item[•] \textbf{Successeur}: est un approche plus complexe que la suppression des affixes.Se base utilisation des connaissances linguistiques structurés pour identifier les morphes.
+	\item[•] \textbf{N-Grams}: est une approche orienté plus vers la classification que stemming. Cette approche se base sur l'identification des diagrammes et trigrammes.
+\end{itemize}
+
+D'autres méthodes sont disponibles actuellement comme celle qui se base sur les expressions régulières, \dots
+
+\subsubsection{Normalisation}
+La normalisation permet de classer les termes comme équivalent. Par exemple, le mot U.S.A doit être traité de la même façon que USA. Cette approche de normalisation peut amener a des problèmes \citep{sarch-engine-vsm}.
+
+\subsubsection{Sélection et pondération des termes}
+Comme on dit précédemment, pas tous les mots dans le documents sont significatifs. Sauf pour un moteur de recherche full-text qui index tous les termes. Et aussi pas tous les mots on une même degré ou poids d'importance dans un document. D'où la pondération des termes. Pour déterminer le poids d'un terme dans un collection des documents, on utilise en général deux approche: \textit{Term Frequency (TF)} et \textit{Inverse Document Frequency (IDF)}.
+
+Le TF (Term Frequency) du terme \textit{t} dans un document \textit{d} est le nombre de fois où le terme t apparaît dans le document d. C'est la fréquence du ter t dans le document d. Plus ce fréquence est important, plus le terme est important pour représenter le document. Cette mesure sera normalisé afin d'éviter d'avoir un poids trop significatifs pour les documents avec beaucoup de contenu, on l'appelle \textit{Normalized Term Frequency}.
+
+L'IDF (Inverse Document Frequency) du terme t dans la collection des documents D est le nombre de document dans la collection contenant le terme t. C'est le nombre de document où le terme t apparaît dans la collection des documents D. Cette approche permet de déterminer l'unicité d'un terme au sein de la collection des documents. Un terme est important si moins de documents la contiennent; un terme qui apparaît dans presque tous les documents n'est pas significatif, et peut être traité comme un mot vide.
+
+La troisième approche qui est la combinaison des deux est la \textit{TF-IDF}. La TF-IDF est la multiplication des deux valeurs obtenues précédemment (TF*IDF) pour obtenir le poids final du terme. Le terme est important s'il apparaît dans peu de documents (IDF) mais qu'il apparaît plusieurs fois dans le document qui le contient (TF).
+
+Une fois ces termes sélectionné avec les poids correspondant, on crée un index inversé ou fichier inversé pour stocker ces termes. Cet index inversé va faire correspondre le document identifié par un ID avec les termes qui le compose avec le poids correspondant \citep*{vsm, vsm-for-arabic-language, sarch-engine-vsm, modern-ir}. Tous ces notions va être détaillé un peu plus bas dans le document lorsqu'on abordera le modèle utilisé dans le cadre de ce mémoire.
+
+\subsubsection{Étape d’appariement}
+Pour pouvoir satisfaire le besoin de l'utilisateur, il faut apparier la requête de l'utilisateur et les documents (fichier inversé) en utilisant un algorithme d'appariement. Ces algorithmes permet de calculer la similarité entre un document et une requête et savoir quels sont les documents qui correspondent le mieux avec la requête avec un degré de similarité. Mathématiquement, c'est calculer la distance euclidien entre la requête et le document.
+
+On calcule ces mesures pour déterminer la pertinence entre la requête de l'utilisateur et les documents dans le corpus, on l'appelle \textit{pertinence système}. Il y a aussi le jugement qui provient de l'utilisateur en vue des résultats qu'il obtient par rapport a sa demande, on l'appelle \textit{pertinence utilisateur} (Ref: Modele vectoriel relationnel).
+
+Les documents trouvés sont retournés a l’utilisateur généralement suivant un degré de pertinence décroissante par rapport a la requête. Certains modèle ne possède pas ce classement des résultats comme le modèle Booléen qu'on va voir dans la section précédente, ainsi que décortiquer ces mesures de similarité.
+
+\subsubsection{Reformulation de la requête}
+
+\subsection{Modèle de RI}
+\subsubsection{Introduction}
+Il y a deux raisons pour avoir un modèle dans la recherche d'information. La première, un modèle guide la recherche et donne sens a la discussion académique. La seconde, un modèle sert comme un plan (blueprint) modèle pour implémenter un système de recherche d'information \citep{model-ir}.
+
+Un modèle sert a décrire le processus computationnel du RI (comment les documents sont stockés, comment sont stocké les index, etc.), decrire le processus humain (besoin d'information, interaction), ainsi la définition implicite ou explicite de la pertinence \citep{model-ri-cours}.
+
+Pour bien formaliser la recherche d'information, il est nécessaire de définir des modèles a utiliser. L'étape d’appariement dans la section Étape d'appariement, nécessite un modèle.
+
+\subsubsection{Caractéristique formel (DQFR)}
+\begin{definition}
+	Un modèle de recherche d'information est quadruplet DQFR tel que \citep*{modern-ir, vsm}:
+	\begin{itemize}
+		\item \textbf{D}: ensemble des représentation (vue logiques) des documents dans la collection
+		\item \textbf{Q}: ensemble des représentation (vue logiques) des besoins de l'utilisateur. On l'appelle requête ou query en anglais.
+		\item \textbf{F}: framework pour modéliser les documents, la requête ainsi que leurs relations.
+		\item \textbf{R (q\_{i}, d\_{j})}: fonction de classement qui associe un nombre réel avec la requête qi appartient a \textit{Q} et le document \textit{d\_{i}} appartient a \textit{D}. Cette classement permet d'ordonner les résultats selon leur pertinence.
+	\end{itemize}
+\end{definition}
+
+\subsubsection{Taxonomie de modèle}
+Selon \citeauthor{modern-ir} il y a quatre familles principales des modèles de RI qui est illustré dans la figure \ref{modele-ri}:
+
+\begin{itemize}
+	\item \textbf{Les modèles basé sur les textes du document}: les modèles de RI classique (\textit{Théorie des ensembles, Algébrique, Probabiliste}), et les modèles basé sur le texte semi-structuré (\textit{Texte semi-structuré})
+	\item \textbf{Les modèles basé sur le liens entre documents}: les modèles orienté web (\textit{PageRank, Hubs et autorités})
+	\item \textbf{Les modèles basé sur les documents multimédia}: les modèles de recherche d'images, vidéos, musiques, etc.
+\end{itemize}
+
+\begin{figure}[htbp]
+	\begin{center}
+		\fbox{\includegraphics[width=15cm, angle=0]{Figures/modele-ri.png}}
+		\caption{Taxonomie de modèle de RI \citep{soulier2014:def-evaluation-modele}}
+	\end{center}
+	\label{modele-ri}
+\end{figure}
+
+Dans le cadre de ce mémoire, on va analyser la famille des modèles classiques basé sur les textes du document, car ce qui concerne mieux notre étude.
+
+\subsubsection{Catégorie de modèle}
+Comme énoncé précédemment, on va s’intéresser dans la famille des modèles classiques basé sur les textes du document. Dans cette famille, on a \citep*{modern-ir, approche-semantique,soulier2014:def-evaluation-modele}, il y a trois grandes catégories des modèles: le modèle théorique ou ensembliste (theoretic), le modèle algébrique (algrebraic) et le modèle probabiliste (probabilistic). Dans le modèle ensembliste, on trouve principalement le modèle Booléen, le modèle Booléen étendue. Dans le modèle algébrique, on a principalement le modèle vectoriel (Vector Space Model), le modèle de réseau de neurone (Neural Network Models), et d'autres modèles. Dans le modèle probabiliste, on trouve principalement le modèle probabiliste (Probabilistic model), le réseau d'inférence (Inference Network) et d'autres modèles.
+Ces modèles sont des modèles de recherche, mais il y a aussi des modèles pour la navigation (Browsing). Pour plus de détails \citep{modern-ir}.
+
+\subsubsection{Modèle ensembliste}
+Dans le modèle ensembliste, il y a quelques modèles, mais dans le cadre de ce mémoire, on va voir les deux principaux.
+
+\subsubsubsection{Modèle Booléen (Boolean Model)}
+% Un exemple de réquête dans le modèle Booléen est illustré sur la figure \ref{boolean-model} \citep{model-ir}.
+
+Ce un modèle de base dans la recherche d'information. Ce modèle est le premier modèle utilisé dans la recherche d'information. Dans ce modèle, les documents et les requêtes sont représentés comme des mots clés (ensemble des mots). Ce modèle est simple, facile a mettre en place et utilise l'algèbre de Boole. La stratégie de recherche est basé sur la décision binaire.
+Ce modèle a possède un avantage d'être facile a mettre en place, simple et exacte au niveau des résultats. Ce pour cette exactitude que ce modèle est aussi un modèle exacte (Exact Match Model).
+
+Les termes sont pondérés de façon binaire.
+
+Tous les termes d'indexation ont la même poids, soit il existe dans le document soit non. S'il existe dans le document, son poids est 1, sinon 0. La similarité entre \textit{q} et \textit{d\_{j}} est égal a 1 si le document terme \textit{d\_{j}} valide l'expression booléen \textit{q}, sinon 0. Un document est donc jugé pertinent par le système s'il valide l'expression booléen de la requête.
+(Math formule ici et aussi la formule de similarité)
+
+Dans ce modèle, la requête est exprimé en utilisant les opérateurs booléens ET (AND), OU (OR) et NON (NOT).
+
+Par contre, ce modèle a quelques inconvénients, il est difficile de transformer la besoin d'information en expressions booléen surtout pour un utilisateur lambda (un utilisateur qui ne sait absolument rien de l'expression booléen) donc la requête a tendance un peu simplifié ou même incomplète ce qui affecte la qualité des résultats. Et puisque la décision est binaire, et que le poids soit 1 soit 0, il n'y a pas de classement possible pour les documents retournés. L'utilisateur est alors obligé de parcourir les résultats pour juger la pertinence. Puisque le modèle est exacte, le modèle ne permet pas de sélectionner les documents qui peuvent intéressé l'utilisateur et qui peuvent être pertinent par rapport a ses requête, et qu'il est impossible de récupérer une réponses partielles qui valide certains expression de la requête. \citep*{modern-ir, soulier2014:def-evaluation-modele}.
+
+\subsubsubsection{Modèle Booléen Étendu (Extended Boolean Model)}
+En vue de ces inconvénients, le modèle booléen est amélioré afin de résoudre certains problèmes avec le modèle Booléen. Premièrement, le modèle Booléen étendue a mis en place la possibilité de faire une similarité partiel et la pondération des termes. Il est étendu en ajoutant la fonctionnalité du modèle vectoriel qui est la combinaison de formulation de requête avec les caractéristiques du modèle vectoriel. Ce modèle est introduit par Salton, Fox, et Wu en 1983. Mais ce modèle n'a pas été largement utilisé \citep{modern-ir}.
+
+\subsubsubsection{D'autres modèles}
+Il y a aussi d'autres modèles dans la catégorie ensembliste, tel que le modèle de Fuzzy (Fuzzy Set Model, Region Models), \dots, mais ça dépasse le cadre de ce mémoire. Pour plus de détails, voir chapitre 2 \citep{modern-ir} et chapitre 1 \citep{model-ir}.
+
+\subsubsection{Modèle algébrique}
+Dans cette catégorie, on va analyser le modèle vectoriel principal.
+
+\subsubsubsection{Modèle Vectoriel (Vector Space Model)}
+Ce modèle a un alternative qui est le Modèle Vectoriel Généralisé par Salton (Salton et al 1991 - A rechercher), qui se base sur des vecteurs. Les documents et les requêtes sont représentés par un vecteur dans un t-espace vectoriel (représentation algébrique). Ce modèle accorde une appariement partielle, et les termes ne sont pas pondérés de manières binaires. Les pondérations des termes le plus souvent utilisé sont la TF, IDF, et la TF-IDF (Reference section Pondération) \citep*{sarch-engine-vsm}.
+
+Un score de similarité est alors exprimé comme un mesure de proximité entre deux entités correspondant a l'angle qui sépare les deux vecteurs. On va analyser brièvement ces mesures dans la section (Mesure de similarité). (Figure 1.4 model-ir)
+
+\citep*{approche-semantique, modern-ir, soulier2014:def-evaluation-modele}
+Le modèle vectoriel a certains avantages: Facile a mettre en œuvre, possibilité d'avoir un appariement approximatif avec un degré de pertinence (L'utilisateur reçoit des documents qui pourrait lui intéressé), possibilité d'organiser les résultats suivant leur pertinence (L'utilisateur passe moins de temps a filtrer les résultats puisqu'ils sont déjà ordonné), ainsi ce modèle peut définir une limité pour la mesure de similarité et de n'afficher que les documents qui sont en dessus de cette limite pour éliminer les résultats le moins pertinent. Ce modèle est populaire, et plus utilisé par les moteurs de recherche actuel.
+
+Mais ce modèle a un inconvénients, qui est l’indépendance des termes d'indexation ce qui implique que la notion de sémantique du document est perdue. Mais ce problème a été solutionné par la mise place de regroupement des termes qui ont la même sens, on appelle N-grammes. Ou bien une autre approche est d'utiliser le modèle d’indexation sémantique latente (Latent Semantic Index).
+
+\subsubsubsection{Autre modèle}
+Il y a d'autres modèles dans la catégorie algébrique tel que le modèle d'Indexation Sémantique Latente (Latent Semantic Indexing) et le modèle de réseau de neurones (Neural Network Model).
+
+L'approche d'indexation sémantique latente est introduit en 1988, qui permet de garder la semantique des documents pour avoir une relation entre les termes d'indexation. Cette approche se base sur l’appariement de contexte au lieu d'index, voir \citetitle[Page 45]{modern-ir} \citep{modern-ir} pour les détails complet.
+
+Le modèle neuronale se base sur des processus d'activation des neurones (spread activation process), cette approche est plus orienté vers l’intelligence artificielle \citep*{modern-ir}.
+
+\subsubsection{Modèle probabiliste}
+Dans le modèle probabiliste, le framework pour modéliser les documents et la représentation de la requête se base sur la théorie des probabilités. On va pas rentrer dans les détails sur ce modèle, mais juste un tour d'horizon. Pour ce qui veulent entrée dans les détails, voir chapitre 2 de \citep{modern-ir}.
+
+\subsubsubsection{Modèle probabiliste}
+(Figure 1.5 dans model-ir)
+
+Le principe du modèle probabiliste est de donner la requête q de l'utilisateur et un document d\_{j} dans la collection. Puis le modèle estime la probabilité que l'utilisateur trouve le document d\_{j} pertinent. Le modèle assume que ce probabilité de pertinence dépends seulement de la requête et la représentation du document. La mesure de similarité utilise la formule de Bayes (Bayes's rule).
+(Ajouter la définition mathématique ici et la formule mathématique de sa similarité - Première page du cahier) Section 1.4 \citep{model-ir} ou chapitre 2 \citep{modern-ir}.
+
+Ce modèle a un avantage d'avoir le classement des résultats suivant leur probabilité d'être pertinent dans l'ordre décroisant. Mais a quelques inconvénients qui est le besoin de savoir initialement la séparation des documents en ensembles pertinent et non pertinent, le modèle ne prend pas en compte le fréquence de terme dans un document ce qui implique que tous les poids des termes sont binaire, ainsi les termes d'indexation sont indépendants \citep{modern-ir}.
+
+\subsubsubsection{Autres modèles}
+Il y a d'autres modèles dans ce catégorie, mais comme tous les autres on va pas rentrer dans les détails puisque ça va a l'ncontre de notre analye. On cite le Réseau d'Inférence (Inference Network), Réseau Bayésien (Bayesian Network), le modèle de Poisson (The 2-Poisson model) \citep{model-ir}. Pour plus de détails voir \citep{modern-ir}.
+
+\subsection{Mesure de similarité}
+Citons quelques méthode de similarité \citep*{vsm-for-arabic-language, sarch-engine-vsm, vsm}:
+\begin{itemize}
+	\item[•] \textbf{Produit scalaire (Dot Product)}: c'est le produit scalaire entre deux vecteurs. La requête et les documents sont représenté par des vecteurs de même dimension.
+	\item[•] \textbf{Similarité cosinus (Cosine Similarity)}: c'est la mesure le plus populaire. Utilise le produit scalaire ainsi que l'angle formé entre les deux vecteurs (document et requête)
+	\item[•] \textbf{Coefficient de Jaccard (Dice Coefficient)}: mesure statistique de similarité entre des collections (sample set)
+	\item[•] \textbf{Coefficient de dice (Jaccard Coefficient)}: même que celle de Jaccard, mais double le poids de vecteur
+\end{itemize}
+
+Puisque nous-nous intéressons au modèle vectoriel dans le cadre de ce mémoire, on va analyser les mesures de similarité utilisé dans le ce modèle. Il y a principalement quatre mesures de similarité comme on a présenté dans la section (Étape d’appariement). Ces mesures sont utilisé pour déterminer la pertinence système c'est a dire la pertinence des documents par rapport a la requête de l'utilisateur. A bien noter que tous les poids des termes d'indexation sont normalisé avec TF-IDF avant la calcul de ces mesures. Ces mesures sont optionnelles, mais la mesure de similarité le plus populaire est celle de Cosinus \citep{vsm}.
+
+\subsubsection{Produit scalaire}
+Le produit scalaire ou Dot product (Inner Product) en anglais est la mesure de base, qui est utilisé dans d'autres mesure comme celle de cosinus, Jaccard ainsi que Dice. Cette mesure calcul le produit scalaire entre le vecteur document et la vecteur requête. La formule pour calculer ce mesure est ci-dessous:
+
+\[
+Inner Product(\mathbf{A}, \mathbf{B}) = \mathbf{A} \cdot \mathbf{B}
+\]
+
+\subsubsection{Similarité cosinus}
+La mesure cosinus ou Cosine Similarity est la mesure la plus populaire. Cette mesure utilise le produit scalaire en introduisant l'angle formé par les deux vecteur (document et requête). La formule pour calculer cette mesure est ci-dessous:
+
+\[
+Inner Product(\mathbf{A}, \mathbf{B}) = \mathbf{A} \cdot \mathbf{B}
+\]
+
+\subsubsection{Similarité de Jaccard}
+La mesure de Jaccard ou Jaccard's Similarity utilise aussi le produit scalaire, c'est une mesure basé sur la statistique. La formule pour calculer cette mesure est ci-dessous:
+
+\[
+Inner Product(\mathbf{A}, \mathbf{B}) = \mathbf{A} \cdot \mathbf{B}
+\]
+
+\subsubsection{Similarité de Dice}
+La mesure de Dice ou Dice's Similarity est la mesure utilise le produit scalaire. La formule pour calculer cette mesure est ci-dessous:
+
+\[
+Inner Product(\mathbf{A}, \mathbf{B}) = \mathbf{A} \cdot \mathbf{B}
+\]
+
+\subsection{Conclusion}
+En guise de conclusion de cette partie qui concerne la recherche d'information, qu'il y a beaucoup des chercheurs qui s'y intéressent puisque c'est un domaine vaste, intéressant mais aussi difficile et possède des défis. C'est un domaine ancien mais qui a connu des évolutions considérable jusqu’à nos jours avec l'explosion de volume d'information disponible sur internet par le biais des réseau sociaux, des blogs, etc. On a vue dans cette partie qu'il y a des modèles mathématique appliqués dans ce modèle ce qui rend la recherche formalisé. Ainsi l'amélioration de ces modèles par le biais de l’intelligence artificielle est possible, ce qui est le cas des géants des moteurs de recherche modernes aujourd'hui.
+
+On a vue dans cette partie qu'il y a beaucoup des modèles utilisés dans la RI, des mesures et d'algorithme de calcul de similarité ainsi que de classement des résultats.
+
+Analysons de plus près dans la section suivante ce qui concerne le Système de Recherche d'Information (moteur de recherche).
+
+\section{Système de recherche d'information}
+Dans cette section, on va voire d'abord quelques définitions tiré des travaux de quelques chercheurs qui s'y intéressaient dans le domaine de la Recherche d'information et d'un encyclopédie, puis on va analyser ses composant et les types, et enfin on va voir comment analyser la performance d'un moteur de recherche et les mesures de performance souvent utilisé.
+
+\subsection{Définition}
+\begin{definition}
+	On appelle Système de Recherche d'Information (SRI) un ensemble des programmes, qui sert a interfacer avec l'utilisateur, de prendre les requêtes et de les interpréter afin de faire une recherche dans l'index, appliquer un modèle d’appariement et retourné les documents jugés pertinents a l'utilisateur \citep{amelioration-ri-approche-semantique}.
+\end{definition}
+
+\begin{definition}
+	On appelle SRI ou moteur de recherche, un ensemble de programmes informatiques, qui met en œuvre des techniques et moyens pour trouver les documents pertinents afin de satisfaire le besoin d'information de l'utilisateur. En d'autres termes, permet de retrouver des informations grâce a l'utilisation des mots clés et termes de recherche \citep{approche-semantique}.
+\end{definition}
+
+\begin{definition}
+	Un Système de Recherche d'Information permet de récupérer la requête de l'utilisateur, de l'analyser, puis rechercher dans la base documentaire les documents qui correspondent (pertinent) a la requête et de retourner les résultats a l'utilisateur \citep{vsm}.
+\end{definition}
+
+\begin{definition}
+	Un moteur de recherche est un outil qui permet de rechercher sur le Web ou sur un ordinateur personnel des ressources, des contenus, des documents etc., à partir de mots clés \citep{jdn-moteur-de-recherche}.
+\end{definition}
+
+\begin{definition}
+	Un moteur de recherche est un système logiciel qui collecte des informations à partir des ressources documentaires (World Wide Web, \dots) et qui les présente aux utilisateurs qui recherchent des informations spécifiques \citep{mdn-search-engine}.
+\end{definition}
+
+\subsection{Objectif et efficacité}
+En général il y a deux catégorie de problème tel que le problème \textit{centré utilisateur} qui est le problème lié a la compréhension et l'analyse de comportement de l'utilisateur; et le problème \textit{centré système} qui est le problème lié a la création d'index efficace, traitements des requêtes avec plus de rapidité et efficacité ainsi que le développement d'un algorithme de classement pour améliorer les résultats \citep{modern-ir}. Mais le problème central d'un SRI se concentre sur le coté système (\textit{centré système}) qui est de savoir comment satisfaire la besoin d'information de l'utilisateur le plus rapide possible et efficace. C'est un problème plus délicat a résoudre puisqu'il y en a plusieurs facteurs relié a ces performances. Mais il y a des recherches qui traite (analyse) les comportement de l'utilisateur ainsi que ses impactes sur la recherche d’information et l'utilisation d'un SRI. Parmi ces différentes études, il y a celle qui est traité par \citeauthor{ri-sur-le-web} \citep{ri-sur-le-web} dans le cadre des lycéens.
+
+L'objectif d'un SRI est donc de localiser et retourner les documents pertinents par rapport a une requête pour répondre et satisfaire le besoin d'information de l'utilisateur. Le SRI relève donc le défi de rechercher des documents pertinents par rapport au requête de l'utilisateur parmi un très grand volume d'informations \citep{amelioration-ri-approche-semantique}.
+
+L'efficacité d'un SRI est jugé par la capacité de comprendre ce que l'utilisateur veut, ce que l'utilisateur demande a partir de la requête. Ainsi sur sa capacité de fournir les documents pertinents et les classer suivant leurs pertinences par rapport a la requête de l'utilisateur \citep{vsm}. Et aussi la rapidité de récupération des informations et l'accessibilité au niveau de l'interface utilisateur \citep{ir-on-web}.
+
+Pour notre cas, on se focalisera plus sur la performance relié au problème centré système que ceux qui est centré utilisateur.
+
+\subsection{Élément principaux}
+Un Système de Recherche d'Information a systématiquement deux éléments principaux, tel que la \textit{base de donnée} et l'\textit{algorithme de classement} \citep{approche-semantique}. Ces deux éléments sont indispensables pour un système d'information.
+
+\subsubsection{Base de données}
+\begin{definition}
+	Une base de données est une collection organisée d’informations structurées, généralement stockées
+	électroniquement dans un système informatique. Généralement contrôlée par un SGBD (Système de Gestion de Base de Données) \citep{oracle-database}.
+\end{definition}
+
+\begin{definition}
+	Une base de données ou BDD est une collection d’informations organisées afin d’être facilement consultables, gérables et mises à jour. Les bases de données informatiques sont utilisées dans un grand nombre d’entreprises pour stocker, organiser et analyser les données \citep{lebigdata}.
+\end{definition}
+
+\begin{definition}
+	Une base de données permet de stocker et de retrouver des données structurées, semi-structurées ou des données brutes ou de l'information, souvent en rapport avec un thème ou une activité	\citep{wiki-database}.
+\end{definition}
+
+Pour un SRI, cette base de données est structuré par un expert en base de données (Database Manager). Il est responsable de stockage des documents, des index, ainsi que met en place la relation entre les documents et les index (Fichier inversé). Cette base de données stocke alors l'ensemble de documents utilisé par le système afin de répondre aux besoins de l'utilisateur \citep{vsm-for-arabic-language}.
+
+\subsubsection{Algorithme de classement}
+Un algorithme de classement permet de classer les documents suivant l'ordre de pertinence par rapport a la requête de l'utilisateur. Cette algorithme qui se charge de calculer la pertinence entre la requête et les documents dans la base de données. L'algorithme de classement souvent utilisé dans le modèle vectoriel est déjà présenté dans la section (Section mesure de similarité).
+
+\subsection{Catégorie de recherche}
+Tout d'abord, il y a quatre catégories de recherche cité par \citeauthor{ir-on-web} \citep{ir-on-web} tel que:
+\begin{itemize}
+	\item \textbf{Recherche simple}: utilise la requête simple
+	\item \textbf{Recherche personnalisée}: utilise la requête personnalisée
+	\item \textbf{Recherche de dossier}
+	\item \textbf{Recherche des nouvelles courantes}: utilise la requête des news
+	\item \textbf{Contenu web}: suppression des liens mortes
+\end{itemize}
+
+\subsection{Type de moteur de recherche}
+Les moteurs de recherche sont catégorisé en deux catégories: moteur de recherche classique qui travaille avec les contenues statique des documents et le moteur de recherche sémantique \citep*{approche-semantique,thesaurus-ir-web}.
+
+Ci-dessous un tableau qui illustre la différence entre un moteur de recherche classique et moderne \citep{ir-on-web} (A analyser si ce tableau est vraiment nécessaire).
+
+\subsubsection{Classique ou traditionnel}
+Un moteur de recherche classique ou traditionnel traite les documents dont le contenu est statique. Le contenu des documents ne change pas au fil du temps. Ce qui veut dire que l'étape d'indexation des documents se fait une fois, il n'y a probablement pas de réindexation des documents. Cette approche est souvent utilisé pour la recherche des livres électronique, etc.
+
+\subsubsection{Sémantique ou moderne}
+Ce moteur de recherche provient du traditionnel. Le contenu des documents traités par ce type de SRI sont dynamiques et peuvent varier au fil du temps. Comme par exemple un site WEB qui met a jour fréquemment ses contenus, modifié ou supprimé. Dans de type de SRI, l'étape d'indexation est de plus en plus complexe, et l'étape de réindexation est nécessaire et souvent periodique pour récupérer les mise a jours des documents. Ce type de moteur de recherche est généralement utilisé pour la recherche sur le WEB.
+
+\subsection{Modèle adopté par un SRI}
+Un Système de Recherche d'Information peut adopter un modèle qui se base sur ces trois modèles qui est le modèle \textit{full-text}, le modèle \textit{keyword-based} et le modèle \textit{hypertext} \citep{modern-ir}.
+\begin{itemize}
+	\item \textbf{Full-text}: ce modèle utilise tous les termes de documents comme un terme d'indexation. C'est à dire pas de discrimination des mots vides. L'indexation et la tache de recherche sont simple, mais peut apporter des bruits.
+	\item \textbf{Keyword-based}: ce modèle utilise les mots clés pour représenter les documents, avec la suppression des mots vides. Les termes d'indexation sont donc des mots clés.
+	\item \textbf{Hypertext}: ce modèle se base sur des liens, souvent utilisé sur les documents WEB.
+\end{itemize}
+
+\subsection{Évaluation d'un SRI}
+\subsubsection{Introduction}
+Dans cette section, on va analyser comment bien définir la performance et évaluer un SRI. Il est important d’évaluer un SRI avant d’implémentation pour l'utilisation finale. Cette étape d'évaluation dépend du but finale du SRI. Généralement, il y a quatre trois catégories d'évaluation d'un SRI: \textit{évaluation fonctionnel} qui fait l'analyse des fonctionnalités du système, \textit{évaluation de performance} et l'\textit{évaluation de performance de recherche} \citep{modern-ir}.
+
+Dans ce troisième catégorie, on utilise des mesures mathématique dont les plus courant sont \textit{Précision (Precision)} et \textit{Rappel (Recall)}.
+
+Souvent dans l'étape d'évaluation, l'\textit{évaluation de performance de recherche} est plus difficile et compliqué, qui a un grand défi.
+
+\subsubsection{Évaluation fonctionnel}
+L'évaluation fonctionnel est la première étape d'évaluation d'un SRI. Il met en œuvre l'analyse des deux facteurs suivantes:
+\begin{itemize}
+	\item \textbf{Analyse de fonctionnalités}: analyser tous les fonctionnalités du système une par une pour voir s'il y a bien des failles ou bug. Cette analyse assurera que l'utilisateur finale du système faire face a des problèmes de fonctionnalités ou bug (analyse de l'interface graphique si c'est conviviale, l'accessibilité, etc.).
+	\item \textbf{Analyse d’erreur}: pour l'analyse d'erreur, on cherche a trouver un moyen pour faire échouer le système, trouver par tous les moyens de faire des traitements pour que le système fait un erreur. Cette analyse permet de voir des erreurs qui ne sont pas identifié avant et de pouvoir les corriger après.
+\end{itemize}
+
+\subsubsection{Évaluation de performance}
+L'évaluation de performance permet d'identifier la performance et la robustesse d'un SRI. Cette évaluation analyse généralement deux facteurs:
+\begin{itemize}
+	\item \textbf{Analyse de temps de réponse}: analyser le temps de réponse du système pour répondre a une requête de l'utilisateur. Le but est de minimiser ce temps de réponse pour satisfaire l'utilisateur. Le système doit être rapide en terme de réponse. Avec les machines de plus en plus performants, cet analyse est de moins en moins problématique mais a ne pas ignorer.
+	\item \textbf{Analyse de l’espace utilisé}: analyser aussi l'espace disque utiliser par le stockage des index et la collection des documents. Le système doit utiliser le moins d’espace possible, et doit être le plus léger possible.
+\end{itemize}
+
+Dans cette évaluation, on analyse aussi la performance d'indexation du SRI, l’interaction avec le Système d'Exploitation, ainsi que le délais dans le canaux de communication.
+
+\subsubsection{Évaluation de performance de recherche}
+L'évaluation de performance de recherche possède un grand défi, est qui est généralement traité par des chercheurs. Le but est de maximiser la précision des résultats de recherche par rapport au requête de l'utilisateur. Pour bien assimiler cette partie, on va voir comment est structuré la collection des documents du point de vue du système, on va illustrer ce qu'on appelle matrice de contingence dans la figure \ref{matrice-contingence}.
+
+\begin{figure}[htbp]
+	\begin{center}
+		\fbox{\includegraphics[width=10cm, angle=0]{Figures/matrice-contingence.png}}
+		\caption{Matrice de contingence \citep{vsm-for-arabic-language}}
+	\end{center}
+	\label{matrice-contingence}
+\end{figure}
+
+Dans ce matrice, il y a quatre catégories tel que:
+\begin{itemize}
+	\item \textbf{Récupéré et non pertinents}: se sont des documents non pertinents mais jugés pertinent par le système. On cherche a minimiser le nombre des documents dans cette catégorie. On les appelle faux positif.
+	\item \textbf{Récupéré et pertinents}: se sont des documents pertinents et qui sont sélectionnés par le système. On cherche a maximiser le nombre des documents dans cette catégorie. On l'appelle vrai positif.
+	\item \textbf{Non récupéré et non pertinents}: se sont des documents non pertinents qui ne sont pas sélectionnés par le système. On cherche aussi a maximiser le nombre des documents dans cette catégorie. On l'appelle vrai négatif.
+	\item \textbf{Non récupéré et pertinents}: se sont des documents pertinents mais qui ne sont pas récupérer par le système. On cherche a minimiser le nombre des documents dans cette catégorie. On l'appelle faux négatif.
+\end{itemize}
+
+Pour cette évaluation, on va voir quelques mesures parmi les plus populaires, tel que la \textit{précision}, le \textit{rappel}, et la \textit{F-mesure}. A bien noter que la notion d'ensemble des documents pertinents dans cette évaluation est défini par un expert, qui juge qu'un document est pertinent par rapport a un requête. C'est grâce au connaissance de documents pertinents a l'avance qu'on peut juger le système.
+
+On va illustrer dans la figure \ref{precision-recall} la classe des documents pour mieux élaborer la notion de précision et rappel.
+\begin{figure}[htbp]
+	\begin{center}
+		\fbox{\includegraphics[width=10cm, angle=0]{Figures/Precision-Recall.png}}
+		\caption{Ensemble des documents \citep{modern-ir}}
+	\end{center}
+	\label{precision-recall}
+\end{figure}
+
+\subsubsubsection{Précision}
+Le précision (precision en anglais) est la fraction du nombre de documents pertinent par le nombre de documents retournés par le système. En d'autre terme, la fraction des documents retournés qui sont pertinents. La précision calcule alors la performance du système a récupérer seulement les documents pertinents \citep*{evaluation-of-ir-system, ir-on-web,vsm-for-arabic-language}. Le but est de maximiser cette valeur.
+
+\[
+	Précision = \frac{\textit{Nombre de documents pertinents}}{\textit{Nombre de documents retournés par le système}} = \frac{|Ra|}{|A|}
+\]
+
+\subsubsubsection{Rappel}
+Le rappel (recall en annglais) est la fraction entre le nombre de documents pertinents retournés divisé et le nombre total des documents pertinents. En d'autre terme, c'est la fraction des documents pertinents qui sont retournés par le système. Le rappel permet de savoir comment le système a bien récupérer tous les documents pertinents \citep*{evaluation-of-ir-system, ir-on-web,vsm-for-arabic-language}. Le but est de minimiser cette valeur.
+
+\[
+	Précision = \frac{\textit{Nombre de documents pertinents}}{\textit{Nombre de tous les documents pertinents}} = \frac{|Ra|}{|R|}
+\]
+
+Il est nécessaire de noter que le rappel n'est efficace dans le cas où la base de données devient large, car le rappel diminue si la base de données augmente. 
+
+\subsubsection{Exemple de précision et rappel}
+(A discuter et a compléter pour illustrer un exemple après)
+
+\subsubsection{Courbe de précision-rappel}
+(A discuter et a compléter)
+
+\subsubsection{Problème de précision et le rappel}
+(A discuter et a compléter - Modern IR)
+
+\subsubsection{Moyenne harmonique}
+Cette mesure utilise la précision et le rappel.
+
+\[
+	F(j) = \frac{2}{\frac{1}{R(j)} + \frac{1}{P(j)}}
+\]
+\\Où:\\
+\textbf{\textit{R(j)}} est le rappel pour le j-ième document.\\
+\textbf{\textit{P(j)}} est la précision pour le j-ième document.\\
+\textbf{\textit{F(j)}} est la moyenne harmonique
+
+\subsubsection{Et d'autres mésures}
+D'autres mesure de performance sont utilisés comme \textit{accuracy}, \textit{F-measure}, \textit{E-measure}, \textit{x-precision}, \dots Il y a aussi de notion de silence et bruit \citep*{modern-ir, amelioration-ri-approche-semantique}.
+
+\subsubsection{Conclusion}
+Conclusion locale de l'analyse de performance
+
+
+\subsection{Analyse du moteur de recherche existant}
+\subsubsection{Thèses malgache en ligne}
+\lipsum[4]
+
+\subsubsection{Fiofa.mg}
+\lipsum[7]
+
+\subsubsection{Bibliothèques universitaire en ligne}
+\lipsum[8]
+\subsection{Conclusion}
+\lipsum[10-11]
+
+% Section ---------------------------------------------------------
+\section{Modèle vectoriel}
+\subsection{Introduction}
+\subsubsection{Définition + Histoire}
+\lipsum[1-2]
+
+\subsubsection{Principe du modèle vectoriel}
+\lipsum[1-2]
+
+\subsection{Pourquoi utiliser}
+\lipsum[1-2]
+
+\subsection{Problème de classification}
+\lipsum[1-2]
+
+\subsection{Méthodes de pondération des termes}
+\subsubsection{Term Frequency (TF)}
+\lipsum[1-2]
+
+\subsubsection{Inverse Document Frequency (IDF)}
+\lipsum[1-2]
+
+\subsubsection{TF Normalisée}
+\lipsum[1-2]
+
+\subsubsection{TF-IDF (TF * IDF)}
+\lipsum[1-2]
+
+\subsection{Document inversé (Fichier inversé)}
+\lipsum[1-2]
+
+\subsection{Avantages}
+\lipsum[1-2]
+
+\subsection{Inconvénients}
+\lipsum[1-2]
+
+\subsection{Conclusion}
+\lipsum[1-2]
+
