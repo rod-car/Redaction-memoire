@@ -1,4 +1,6 @@
 \documentclass[a4paper, 12pt]{report}
+\usepackage{csquotes}
+\usepackage{multicol}
 
 % Packages
 \usepackage[utf8]{inputenc} % Input encoding
@@ -10,6 +12,9 @@
 \usepackage[french]{babel}
 \usepackage{lipsum}
 \usepackage{amsthm}
+
+\usepackage{calc}
+\usepackage{mwe}
 
 \usepackage{enumitem}
 \usepackage[hidelinks]{hyperref}
@@ -62,19 +67,12 @@
 \setcounter{secnumdepth}{4}
 \setcounter{tocdepth}{3}
 
-%\newgeometry{
-%	top = 0.75in,
-%	bottom = 0.75in,
-%	outer = 0.75in,
-%	inner = 1.5in
-%}
-
 % Page margins
 \geometry{
-	left=2.5cm,
+	left=2cm,
 	right=2cm,
-	top=2.5cm,
-	bottom=2.5cm,
+	top=2cm,
+	bottom=2cm,
 	bindingoffset=0cm,
 }
 
@@ -93,41 +91,62 @@
 \newtheorem{definition}{Definition}[section]
 
 \usepackage{fancyhdr}
+\fancypagestyle{plain}{%
+\fancyhf{} % clear all header and footer fields
+\cfoot{\thepage} % the page number in the foot center
+\renewcommand{\headrule}{\hrule height 0pt \vspace{0mm}\hrule height 0pt} % remove plain header rule
+}  % reset the page style bcz the arabicore.sty was loaded in the babel
+
+\newcommand{\changefont}{%
+	\fontsize{9}{11}\selectfont
+}
+\fancyhf{}
+\pagestyle{fancy}
+\fancyhead[RE,LO]{\changefont \slshape \leftmark}
+\fancyfoot[C]{\changefont \thepage}
+
+\newcommand{\univlogo}{\includegraphics[width=20mm]{Figures/university_logo.png}}
+\newcommand{\faclogo}{\includegraphics[width=20mm]{Figures/fac-st.png}}
+
+\newlength\logowidth
+\setlength{\logowidth}{\widthof{\univlogo}}
+
 \begin{document}
 
-\pagestyle{fancy}
-\renewcommand{\sectionmark}[1]{\markboth{#1}{#1}}
-\fancyhead[R]{}
-\fancyhead[L]{\chaptername\ \thesection\ --\ \leftmark}
-
+\pagenumbering{gobble}
 \include{Parts/Header.tex}
 
+\pagenumbering{roman}
+\cleardoublepage
+\phantomsection
 
-% Abstract
 \chapter*{Résumé}
 \addcontentsline{toc}{chapter}{Résumé}
 Lorem ipsum
 
-% Acknowledgments
 \chapter*{Remerciements}
 \addcontentsline{toc}{chapter}{Remerciements}
 \lipsum[8-9]
 
-% Table of contents
+\phantomsection
+\addcontentsline{toc}{chapter}{Table des matières}
 \tableofcontents
+\clearpage
+\newpage
 
-% List of figures (if applicable)
+\cleardoublepage
+\renewcommand{\listfigurename}{Liste des figures}
 \listoffigures
+\cleardoublepage
 
-% List of tables (if applicable)
 \listoftables
+\cleardoublepage
+
+\pagenumbering{arabic}
 
 \include{Parts/Introduction.tex}
-
 \include{Parts/Revue-literatture.tex}
-
 \include{Parts/Realisation.tex}
-
 \include{Parts/Conclusion.tex}
 
 \renewcommand*{\mkbibnamefamily}[1]{\textsc{\textbf{#1}}}
@@ -137,7 +156,5 @@ Lorem ipsum
 	\setlength\bibitemsep{5pt}
 	\printbibliography[heading=bibintoc]
 \endgroup
-
-% \bibliography{Bibliographie}
 
 \end{document}

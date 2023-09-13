@@ -331,6 +331,34 @@
       \verb http://books.openedition.org/pressesenssib/799
       \endverb
     \endentry
+    \entry{evaluation-sri-cours}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=198c5684c0daabeccc188b22f20730dc}{%
+           family={Boughanem},
+           familyi={B\bibinitperiod},
+           given={Mohand},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{198c5684c0daabeccc188b22f20730dc}
+      \strng{fullhash}{198c5684c0daabeccc188b22f20730dc}
+      \strng{bibnamehash}{198c5684c0daabeccc188b22f20730dc}
+      \strng{authorbibnamehash}{198c5684c0daabeccc188b22f20730dc}
+      \strng{authornamehash}{198c5684c0daabeccc188b22f20730dc}
+      \strng{authorfullhash}{198c5684c0daabeccc188b22f20730dc}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labeldatesource}{nodate}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Evaluation des performances dans les SRI}
+      \verb{urlraw}
+      \verb https://www.irit.fr/~Mohand.Boughanem/slides/RI/chap11-Evaluation.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.irit.fr/~Mohand.Boughanem/slides/RI/chap11-Evaluation.pdf
+      \endverb
+    \endentry
     \entry{handbook-nlp}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=7ff87ecd8a4eae51460a5bedbf2cc873}{%
@@ -614,34 +642,6 @@
       \field{type}{phdthesis}
       \field{year}{2022}
     \endentry
-    \entry{memoire-online}{online}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=adabe3a8cbcaa4a255b3f8ab4a4a98ad}{%
-           family={{Mémoire Online}},
-           familyi={M\bibinitperiod}}}%
-      }
-      \strng{namehash}{adabe3a8cbcaa4a255b3f8ab4a4a98ad}
-      \strng{fullhash}{adabe3a8cbcaa4a255b3f8ab4a4a98ad}
-      \strng{bibnamehash}{adabe3a8cbcaa4a255b3f8ab4a4a98ad}
-      \strng{authorbibnamehash}{adabe3a8cbcaa4a255b3f8ab4a4a98ad}
-      \strng{authornamehash}{adabe3a8cbcaa4a255b3f8ab4a4a98ad}
-      \strng{authorfullhash}{adabe3a8cbcaa4a255b3f8ab4a4a98ad}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Accessed: 03/08/2023}
-      \field{title}{Mémoire Online}
-      \field{year}{2023}
-      \verb{urlraw}
-      \verb https://ranks.nl/stopwords/french
-      \endverb
-      \verb{url}
-      \verb https://ranks.nl/stopwords/french
-      \endverb
-    \endentry
     \entry{mdn-search-engine}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=fd2e1bf0766fdefa8b13261277cd4f7e}{%
@@ -850,6 +850,44 @@
       \field{volume}{169}
       \field{year}{1989}
     \endentry
+    \entry{salton1975vector}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5f6e60d979fc4bd83526c6dd79a5a2ac}{%
+           family={{Salton, Gerard et Wong, Anita et Yang, Chung-Shu}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=40adb52e01bcc8e089ef45270ff2de57}{%
+           family={ACM\bibnamedelimb New\bibnamedelima York},
+           familyi={A\bibinitperiod\bibinitdelim N\bibinitperiod\bibinitdelim Y\bibinitperiod},
+           given={États-Unis},
+           giveni={É\bibinithyphendelim U\bibinitperiod},
+           suffix={NY},
+           suffixi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{5f6e60d979fc4bd83526c6dd79a5a2ac}
+      \strng{fullhash}{5f6e60d979fc4bd83526c6dd79a5a2ac}
+      \strng{bibnamehash}{5f6e60d979fc4bd83526c6dd79a5a2ac}
+      \strng{authorbibnamehash}{5f6e60d979fc4bd83526c6dd79a5a2ac}
+      \strng{authornamehash}{5f6e60d979fc4bd83526c6dd79a5a2ac}
+      \strng{authorfullhash}{5f6e60d979fc4bd83526c6dd79a5a2ac}
+      \strng{editorbibnamehash}{40adb52e01bcc8e089ef45270ff2de57}
+      \strng{editornamehash}{40adb52e01bcc8e089ef45270ff2de57}
+      \strng{editorfullhash}{40adb52e01bcc8e089ef45270ff2de57}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Communications de l'ACM}
+      \field{number}{11}
+      \field{title}{Un modèle d'espace vectoriel pour l'indexation automatique}
+      \field{volume}{18}
+      \field{year}{1975}
+      \field{pages}{613\bibrangedash 620}
+      \range{pages}{8}
+    \endentry
     \entry{vsm}{journal}{}
       \name{author}{2}{}{%
         {{un=2,uniquepart=given,hash=b86b524cae95c2f93aa6320838ea395b}{%
@@ -946,6 +984,34 @@
       \field{year}{2006}
       \field{pages}{17}
       \range{pages}{1}
+    \endentry
+    \entry{these-fr}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=27c791efbc6946ac51375bfa0e18af75}{%
+           family={{Theses.fr}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{27c791efbc6946ac51375bfa0e18af75}
+      \strng{fullhash}{27c791efbc6946ac51375bfa0e18af75}
+      \strng{bibnamehash}{27c791efbc6946ac51375bfa0e18af75}
+      \strng{authorbibnamehash}{27c791efbc6946ac51375bfa0e18af75}
+      \strng{authornamehash}{27c791efbc6946ac51375bfa0e18af75}
+      \strng{authorfullhash}{27c791efbc6946ac51375bfa0e18af75}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 03/08/2023}
+      \field{title}{Theses.fr}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.theses.fr/112289355
+      \endverb
+      \verb{url}
+      \verb https://www.theses.fr/112289355
+      \endverb
     \endentry
     \entry{these-malgache-en-ligne}{online}{}
       \name{author}{1}{}{%

@@ -156,23 +156,10 @@ Le rappel (recall en anglais) est la fraction entre le nombre de documents perti
 Il est nécessaire de noter que le rappel n'est efficace dans le cas où la base de données devient large, car le rappel diminue si la base de données augmente. 
 
 \subsubsection{Exemple de précision et rappel}
-Un exemple de calcul de précision et rappel est illustré dans la Figure~\ref{fig:example-prec-rec}.
-\begin{figure}[htbp]
-	\begin{center}
-		\fbox{\includegraphics[width=15cm, angle=0]{Figures/SRI/ex-prec-rec.png}}
-	\end{center}
-	\caption{Exemple de calcule de précision et rappel \citep{evaluation-sri-cours}}
-	\label{fig:example-prec-rec}
-\end{figure}
+(A discuter et a compléter pour illustrer un exemple après - Référence page WEB)
 
-Et la courbe (relation) entre la précision et le rappel est illustré dans la Figure~\ref{fig:example-prec-rec-courbe}
-\begin{figure}[htbp]
-	\begin{center}
-		\fbox{\includegraphics[width=16cm, angle=0]{Figures/SRI/ex-prec-rec-courbe.png}}
-	\end{center}
-	\caption{Courbe précision-rappel \citep{evaluation-sri-cours}}
-	\label{fig:example-prec-rec-courbe}
-\end{figure}
+\subsubsection{Courbe de précision-rappel}
+(A discuter et a compléter)
 
 \subsubsection{Problème de précision et le rappel}
 (A discuter et a compléter - Modern IR)
@@ -184,9 +171,9 @@ Cette mesure utilise la précision et le rappel.
 	F(j) = \frac{2}{\frac{1}{R(j)} + \frac{1}{P(j)}}
 \]
 \\Où:\\
-\textbf{\textit{R (j)}} est le rappel pour le j-ième document.\\
-\textbf{\textit{P (j)}} est la précision pour le j-ième document.\\
-\textbf{\textit{F (j)}} est la moyenne harmonique
+\textbf{\textit{R(j)}} est le rappel pour le j-ième document.\\
+\textbf{\textit{P(j)}} est la précision pour le j-ième document.\\
+\textbf{\textit{F(j)}} est la moyenne harmonique
 
 \subsubsection{Et d'autres mesures}
 D'autres mesure de performance sont utilisés comme \textit{accuracy}, \textit{F-measure}, \textit{E-measure}, \textit{x-precision}, etc. Il y a aussi de notion de silence et bruit \citep*{modern-ir, amelioration-ri-approche-semantique}.
@@ -227,6 +214,10 @@ Ce Système a quelques lacunes malgré ses avantages. La première problème qui
 	\label{fig:pagination-tme}
 \end{figure}
 
+\subsubsection{Fiofa.mg}
+(Nécessite Internet)
+Objectif, Principe, Créateur ou fondateur, Avantages, Inconvénients, Améliorations possibles
+
 \subsubsection{Bibliothèques universitaire en ligne}
 Les bibliothèques universitaire en ligne n'est plus ni moins qu'une version numérique des bibliothèques. Chaque université publique de Madagascar possède un. En général, c'est pas un SRI complet mais juste une liste des documents disponibles avec un simple recherche généralement sur le titre ou auteur. 
 
@@ -234,10 +225,12 @@ L'objectif est d'exposer des documents pour faciliter l'accès aux étudiants, e
 
 Dans le cadre de recherche des thèses malagasy, ce système est moins efficace que Thèse malgache en ligne.
 
-\subsubsection{Google Scholar, theses.fr et d'autres}
+Ci-dessous un exemple de bibliothèque en ligne dans la figure (Ref figure).
+
+\subsubsection{Google Scholar, theses.fr et d'autres - a verifier}
 Les géants du moteurs de recherche académique tel que google scholar, Mémoire online, HAL, et d'autres peuvent bien être utilisé pour rechercher des thèses malagasy. Ces systèmes sont performants, puissant en terme d'algorithme utilisés, et stock une grande volume des documents. Certains système propose d’aperçu du document, exportation des bibliographie, liste des articles connexes ainsi qu'un système de sécurité et d'authentification. Il est aussi possible de faire une filtre par année ou par catégorie.
 
-Malgré tous ces atouts, c'est pas suffisant pour les travaux de recherches malagasy. Ces moteurs n'arrivent pas a indexer beaucoup des documents (thèses) malagasy. Par exemple, dans thèses.fr, il y a seulement 41 thèses en cotutelle pour l'université d'Antananarivo \citep{these-fr}. Alors pour rechercher des travaux de recherche malagasy dans ces moteurs est un véritable défi.
+Malgré tous ces atouts, c'est pas suffisant pour les travaux de recherches malagasy. Ces moteurs n'arrivent pas a indexer beaucoup des documents (thèses) malagasy. Par exemple, dans mémoire online, il y a seulement 80 thèses dont l'auteur est malagasy \citep{memoire-online}. Alors pour rechercher des travaux de recherche malagasy dans ces moteurs est un véritable défi.
 
 \subsection{Conclusion}
 En résumé, un Système de Recherche d'Information ou Moteur de Recherche est un système actuellement indissociable de la vie quotidienne, académique, personnel et professionnel. Il a pour but de satisfaire le besoin d'information de l'utilisateur en utilisant des algorithmes et des traitements particulières sur les documents et la requêtes. Un SRI doit passer certains test avant d'être finalement implémenté pour l'utilisation finale. Ces testes sera réalisé pas des experts du domaine, et en utilisant des corpus de test (collection de test) pour pouvoir déterminer la pertinence et la performance du SRI. Il y a actuellement beaucoup des moteurs de recherche, certains sont spécialisés dans un domaine spécifique, mais on a analysé justement quelques un qui est important dans le cadre de ce devoir.

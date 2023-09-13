@@ -981,6 +981,16 @@ INPUT ./Figures/Precision-Recall.png
 INPUT Figures/Precision-Recall.png
 INPUT ./Figures/Precision-Recall.png
 INPUT ./Figures/Precision-Recall.png
+INPUT ./Figures/SRI/ex-prec-rec.png
+INPUT ./Figures/SRI/ex-prec-rec.png
+INPUT Figures/SRI/ex-prec-rec.png
+INPUT ./Figures/SRI/ex-prec-rec.png
+INPUT ./Figures/SRI/ex-prec-rec.png
+INPUT ./Figures/SRI/ex-prec-rec-courbe.png
+INPUT ./Figures/SRI/ex-prec-rec-courbe.png
+INPUT Figures/SRI/ex-prec-rec-courbe.png
+INPUT ./Figures/SRI/ex-prec-rec-courbe.png
+INPUT ./Figures/SRI/ex-prec-rec-courbe.png
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbi1200.tfm
 INPUT ./Figures/SRI/tme-statistics.PNG
 INPUT ./Figures/SRI/tme-statistics.PNG

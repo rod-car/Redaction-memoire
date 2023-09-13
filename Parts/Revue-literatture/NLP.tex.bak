@@ -236,10 +236,10 @@ Elle analyse la variation morphologique des mots ou \emph{stemming}, mais aussi 
 L'algorithme le plus utilisé est celle de \emph{Lovins} et \emph{Porter} pour la langue anglaise et \emph{Jacques Savoy} pour la langue française.
 
 \subsubsection*{L'Extraction d'Information (EI)}
-Ce domaine d'application est plus récente, qui se base sur la reconnaissance, marquage (tagging), et extraction dans un représentation structurés, certains éléments clés d'information, par exemple: personne, compagnie, localisation, organisation, d'un large collection de texte \citep{automatic-nlp}.
+Ce domaine d'application est plus récente, qui se base sur la reconnaissance, marquage (tagging), et extraction dans un représentation structurés, certains éléments clés d'information, par exemple: personne, companie, localisation, organisation, d'un large collection de texte \citep{automatic-nlp}.
 
 \subsubsection*{Et d'autres applications}
-Et d'autres domaines d'applications, comme la machine de traduction (Machine Translation), système de dialogue, système de question-réponse, système de résumé (summarization).
+Et d'autres dommaines d'applications, comme la machine de traduction (Machine Translation), système de dialogue, système de question-reponse, système de resumé (summarization).
 
 \subsection{Conclusion}
-En conclusion, le Traitement de Langage Naturel est l'un de domaine intéressant, et contribue a beaucoup des recherches dans la domaine de l'informatique. Il est aussi nécessaire dans la recherche d'information. Elle se divise en deux principale branches qui est le traitement de langage écrite et le traitement de langage orale. Elle propose différentes approches et méthodes ainsi que différentes algorithmes pour faire des traitements. Elle est utilisés dans différentes domaines et qui est devenue indissociable de l'intelligence artificielle.
+En conclusion, la TLN est l'un de domaine interessant, et contribue a beaucoup des recherches dans la domaine de l'informatique. Il est aussi necessaire dans la recherche d'information. Elle se divise en deux principale branches qui est le traitement de langage ecrite et le traitement de langage orale. Elle propose différentes approches eet méthodes ainsi que différentes algorithmes pour faire des traitements. Elle est utilisés dans différentes domaines et qui est devenue indissociable de l'intelligence artificielle.
