@@ -2,134 +2,128 @@
 \contentsline {chapter}{Résumé}{i}{chapter*.2}%
 \contentsline {chapter}{Remerciements}{ii}{chapter*.3}%
 \contentsline {chapter}{Table des matières}{ii}{section*.4}%
-\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Vue d'ensemble}{1}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Contexte de la recherche de thèses malagasy}{1}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Problématique}{2}{section.1.3}%
-\contentsline {section}{\numberline {1.4}Objectifs du mémoire}{2}{section.1.4}%
-\contentsline {section}{\numberline {1.5}Organisation du devoir}{3}{section.1.5}%
-\contentsline {chapter}{\numberline {2}Revue de la littérature}{4}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Recherche d'information}{4}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Introduction}{4}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Pourquoi rechercher une information ?}{5}{subsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.1.3}C'est quoi une information ?}{5}{subsection.2.1.3}%
-\contentsline {subsection}{\numberline {2.1.4}C'est quoi un document ?}{7}{subsection.2.1.4}%
-\contentsline {subsection}{\numberline {2.1.5}Classification des documents}{8}{subsection.2.1.5}%
-\contentsline {subsubsection}{\numberline {2.1.5.1}Type de classification des documents}{8}{subsubsection.2.1.5.1}%
-\contentsline {subsubsection}{\numberline {2.1.5.2}Algorithmes de classification global}{8}{subsubsection.2.1.5.2}%
-\contentsline {subsection}{\numberline {2.1.6}Besoin d'information}{9}{subsection.2.1.6}%
-\contentsline {subsection}{\numberline {2.1.7}Tâche de recherche de l'utilisateur}{9}{subsection.2.1.7}%
-\contentsline {subsubsection}{\numberline {2.1.7.1}Tache factuelle}{10}{subsubsection.2.1.7.1}%
-\contentsline {subsubsection}{\numberline {2.1.7.2}Tache interprétative}{10}{subsubsection.2.1.7.2}%
-\contentsline {subsubsection}{\numberline {2.1.7.3}Tache d'exploitation}{10}{subsubsection.2.1.7.3}%
-\contentsline {subsection}{\numberline {2.1.8}Modèle de recherche de l'utilisateur: Approche de la recherche}{11}{subsection.2.1.8}%
-\contentsline {subsubsection}{\numberline {2.1.8.1}Ad-hoc: approche classique}{11}{subsubsection.2.1.8.1}%
-\contentsline {subsubsection}{\numberline {2.1.8.2}Filtering: approche moderne}{11}{subsubsection.2.1.8.2}%
-\contentsline {subsection}{\numberline {2.1.9}Facteur d'influence de la recherche d'information}{11}{subsection.2.1.9}%
-\contentsline {subsection}{\numberline {2.1.10}Processus de recherche d'information}{12}{subsection.2.1.10}%
-\contentsline {subsubsection}{\numberline {2.1.10.1}Introduction (Processus en U)}{12}{subsubsection.2.1.10.1}%
-\contentsline {subsubsection}{\numberline {2.1.10.2}Première étape: Besoin d'information}{12}{subsubsection.2.1.10.2}%
-\contentsline {subsubsection}{\numberline {2.1.10.3}Indexation des documents}{12}{subsubsection.2.1.10.3}%
-\contentsline {subsubsubsection}{\numberline {2.1.10.3.1}C'est quoi un index ?}{14}{subsubsubsection.2.1.10.3.1}%
-\contentsline {subsubsubsection}{\numberline {2.1.10.3.2}Approche d'indexation}{14}{subsubsubsection.2.1.10.3.2}%
-\contentsline {subsubsection}{\numberline {2.1.10.4}Analyse lexical (Segmentation)}{15}{subsubsection.2.1.10.4}%
-\contentsline {subsubsubsection}{\numberline {2.1.10.4.1}Ponctuation}{15}{subsubsubsection.2.1.10.4.1}%
-\contentsline {subsubsubsection}{\numberline {2.1.10.4.2}Casse des lettres}{15}{subsubsubsection.2.1.10.4.2}%
-\contentsline {subsubsection}{\numberline {2.1.10.5}Élimination des mots vides (Stop words)}{15}{subsubsection.2.1.10.5}%
-\contentsline {subsubsection}{\numberline {2.1.10.6}Lemmatisation et Stemming}{16}{subsubsection.2.1.10.6}%
-\contentsline {subsubsection}{\numberline {2.1.10.7}Normalisation}{16}{subsubsection.2.1.10.7}%
-\contentsline {subsubsection}{\numberline {2.1.10.8}Sélection et pondération des termes}{16}{subsubsection.2.1.10.8}%
-\contentsline {subsubsection}{\numberline {2.1.10.9}Étape d’appariement}{17}{subsubsection.2.1.10.9}%
-\contentsline {subsubsection}{\numberline {2.1.10.10}Reformulation de la requête}{18}{subsubsection.2.1.10.10}%
-\contentsline {subsection}{\numberline {2.1.11}Modèle de RI}{18}{subsection.2.1.11}%
-\contentsline {subsubsection}{\numberline {2.1.11.1}Introduction}{18}{subsubsection.2.1.11.1}%
-\contentsline {subsubsection}{\numberline {2.1.11.2}Caractéristique formel (DQFR)}{18}{subsubsection.2.1.11.2}%
-\contentsline {subsubsection}{\numberline {2.1.11.3}Taxonomie de modèle}{19}{subsubsection.2.1.11.3}%
-\contentsline {subsubsection}{\numberline {2.1.11.4}Catégorie de modèle}{20}{subsubsection.2.1.11.4}%
-\contentsline {subsubsection}{\numberline {2.1.11.5}Modèle ensembliste}{20}{subsubsection.2.1.11.5}%
-\contentsline {subsubsubsection}{\numberline {2.1.11.5.1}Modèle Booléen (Boolean Model)}{20}{subsubsubsection.2.1.11.5.1}%
-\contentsline {subsubsubsection}{\numberline {2.1.11.5.2}Modèle Booléen Étendu (Extended Boolean Model)}{21}{subsubsubsection.2.1.11.5.2}%
-\contentsline {subsubsubsection}{\numberline {2.1.11.5.3}D'autres modèles}{22}{subsubsubsection.2.1.11.5.3}%
-\contentsline {subsubsection}{\numberline {2.1.11.6}Modèle algébrique}{22}{subsubsection.2.1.11.6}%
-\contentsline {subsubsubsection}{\numberline {2.1.11.6.1}Modèle Vectoriel (Vector Space Model)}{22}{subsubsubsection.2.1.11.6.1}%
-\contentsline {subsubsubsection}{\numberline {2.1.11.6.2}Autre modèle}{23}{subsubsubsection.2.1.11.6.2}%
-\contentsline {subsubsection}{\numberline {2.1.11.7}Modèle probabiliste}{23}{subsubsection.2.1.11.7}%
-\contentsline {subsubsubsection}{\numberline {2.1.11.7.1}Modèle probabiliste}{24}{subsubsubsection.2.1.11.7.1}%
-\contentsline {subsubsubsection}{\numberline {2.1.11.7.2}Autres modèles}{25}{subsubsubsection.2.1.11.7.2}%
-\contentsline {subsection}{\numberline {2.1.12}Mesure de similarité}{25}{subsection.2.1.12}%
-\contentsline {subsubsection}{\numberline {2.1.12.1}Produit scalaire}{26}{subsubsection.2.1.12.1}%
-\contentsline {subsubsection}{\numberline {2.1.12.2}Similarité cosinus}{26}{subsubsection.2.1.12.2}%
-\contentsline {subsubsection}{\numberline {2.1.12.3}Similarité de Jaccard}{27}{subsubsection.2.1.12.3}%
-\contentsline {subsubsection}{\numberline {2.1.12.4}Similarité de Dice}{27}{subsubsection.2.1.12.4}%
-\contentsline {subsection}{\numberline {2.1.13}Conclusion}{27}{subsection.2.1.13}%
-\contentsline {section}{\numberline {2.2}Système de recherche d'information}{27}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Introduction}{27}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Objectif et efficacité}{28}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Élément principaux}{29}{subsection.2.2.3}%
-\contentsline {subsubsection}{\numberline {2.2.3.1}Base de données}{29}{subsubsection.2.2.3.1}%
-\contentsline {subsubsection}{\numberline {2.2.3.2}Algorithme de classement}{29}{subsubsection.2.2.3.2}%
-\contentsline {subsection}{\numberline {2.2.4}Catégorie de recherche}{30}{subsection.2.2.4}%
-\contentsline {subsection}{\numberline {2.2.5}Type de moteur de recherche}{30}{subsection.2.2.5}%
-\contentsline {subsubsection}{\numberline {2.2.5.1}Classique ou traditionnel}{30}{subsubsection.2.2.5.1}%
-\contentsline {subsubsection}{\numberline {2.2.5.2}Sémantique ou moderne}{30}{subsubsection.2.2.5.2}%
-\contentsline {subsection}{\numberline {2.2.6}Modèle adopté par un SRI}{30}{subsection.2.2.6}%
-\contentsline {subsection}{\numberline {2.2.7}Évaluation d'un SRI}{31}{subsection.2.2.7}%
-\contentsline {subsubsection}{\numberline {2.2.7.1}Évaluation fonctionnel}{31}{subsubsection.2.2.7.1}%
-\contentsline {subsubsection}{\numberline {2.2.7.2}Évaluation de performance}{31}{subsubsection.2.2.7.2}%
-\contentsline {subsubsection}{\numberline {2.2.7.3}Évaluation de performance de recherche}{32}{subsubsection.2.2.7.3}%
-\contentsline {subsubsubsection}{\numberline {2.2.7.3.1}Précision}{33}{subsubsubsection.2.2.7.3.1}%
-\contentsline {subsubsubsection}{\numberline {2.2.7.3.2}Rappel}{33}{subsubsubsection.2.2.7.3.2}%
-\contentsline {subsubsection}{\numberline {2.2.7.4}Exemple de précision et rappel}{34}{subsubsection.2.2.7.4}%
-\contentsline {subsubsection}{\numberline {2.2.7.5}Problème de précision et le rappel}{34}{subsubsection.2.2.7.5}%
-\contentsline {subsubsection}{\numberline {2.2.7.6}Moyenne harmonique}{34}{subsubsection.2.2.7.6}%
-\contentsline {subsubsection}{\numberline {2.2.7.7}Et d'autres mesures}{35}{subsubsection.2.2.7.7}%
-\contentsline {subsection}{\numberline {2.2.8}Analyse du moteur de recherche existant}{35}{subsection.2.2.8}%
-\contentsline {subsubsection}{\numberline {2.2.8.1}Thèses malgache en ligne}{35}{subsubsection.2.2.8.1}%
-\contentsline {subsubsection}{\numberline {2.2.8.2}Bibliothèques universitaire en ligne}{36}{subsubsection.2.2.8.2}%
-\contentsline {subsubsection}{\numberline {2.2.8.3}Google Scholar, theses.fr et d'autres}{38}{subsubsection.2.2.8.3}%
-\contentsline {subsection}{\numberline {2.2.9}Conclusion}{38}{subsection.2.2.9}%
-\contentsline {section}{\numberline {2.3}Traitement de Langage Naturel (TLN)}{38}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Introduction}{38}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Un peu d'histoire}{40}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Les niveaux de langage}{40}{subsection.2.3.3}%
-\contentsline {subsection}{\numberline {2.3.4}Phonologie}{41}{subsection.2.3.4}%
-\contentsline {subsection}{\numberline {2.3.5}Morphologie}{41}{subsection.2.3.5}%
-\contentsline {subsubsection}{\numberline {2.3.5.1}Triage de document}{42}{subsubsection.2.3.5.1}%
-\contentsline {subsubsection}{\numberline {2.3.5.2}Segmentation de texte}{43}{subsubsection.2.3.5.2}%
-\contentsline {subsubsection}{\numberline {2.3.5.3}Catégories grammaticales}{44}{subsubsection.2.3.5.3}%
-\contentsline {subsection}{\numberline {2.3.6}Analyse lexicale}{44}{subsection.2.3.6}%
-\contentsline {subsection}{\numberline {2.3.7}Syntaxe}{44}{subsection.2.3.7}%
-\contentsline {subsubsection}{\numberline {2.3.7.1}Analyse syperficielle}{46}{subsubsection.2.3.7.1}%
-\contentsline {subsubsection}{\numberline {2.3.7.2}Analyse en dépendance}{46}{subsubsection.2.3.7.2}%
-\contentsline {subsection}{\numberline {2.3.8}Sémantique}{46}{subsection.2.3.8}%
-\contentsline {subsection}{\numberline {2.3.9}Pragmatique}{48}{subsection.2.3.9}%
-\contentsline {subsection}{\numberline {2.3.10}Approche du TLN}{48}{subsection.2.3.10}%
-\contentsline {subsubsection}{\numberline {2.3.10.1}Approche symbolique}{48}{subsubsection.2.3.10.1}%
-\contentsline {subsubsection}{\numberline {2.3.10.2}Approche statistique}{48}{subsubsection.2.3.10.2}%
-\contentsline {subsubsection}{\numberline {2.3.10.3}Approche connexionniste}{49}{subsubsection.2.3.10.3}%
-\contentsline {subsection}{\numberline {2.3.11}Application de TLN}{49}{subsection.2.3.11}%
-\contentsline {subsection}{\numberline {2.3.12}Conclusion}{50}{subsection.2.3.12}%
-\contentsline {section}{\numberline {2.4}Modèle vectoriel}{50}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Introduction}{50}{subsection.2.4.1}%
-\contentsline {subsubsection}{\numberline {2.4.1.1}Définition + Histoire}{50}{subsubsection.2.4.1.1}%
-\contentsline {subsubsection}{\numberline {2.4.1.2}Principe du modèle vectoriel}{51}{subsubsection.2.4.1.2}%
-\contentsline {subsection}{\numberline {2.4.2}Pourquoi utiliser}{51}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.4.3}Problème de classification}{52}{subsection.2.4.3}%
-\contentsline {subsection}{\numberline {2.4.4}Méthodes de pondération des termes}{52}{subsection.2.4.4}%
-\contentsline {subsubsection}{\numberline {2.4.4.1}Term Frequency (TF)}{52}{subsubsection.2.4.4.1}%
-\contentsline {subsubsection}{\numberline {2.4.4.2}Inverse Document Frequency (IDF)}{52}{subsubsection.2.4.4.2}%
-\contentsline {subsubsection}{\numberline {2.4.4.3}TF-IDF (TF * IDF)}{52}{subsubsection.2.4.4.3}%
-\contentsline {subsection}{\numberline {2.4.5}Document inversé (Fichier inversé)}{52}{subsection.2.4.5}%
-\contentsline {subsection}{\numberline {2.4.6}Avantages}{53}{subsection.2.4.6}%
-\contentsline {subsection}{\numberline {2.4.7}Inconvénients}{53}{subsection.2.4.7}%
-\contentsline {subsection}{\numberline {2.4.8}Conclusion}{54}{subsection.2.4.8}%
-\contentsline {chapter}{\numberline {3}Réalisation}{55}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Approche utilisée}{55}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}UML}{55}{subsection.3.1.1}%
-\contentsline {section}{\numberline {3.2}Technologies utilisé}{55}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Python}{55}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}MySQL}{56}{subsection.3.2.2}%
-\contentsline {section}{\numberline {3.3}Outils utilisée}{56}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Visual Studio Code}{57}{subsection.3.3.1}%
-\contentsline {chapter}{\numberline {4}Conclusion}{58}{chapter.4}%
-\contentsline {chapter}{Bibliographie}{60}{chapter*.8}%
+\contentsline {chapter}{Introduction générale}{1}{chapter*.8}%
+\contentsline {section}{Vue d'ensemble}{1}{section*.9}%
+\contentsline {section}{Contexte de la recherche de thèses malagasy}{1}{section*.9}%
+\contentsline {section}{Problématique}{2}{section*.9}%
+\contentsline {section}{Objectifs du mémoire}{2}{section*.9}%
+\contentsline {section}{Organisation du devoir}{2}{section*.9}%
+\contentsline {chapter}{\numberline {1}Recherche d'information}{4}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Introduction}{4}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Pourquoi rechercher une information ?}{5}{section.1.2}%
+\contentsline {section}{\numberline {1.3}C'est quoi une information ?}{5}{section.1.3}%
+\contentsline {section}{\numberline {1.4}C'est quoi un document ?}{7}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Classification des documents}{8}{section.1.5}%
+\contentsline {subsection}{\numberline {1.5.1}Type de classification des documents}{8}{subsection.1.5.1}%
+\contentsline {subsection}{\numberline {1.5.2}Algorithmes de classification global}{8}{subsection.1.5.2}%
+\contentsline {section}{\numberline {1.6}Besoin d'information}{9}{section.1.6}%
+\contentsline {section}{\numberline {1.7}Tâche de recherche de l'utilisateur}{9}{section.1.7}%
+\contentsline {subsection}{\numberline {1.7.1}Tache factuelle}{10}{subsection.1.7.1}%
+\contentsline {subsection}{\numberline {1.7.2}Tache interprétative}{10}{subsection.1.7.2}%
+\contentsline {subsection}{\numberline {1.7.3}Tache d'exploitation}{10}{subsection.1.7.3}%
+\contentsline {section}{\numberline {1.8}Modèle de recherche de l'utilisateur}{11}{section.1.8}%
+\contentsline {subsection}{\numberline {1.8.1}Ad-hoc: approche classique}{11}{subsection.1.8.1}%
+\contentsline {subsection}{\numberline {1.8.2}Filtering: approche moderne}{11}{subsection.1.8.2}%
+\contentsline {section}{\numberline {1.9}Facteur d'influence de la recherche d'information}{11}{section.1.9}%
+\contentsline {section}{\numberline {1.10}Processus de recherche d'information}{12}{section.1.10}%
+\contentsline {subsection}{\numberline {1.10.1}Introduction (Processus en U)}{12}{subsection.1.10.1}%
+\contentsline {subsection}{\numberline {1.10.2}Première étape: Besoin d'information}{12}{subsection.1.10.2}%
+\contentsline {subsection}{\numberline {1.10.3}Indexation des documents}{14}{subsection.1.10.3}%
+\contentsline {subsubsection}{\numberline {1.10.3.1}C'est quoi un index ?}{14}{subsubsection.1.10.3.1}%
+\contentsline {subsubsection}{\numberline {1.10.3.2}Approche d'indexation}{14}{subsubsection.1.10.3.2}%
+\contentsline {subsection}{\numberline {1.10.4}Analyse lexical (Segmentation)}{15}{subsection.1.10.4}%
+\contentsline {subsubsection}{\numberline {1.10.4.1}Ponctuation}{15}{subsubsection.1.10.4.1}%
+\contentsline {subsubsection}{\numberline {1.10.4.2}Casse des lettres}{15}{subsubsection.1.10.4.2}%
+\contentsline {subsection}{\numberline {1.10.5}Élimination des mots vides (Stop words)}{15}{subsection.1.10.5}%
+\contentsline {subsection}{\numberline {1.10.6}Lemmatisation et Stemming}{16}{subsection.1.10.6}%
+\contentsline {subsection}{\numberline {1.10.7}Normalisation}{16}{subsection.1.10.7}%
+\contentsline {subsection}{\numberline {1.10.8}Sélection et pondération des termes}{17}{subsection.1.10.8}%
+\contentsline {subsection}{\numberline {1.10.9}Étape d’appariement}{17}{subsection.1.10.9}%
+\contentsline {subsection}{\numberline {1.10.10}Reformulation de la requête}{18}{subsection.1.10.10}%
+\contentsline {section}{\numberline {1.11}Modèle de RI}{18}{section.1.11}%
+\contentsline {subsection}{\numberline {1.11.1}Introduction}{18}{subsection.1.11.1}%
+\contentsline {subsection}{\numberline {1.11.2}Caractéristique formel (DQFR)}{19}{subsection.1.11.2}%
+\contentsline {subsection}{\numberline {1.11.3}Taxonomie de modèle}{19}{subsection.1.11.3}%
+\contentsline {subsection}{\numberline {1.11.4}Catégorie de modèle}{19}{subsection.1.11.4}%
+\contentsline {subsection}{\numberline {1.11.5}Modèle ensembliste}{20}{subsection.1.11.5}%
+\contentsline {subsubsection}{\numberline {1.11.5.1}Modèle Booléen (Boolean Model)}{20}{subsubsection.1.11.5.1}%
+\contentsline {subsubsection}{\numberline {1.11.5.2}Modèle Booléen Étendu (Extended Boolean Model)}{22}{subsubsection.1.11.5.2}%
+\contentsline {subsubsection}{\numberline {1.11.5.3}D'autres modèles}{22}{subsubsection.1.11.5.3}%
+\contentsline {subsection}{\numberline {1.11.6}Modèle algébrique}{22}{subsection.1.11.6}%
+\contentsline {subsubsection}{\numberline {1.11.6.1}Modèle Vectoriel (Vector Space Model)}{22}{subsubsection.1.11.6.1}%
+\contentsline {subsubsection}{\numberline {1.11.6.2}Autre modèle}{23}{subsubsection.1.11.6.2}%
+\contentsline {subsection}{\numberline {1.11.7}Modèle probabiliste}{24}{subsection.1.11.7}%
+\contentsline {subsubsection}{\numberline {1.11.7.1}Modèle probabiliste}{24}{subsubsection.1.11.7.1}%
+\contentsline {subsubsection}{\numberline {1.11.7.2}Autres modèles}{25}{subsubsection.1.11.7.2}%
+\contentsline {section}{\numberline {1.12}Mesure de similarité}{25}{section.1.12}%
+\contentsline {subsection}{\numberline {1.12.1}Produit scalaire}{26}{subsection.1.12.1}%
+\contentsline {subsection}{\numberline {1.12.2}Similarité cosinus}{27}{subsection.1.12.2}%
+\contentsline {subsection}{\numberline {1.12.3}Similarité de Jaccard}{27}{subsection.1.12.3}%
+\contentsline {subsection}{\numberline {1.12.4}Similarité de Dice}{27}{subsection.1.12.4}%
+\contentsline {section}{\numberline {1.13}Conclusion}{27}{section.1.13}%
+\contentsline {chapter}{\numberline {2}Système de recherche d'information}{28}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Introduction}{28}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Objectif et efficacité}{29}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Élément principaux}{29}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Base de données}{30}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Algorithme de classement}{30}{subsection.2.3.2}%
+\contentsline {section}{\numberline {2.4}Catégorie de recherche}{30}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Type de moteur de recherche}{30}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Classique ou traditionnel}{31}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Sémantique ou moderne}{31}{subsection.2.5.2}%
+\contentsline {section}{\numberline {2.6}Modèle adopté par un SRI}{31}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Évaluation d'un SRI}{31}{section.2.7}%
+\contentsline {subsection}{\numberline {2.7.1}Évaluation fonctionnel}{32}{subsection.2.7.1}%
+\contentsline {subsection}{\numberline {2.7.2}Évaluation de performance}{32}{subsection.2.7.2}%
+\contentsline {subsection}{\numberline {2.7.3}Évaluation de performance de recherche}{32}{subsection.2.7.3}%
+\contentsline {subsubsection}{\numberline {2.7.3.1}Précision}{33}{subsubsection.2.7.3.1}%
+\contentsline {subsubsection}{\numberline {2.7.3.2}Rappel}{34}{subsubsection.2.7.3.2}%
+\contentsline {subsection}{\numberline {2.7.4}Exemple de précision et rappel}{34}{subsection.2.7.4}%
+\contentsline {subsection}{\numberline {2.7.5}Problème de précision et le rappel}{34}{subsection.2.7.5}%
+\contentsline {subsection}{\numberline {2.7.6}Moyenne harmonique}{36}{subsection.2.7.6}%
+\contentsline {subsection}{\numberline {2.7.7}Et d'autres mesures}{36}{subsection.2.7.7}%
+\contentsline {section}{\numberline {2.8}Analyse du moteur de recherche existant}{36}{section.2.8}%
+\contentsline {subsection}{\numberline {2.8.1}Thèses malgache en ligne}{36}{subsection.2.8.1}%
+\contentsline {subsection}{\numberline {2.8.2}Bibliothèques universitaire en ligne}{37}{subsection.2.8.2}%
+\contentsline {subsection}{\numberline {2.8.3}Google Scholar, theses.fr et d'autres}{39}{subsection.2.8.3}%
+\contentsline {section}{\numberline {2.9}Conclusion}{39}{section.2.9}%
+\contentsline {chapter}{\numberline {3}Traitement de Langage Naturel (TLN)}{40}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Introduction}{40}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Un peu d'histoire}{41}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Les niveaux de langage}{42}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Phonologie}{42}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Morphologie}{42}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Triage de document}{44}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Segmentation de texte}{44}{subsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.5.3}Catégories grammaticales}{46}{subsection.3.5.3}%
+\contentsline {section}{\numberline {3.6}Analyse lexicale}{46}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Syntaxe}{47}{section.3.7}%
+\contentsline {subsection}{\numberline {3.7.1}Analyse syperficielle}{47}{subsection.3.7.1}%
+\contentsline {subsection}{\numberline {3.7.2}Analyse en dépendance}{48}{subsection.3.7.2}%
+\contentsline {section}{\numberline {3.8}Sémantique}{48}{section.3.8}%
+\contentsline {section}{\numberline {3.9}Pragmatique}{49}{section.3.9}%
+\contentsline {section}{\numberline {3.10}Approche du TLN}{50}{section.3.10}%
+\contentsline {subsection}{\numberline {3.10.1}Approche symbolique}{50}{subsection.3.10.1}%
+\contentsline {subsection}{\numberline {3.10.2}Approche statistique}{50}{subsection.3.10.2}%
+\contentsline {subsection}{\numberline {3.10.3}Approche connexionniste}{50}{subsection.3.10.3}%
+\contentsline {section}{\numberline {3.11}Application de TLN}{51}{section.3.11}%
+\contentsline {section}{\numberline {3.12}Conclusion}{51}{section.3.12}%
+\contentsline {chapter}{\numberline {4}Modèle vectoriel}{53}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Introduction}{53}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Problème de classification}{54}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Méthodes de pondération des termes}{54}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Variant du TF-IDF}{55}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Document inversé}{55}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Avantages}{57}{section.4.6}%
+\contentsline {section}{\numberline {4.7}Inconvénients}{57}{section.4.7}%
+\contentsline {section}{\numberline {4.8}Conclusion}{57}{section.4.8}%
+\contentsline {chapter}{\numberline {5}Simulation et Réalisation}{58}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Approche utilisée}{58}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}UML}{58}{subsection.5.1.1}%
+\contentsline {section}{\numberline {5.2}Technologies utilisé}{58}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Python}{58}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}MySQL}{59}{subsection.5.2.2}%
+\contentsline {section}{\numberline {5.3}Outils utilisée}{59}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Visual Studio Code}{60}{subsection.5.3.1}%
+\contentsline {chapter}{Conclusion générale}{61}{chapter*.10}%
+\contentsline {chapter}{Bibliographie}{63}{chapter*.11}%

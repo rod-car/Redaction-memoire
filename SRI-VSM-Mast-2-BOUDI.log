@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2022.11.4)  13 SEP 2023 05:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2022.11.4)  15 SEP 2023 08:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -798,7 +798,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 9.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 9.
-<Figures/fac-st.png, id=492, 125.268pt x 125.268pt>
+<Figures/fac-st.png, id=516, 125.268pt x 125.268pt>
 File: Figures/fac-st.png Graphic file (type png)
 <use Figures/fac-st.png>
 Package pdftex.def Info: Figures/fac-st.png  used on input line 20.
@@ -827,12 +827,12 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \openout5 = `SRI-VSM-Mast-2-BOUDI.toc'.
 
  [6] (./SRI-VSM-Mast-2-BOUDI.lof
-Overfull \hbox (21.59644pt too wide) in paragraph at lines 10--10
+Overfull \hbox (21.59644pt too wide) in paragraph at lines 9--9
  [][] [][]\T1/cmr/m/n/12 Diagramme de col-lec-tion pour le terme so-cial dans le mo-dèle pro-ba-bi-liste ([][]\T1/cmr/m/sc/12 Hiemstra[]\T1/cmr/m/n/12 , 
  []
 
 
-Overfull \hbox (16.91806pt too wide) in paragraph at lines 21--21
+Overfull \hbox (16.91806pt too wide) in paragraph at lines 22--22
  [][] [][]\T1/cmr/m/n/12 Description mor-pho-syn-taxique ([][]\T1/cmr/m/sc/12 Dale, Robert et Moisl, Hermann et Somers, 
  []
 
@@ -855,7 +855,10 @@ Overfull \hbox (16.91806pt too wide) in paragraph at lines 21--21
 \openout2 = `Parts/Introduction.aux'.
 
  (./Parts/Introduction.tex
-Chapitre 1.
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 6.
+
 [1
 
 
@@ -863,67 +866,71 @@ Chapitre 1.
 ]) [2] [3]
 \openout2 = `Parts/Revue-literatture.aux'.
 
- (./Parts/Revue-literatture.tex
-Chapitre 2.
-(./Parts/Revue-literatture/RI.tex [4
+ (./Parts/Revue-literatture.tex (./Parts/Revue-literatture/RI.tex
+Chapitre 1.
+[4
 
 
 
 
 ]
-<Figures/ir-history.png, id=786, 1027.84pt x 1384.17125pt>
+<Figures/ir-history.png, id=827, 1027.84pt x 1384.17125pt>
 File: Figures/ir-history.png Graphic file (type png)
 <use Figures/ir-history.png>
-Package pdftex.def Info: Figures/ir-history.png  used on input line 33.
+Package pdftex.def Info: Figures/ir-history.png  used on input line 32.
 (pdftex.def)             Requested size: 426.79134pt x 574.7583pt.
-<Figures/processus-ri-simple.png, id=789, 690.58pt x 316.18124pt>
+<Figures/processus-ri-simple.png, id=830, 690.58pt x 316.18124pt>
 File: Figures/processus-ri-simple.png Graphic file (type png)
 <use Figures/processus-ri-simple.png>
-Package pdftex.def Info: Figures/processus-ri-simple.png  used on input line 43.
+Package pdftex.def Info: Figures/processus-ri-simple.png  used on input line 42.
 (pdftex.def)             Requested size: 426.79134pt x 195.40797pt.
  [5] [6 <./Figures/ir-history.png>] [7 <./Figures/processus-ri-simple.png>] [8] [9] [10] [11]
-<Figures/Processus-U.png, id=865, 873.2625pt x 757.83125pt>
+<Figures/Processus-U.png, id=906, 873.2625pt x 757.83125pt>
 File: Figures/Processus-U.png Graphic file (type png)
 <use Figures/Processus-U.png>
-Package pdftex.def Info: Figures/Processus-U.png  used on input line 188.
+Package pdftex.def Info: Figures/Processus-U.png  used on input line 187.
 (pdftex.def)             Requested size: 426.79134pt x 370.36923pt.
  [12] [13 <./Figures/Processus-U.png>] [14] [15] [16] [17] [18]
-<Figures/modele-ri.png, id=949, 941.5175pt x 723.70375pt>
+<Figures/modele-ri.png, id=984, 941.5175pt x 723.70375pt>
 File: Figures/modele-ri.png Graphic file (type png)
 <use Figures/modele-ri.png>
-Package pdftex.def Info: Figures/modele-ri.png  used on input line 329.
+Package pdftex.def Info: Figures/modele-ri.png  used on input line 328.
 (pdftex.def)             Requested size: 426.79134pt x 328.05997pt.
- [19 <./Figures/modele-ri.png>]
-<Figures/boolean-model-example.png, id=962, 827.09pt x 376.40625pt>
+ [19]
+<Figures/boolean-model-example.png, id=997, 827.09pt x 376.40625pt>
 File: Figures/boolean-model-example.png Graphic file (type png)
 <use Figures/boolean-model-example.png>
-Package pdftex.def Info: Figures/boolean-model-example.png  used on input line 352.
+Package pdftex.def Info: Figures/boolean-model-example.png  used on input line 351.
 (pdftex.def)             Requested size: 426.79134pt x 194.23332pt.
- [20 <./Figures/boolean-model-example.png>] [21]
-<Figures/vector-model.png, id=984, 436.63126pt x 301.125pt>
+ [20 <./Figures/modele-ri.png>] [21 <./Figures/boolean-model-example.png>]
+<Figures/vector-model.png, id=1018, 436.63126pt x 301.125pt>
 File: Figures/vector-model.png Graphic file (type png)
 <use Figures/vector-model.png>
-Package pdftex.def Info: Figures/vector-model.png  used on input line 400.
+Package pdftex.def Info: Figures/vector-model.png  used on input line 401.
 (pdftex.def)             Requested size: 284.52756pt x 196.22516pt.
- [22 <./Figures/vector-model.png>] [23]
-<Figures/probabilistic-model.png, id=1008, 816.04875pt x 247.92625pt>
+ [22] [23 <./Figures/vector-model.png>]
+<Figures/probabilistic-model.png, id=1040, 816.04875pt x 247.92625pt>
 File: Figures/probabilistic-model.png Graphic file (type png)
 <use Figures/probabilistic-model.png>
-Package pdftex.def Info: Figures/probabilistic-model.png  used on input line 435.
+Package pdftex.def Info: Figures/probabilistic-model.png  used on input line 436.
 (pdftex.def)             Requested size: 426.79134pt x 129.66386pt.
- [24 <./Figures/probabilistic-model.png>] [25] [26]) (./Parts/Revue-literatture/SRI.tex [27] [28] [29] [30] [31]
-<Figures/matrice-contingence.png, id=1098, 446.66875pt x 368.37625pt>
+ [24 <./Figures/probabilistic-model.png>] [25] [26]) (./Parts/Revue-literatture/SRI.tex [27]
+Chapitre 2.
+[28
+
+] [29] [30] [31]
+<Figures/matrice-contingence.png, id=1127, 1082.0425pt x 738.76pt>
 File: Figures/matrice-contingence.png Graphic file (type png)
 <use Figures/matrice-contingence.png>
 Package pdftex.def Info: Figures/matrice-contingence.png  used on input line 117.
-(pdftex.def)             Requested size: 284.52756pt x 234.65828pt.
- [32 <./Figures/matrice-contingence.png>]
-<Figures/Precision-Recall.png, id=1105, 386.44376pt x 282.05376pt>
+(pdftex.def)             Requested size: 284.52756pt x 194.25993pt.
+ [32]
+<Figures/Precision-Recall.png, id=1135, 386.44376pt x 282.05376pt>
 File: Figures/Precision-Recall.png Graphic file (type png)
 <use Figures/Precision-Recall.png>
 Package pdftex.def Info: Figures/Precision-Recall.png  used on input line 136.
 (pdftex.def)             Requested size: 284.52756pt x 207.67068pt.
-
+ [33 <./Figures/matrice-contingence.png>]
 
 LaTeX Warning: Command \' invalid in math mode on input line 146.
 
@@ -932,89 +939,109 @@ Missing character: There is no é in font cmr12!
 LaTeX Warning: Command \' invalid in math mode on input line 153.
 
 Missing character: There is no é in font cmr12!
-[33 <./Figures/Precision-Recall.png>]
-<Figures/SRI/ex-prec-rec.png, id=1121, 995.72pt x 613.29124pt>
+<Figures/SRI/ex-prec-rec.png, id=1148, 995.72pt x 613.29124pt>
 File: Figures/SRI/ex-prec-rec.png Graphic file (type png)
 <use Figures/SRI/ex-prec-rec.png>
 Package pdftex.def Info: Figures/SRI/ex-prec-rec.png  used on input line 162.
 (pdftex.def)             Requested size: 426.79134pt x 262.87721pt.
-<Figures/SRI/ex-prec-rec-courbe.png, id=1124, 935.495pt x 503.8825pt>
+<Figures/SRI/ex-prec-rec-courbe.png, id=1151, 935.495pt x 503.8825pt>
 File: Figures/SRI/ex-prec-rec-courbe.png Graphic file (type png)
 <use Figures/SRI/ex-prec-rec-courbe.png>
 Package pdftex.def Info: Figures/SRI/ex-prec-rec-courbe.png  used on input line 171.
 (pdftex.def)             Requested size: 455.24408pt x 245.2054pt.
- [34 <./Figures/SRI/ex-prec-rec.png>]
-<Figures/SRI/tme-statistics.PNG, id=1137, 736.25063pt x 324.46219pt>
+[34 <./Figures/Precision-Recall.png>] [35 <./Figures/SRI/ex-prec-rec.png> <./Figures/SRI/ex-prec-rec-courbe.png>]
+<Figures/SRI/tme-statistics.PNG, id=1168, 736.25063pt x 324.46219pt>
 File: Figures/SRI/tme-statistics.PNG Graphic file (type png)
 <use Figures/SRI/tme-statistics.PNG>
 Package pdftex.def Info: Figures/SRI/tme-statistics.PNG  used on input line 202.
 (pdftex.def)             Requested size: 455.24408pt x 200.62976pt.
- [35 <./Figures/SRI/ex-prec-rec-courbe.png>]
-<Figures/SRI/tme-results.PNG, id=1144, 730.22812pt x 504.38437pt>
+ [36]
+<Figures/SRI/tme-results.PNG, id=1175, 730.22812pt x 504.38437pt>
 File: Figures/SRI/tme-results.PNG Graphic file (type png)
 <use Figures/SRI/tme-results.PNG>
 Package pdftex.def Info: Figures/SRI/tme-results.PNG  used on input line 216.
 (pdftex.def)             Requested size: 455.24408pt x 314.44673pt.
-<Figures/SRI/tme-pagination.PNG, id=1146, 738.50906pt x 398.23781pt>
+<Figures/SRI/tme-pagination.PNG, id=1177, 738.50906pt x 398.23781pt>
 File: Figures/SRI/tme-pagination.PNG Graphic file (type png)
 <use Figures/SRI/tme-pagination.PNG>
 Package pdftex.def Info: Figures/SRI/tme-pagination.PNG  used on input line 224.
 (pdftex.def)             Requested size: 455.24408pt x 245.48903pt.
- [36 <./Figures/SRI/tme-statistics.PNG>] [37 <./Figures/SRI/tme-results.PNG> <./Figures/SRI/tme-pagination.PNG>]) (./Parts/Revue-literatture/NLP.tex [38]
-<Figures/NLP/nlp-ref-ai.png, id=1171, 1606.0pt x 865.2325pt>
+ [37 <./Figures/SRI/tme-statistics.PNG>] [38 <./Figures/SRI/tme-results.PNG> <./Figures/SRI/tme-pagination.PNG>]) (./Parts/Revue-literatture/NLP.tex [39]
+Chapitre 3.
+[40
+
+]
+<Figures/NLP/nlp-ref-ai.png, id=1210, 1606.0pt x 865.2325pt>
 File: Figures/NLP/nlp-ref-ai.png Graphic file (type png)
 <use Figures/NLP/nlp-ref-ai.png>
 Package pdftex.def Info: Figures/NLP/nlp-ref-ai.png  used on input line 27.
 (pdftex.def)             Requested size: 369.88582pt x 199.27654pt.
- [39 <./Figures/NLP/nlp-ref-ai.png (PNG copy)>] [40]
-<Figures/NLP/nlp-stage.png, id=1190, 327.2225pt x 576.1525pt>
+ [41 <./Figures/NLP/nlp-ref-ai.png (PNG copy)>]
+<Figures/NLP/nlp-stage.png, id=1221, 327.2225pt x 576.1525pt>
 File: Figures/NLP/nlp-stage.png Graphic file (type png)
 <use Figures/NLP/nlp-stage.png>
 Package pdftex.def Info: Figures/NLP/nlp-stage.png  used on input line 58.
 (pdftex.def)             Requested size: 227.62204pt x 400.78087pt.
- [41 <./Figures/NLP/nlp-stage.png>] [42] [43]
-<Figures/NLP/classe-grammatical.png, id=1231, 880.28876pt x 545.03625pt>
+ [42] [43 <./Figures/NLP/nlp-stage.png>] [44] [45]
+<Figures/NLP/classe-grammatical.png, id=1266, 880.28876pt x 545.03625pt>
 File: Figures/NLP/classe-grammatical.png Graphic file (type png)
 <use Figures/NLP/classe-grammatical.png>
 Package pdftex.def Info: Figures/NLP/classe-grammatical.png  used on input line 124.
 (pdftex.def)             Requested size: 426.79134pt x 264.25078pt.
-<Figures/NLP/description-morphosyntaxique.png, id=1234, 500.87125pt x 252.945pt>
+<Figures/NLP/description-morphosyntaxique.png, id=1269, 500.87125pt x 252.945pt>
 File: Figures/NLP/description-morphosyntaxique.png Graphic file (type png)
 <use Figures/NLP/description-morphosyntaxique.png>
 Package pdftex.def Info: Figures/NLP/description-morphosyntaxique.png  used on input line 132.
 (pdftex.def)             Requested size: 284.52756pt x 143.69383pt.
- [44] [45 <./Figures/NLP/classe-grammatical.png> <./Figures/NLP/description-morphosyntaxique.png>]
-<Figures/NLP/lexic-link-grammar.png, id=1254, 921.4425pt x 200.75pt>
+ [46 <./Figures/NLP/classe-grammatical.png>] [47 <./Figures/NLP/description-morphosyntaxique.png>]
+<Figures/NLP/lexic-link-grammar.png, id=1290, 921.4425pt x 200.75pt>
 File: Figures/NLP/lexic-link-grammar.png Graphic file (type png)
 <use Figures/NLP/lexic-link-grammar.png>
 Package pdftex.def Info: Figures/NLP/lexic-link-grammar.png  used on input line 160.
 (pdftex.def)             Requested size: 369.88582pt x 80.58345pt.
-<Figures/NLP/syntax-link-grammar.png, id=1256, 650.43pt x 173.64874pt>
+<Figures/NLP/syntax-link-grammar.png, id=1292, 650.43pt x 173.64874pt>
 File: Figures/NLP/syntax-link-grammar.png Graphic file (type png)
 <use Figures/NLP/syntax-link-grammar.png>
 Package pdftex.def Info: Figures/NLP/syntax-link-grammar.png  used on input line 168.
 (pdftex.def)             Requested size: 369.88582pt x 98.75293pt.
- [46 <./Figures/NLP/lexic-link-grammar.png>] [47 <./Figures/NLP/syntax-link-grammar.png>] [48] [49]) (./Parts/Revue-literatture/VSM.tex [50] [51] [52] [53])) [54]
+ [48 <./Figures/NLP/lexic-link-grammar.png> <./Figures/NLP/syntax-link-grammar.png>] [49] [50]) [51] (./Parts/Revue-literatture/VSM.tex [52]
+Chapitre 4.
+[53
+
+] [54]
+<Figures/VSM/variant-tf.png, id=1350, 739.76375pt x 539.01375pt>
+File: Figures/VSM/variant-tf.png Graphic file (type png)
+<use Figures/VSM/variant-tf.png>
+Package pdftex.def Info: Figures/VSM/variant-tf.png  used on input line 61.
+(pdftex.def)             Requested size: 369.88582pt x 269.50621pt.
+<Figures/VSM/variant-idf.png, id=1352, 1074.0125pt x 474.77374pt>
+File: Figures/VSM/variant-idf.png Graphic file (type png)
+<use Figures/VSM/variant-idf.png>
+Package pdftex.def Info: Figures/VSM/variant-idf.png  used on input line 69.
+(pdftex.def)             Requested size: 426.79134pt x 188.66733pt.
+File: Figures/VSM/variant-idf.png Graphic file (type png)
+<use Figures/VSM/variant-idf.png>
+Package pdftex.def Info: Figures/VSM/variant-idf.png  used on input line 77.
+(pdftex.def)             Requested size: 426.79134pt x 188.66733pt.
+ [55 <./Figures/VSM/variant-tf.png>] [56 <./Figures/VSM/variant-idf.png>])) [57]
 \openout2 = `Parts/Realisation.aux'.
 
  (./Parts/Realisation.tex
-Chapitre 3.
-[55
+Chapitre 5.
+[58
 
 
 
 
-] [56]) [57]
+] [59]) [60]
 \openout2 = `Parts/Conclusion.aux'.
 
- (./Parts/Conclusion.tex
-Chapitre 4.
-) [58
+ (./Parts/Conclusion.tex) [61
 
 
 
 
-] [59]
+] [62]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 157.
  (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
@@ -1027,7 +1054,7 @@ Package biblatex Warning: No driver for 'journal'.
 Package biblatex Warning: No driver for 'journal'.
 (biblatex)                Using fallback driver on input line 157.
 
-[60
+[63
 
 
 
@@ -1036,31 +1063,31 @@ Package biblatex Warning: No driver for 'journal'.
 Package biblatex Warning: No driver for 'journal'.
 (biblatex)                Using fallback driver on input line 157.
 
-[61]
+[64]
 
 Package biblatex Warning: No driver for 'journal'.
 (biblatex)                Using fallback driver on input line 157.
 
-[62] (./SRI-VSM-Mast-2-BOUDI.aux (./Parts/Header.aux) (./Parts/Introduction.aux) (./Parts/Revue-literatture.aux) (./Parts/Realisation.aux) (./Parts/Conclusion.aux))
+[65] (./SRI-VSM-Mast-2-BOUDI.aux (./Parts/Header.aux) (./Parts/Introduction.aux) (./Parts/Revue-literatture.aux) (./Parts/Realisation.aux) (./Parts/Conclusion.aux))
 Package rerunfilecheck Info: File `SRI-VSM-Mast-2-BOUDI.out' has not changed.
-(rerunfilecheck)             Checksum: 816EAE4B7A1101E332F2B836F26E1551;21843.
+(rerunfilecheck)             Checksum: FE1F4681FE3D80852F1AA1AACE9BB2BE;22150.
 Package logreq Info: Writing requests to 'SRI-VSM-Mast-2-BOUDI.run.xml'.
 \openout1 = `SRI-VSM-Mast-2-BOUDI.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21920 strings out of 478023
- 394637 string characters out of 5841208
- 1237320 words of memory out of 5000000
- 39723 multiletter control sequences out of 15000+600000
+ 21948 strings out of 478023
+ 394242 string characters out of 5841208
+ 1236610 words of memory out of 5000000
+ 39750 multiletter control sequences out of 15000+600000
  487807 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,13n,77p,1433b,3469s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,13n,77p,1433b,3470s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbi1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsl0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfxc1200.pfb>
-Output written on SRI-VSM-Mast-2-BOUDI.pdf (71 pages, 1845992 bytes).
+Output written on SRI-VSM-Mast-2-BOUDI.pdf (74 pages, 1973809 bytes).
 PDF statistics:
- 1552 PDF objects out of 1728 (max. 8388607)
- 1380 compressed objects within 14 object streams
- 302 named destinations out of 1000 (max. 500000)
- 1079 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1616 PDF objects out of 1728 (max. 8388607)
+ 1438 compressed objects within 15 object streams
+ 300 named destinations out of 1000 (max. 500000)
+ 1145 words of extra memory for PDF output out of 10000 (max. 10000000)
 
