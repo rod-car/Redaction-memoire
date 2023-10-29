@@ -2,6 +2,9 @@
 \usepackage{csquotes}
 \usepackage{multicol}
 
+\usepackage{tabularx}
+\usepackage{array}
+
 % Packages
 \usepackage[utf8]{inputenc} % Input encoding
 \usepackage[T1]{fontenc} % Font encoding
@@ -26,19 +29,20 @@
 	backend = biber,
 	style = authoryear,
 	block = none,
-	bibencoding=utf8,     
+	bibencoding=utf8,
 	natbib=true,   
-	language=french,                  
+	language=french,
 	sortcites=true,
-	autopunct=true,                
-	babel=hyphen,                       
-	hyperref=true,                          
+	autopunct=true,
+	babel=hyphen,
+	hyperref=true,
 	block=space,
 	citetracker=true,
 	ibidtracker=context,
 	idemtracker=true,
 	pagetracker=true,
 	url=true,
+	maxcitenames = 2
 ]{biblatex}
 
 % Bibliography resources
@@ -88,7 +92,7 @@
 {\normalfont\large\bfseries}{\thesubsection}{1em}{}
 
 \theoremstyle{definition}
-\newtheorem{definition}{Definition}[section]
+\newtheorem{definition}{Définition}[section]
 
 \usepackage{fancyhdr}
 \fancypagestyle{plain}{%
@@ -105,8 +109,8 @@
 \fancyhead[RE,LO]{\changefont \slshape \leftmark}
 \fancyfoot[C]{\changefont \thepage}
 
-\newcommand{\univlogo}{\includegraphics[width=20mm]{Figures/university_logo.png}}
-\newcommand{\faclogo}{\includegraphics[width=20mm]{Figures/fac-st.png}}
+\newcommand{\univlogo}{\includegraphics[width=20mm]{Figures/Logo/university_logo.png}}
+\newcommand{\faclogo}{\includegraphics[width=30mm]{Figures/Logo/fac-st.png}}
 
 \newlength\logowidth
 \setlength{\logowidth}{\widthof{\univlogo}}

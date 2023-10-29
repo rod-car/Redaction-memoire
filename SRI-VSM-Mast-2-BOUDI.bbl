@@ -187,11 +187,11 @@
            giveni={S\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{2cfa3554c8f1bda6c6ce78d848987af3}
+      \strng{namehash}{94132bfa7c7993641232d6a02225a05d}
       \strng{fullhash}{2cfa3554c8f1bda6c6ce78d848987af3}
       \strng{bibnamehash}{2cfa3554c8f1bda6c6ce78d848987af3}
       \strng{authorbibnamehash}{2cfa3554c8f1bda6c6ce78d848987af3}
-      \strng{authornamehash}{2cfa3554c8f1bda6c6ce78d848987af3}
+      \strng{authornamehash}{94132bfa7c7993641232d6a02225a05d}
       \strng{authorfullhash}{2cfa3554c8f1bda6c6ce78d848987af3}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
@@ -233,6 +233,34 @@
       \field{title}{Construction d'une mémoire organisationnelle de formation et évaluation dans un contexte e-learning}
       \field{type}{phdthesis}
       \field{year}{2005}
+    \endentry
+    \entry{inverted-indexes}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0250718b7ba0c4d2dad2e38c1b4c8976}{%
+           family={{Bhat, Imran}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{0250718b7ba0c4d2dad2e38c1b4c8976}
+      \strng{fullhash}{0250718b7ba0c4d2dad2e38c1b4c8976}
+      \strng{bibnamehash}{0250718b7ba0c4d2dad2e38c1b4c8976}
+      \strng{authorbibnamehash}{0250718b7ba0c4d2dad2e38c1b4c8976}
+      \strng{authornamehash}{0250718b7ba0c4d2dad2e38c1b4c8976}
+      \strng{authorfullhash}{0250718b7ba0c4d2dad2e38c1b4c8976}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed on 2023-09-08}
+      \field{title}{Introduction to Inverted Indexes}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://dev.to/im_bhatman/introduction-to-inverted-indexes-l04
+      \endverb
+      \verb{url}
+      \verb https://dev.to/im_bhatman/introduction-to-inverted-indexes-l04
+      \endverb
     \endentry
     \entry{evaluation-of-ir-system}{article}{}
       \name{author}{2}{}{%
@@ -398,7 +426,7 @@
       \field{labeltitlesource}{title}
       \field{note}{Accessed on 2023-09-08}
       \field{title}{Natural Language Processing}
-      \field{year}{Year}
+      \field{year}{2023}
       \verb{urlraw}
       \verb https://devopedia.org/natural-language-processing
       \endverb
@@ -478,6 +506,41 @@
       \field{title}{Interactions entre un utilisateur et un systeme informatique : application a un systeme d’e-administration}
       \field{type}{phdthesis}
       \field{year}{2009}
+    \endentry
+    \entry{stemming-algorithms}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5760ba1c8040336c01b768b8d4c6e529}{%
+           family={Jivani},
+           familyi={J\bibinitperiod},
+           given={Anjali\bibnamedelima Ganesh},
+           giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {The Maharaja Sayajirao University of Baroda}%
+      }
+      \list{location}{1}{%
+        {Vadodara, Gujarat, India}%
+      }
+      \strng{namehash}{5760ba1c8040336c01b768b8d4c6e529}
+      \strng{fullhash}{5760ba1c8040336c01b768b8d4c6e529}
+      \strng{bibnamehash}{5760ba1c8040336c01b768b8d4c6e529}
+      \strng{authorbibnamehash}{5760ba1c8040336c01b768b8d4c6e529}
+      \strng{authornamehash}{5760ba1c8040336c01b768b8d4c6e529}
+      \strng{authorfullhash}{5760ba1c8040336c01b768b8d4c6e529}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Natural Language Processing}
+      \field{number}{Y}
+      \field{title}{A Comparative Study of Stemming Algorithms}
+      \field{volume}{X}
+      \field{year}{2023}
+      \field{pages}{Z}
+      \range{pages}{-1}
     \endentry
     \entry{jdn-moteur-de-recherche}{online}{}
       \name{author}{1}{}{%
@@ -737,6 +800,44 @@
       \endverb
       \keyw{information retrieval ; indexing model ; theme extraction ; electronic representation of documents ; structured textual documents. ; recherche d'informations ; modèle d'indexation ; extraction de thèmes ; représentation électronique de documents ; documents textuels structurés}
     \endentry
+    \entry{techniques-compression-inverted-index}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=8de7cec561835acb49c3df3423959d47}{%
+           family={Pibiri},
+           familyi={P\bibinitperiod},
+           given={Giulio\bibnamedelima Ermanno},
+           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=03010c4ae0d5c505cdf6b61549f75bcf}{%
+           family={Venturini},
+           familyi={V\bibinitperiod},
+           given={Rossano},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {ACM New York, NY, USA}%
+      }
+      \strng{namehash}{bd41016d88e256a03d51c78f2abe0f7d}
+      \strng{fullhash}{bd41016d88e256a03d51c78f2abe0f7d}
+      \strng{bibnamehash}{bd41016d88e256a03d51c78f2abe0f7d}
+      \strng{authorbibnamehash}{bd41016d88e256a03d51c78f2abe0f7d}
+      \strng{authornamehash}{bd41016d88e256a03d51c78f2abe0f7d}
+      \strng{authorfullhash}{bd41016d88e256a03d51c78f2abe0f7d}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ACM Computing Surveys (CSUR)}
+      \field{number}{6}
+      \field{title}{Techniques for inverted index compression}
+      \field{volume}{53}
+      \field{year}{2020}
+      \field{pages}{1\bibrangedash 36}
+      \range{pages}{36}
+    \endentry
     \entry{classification-text-documents-ml}{journal}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=13707063bf5dd2438a2d62b490b075a9}{%
@@ -849,6 +950,44 @@
       \field{title}{Traitement automatique de texte : la transformation, l'analyse et la récupération de l'information par un ordinateur}
       \field{volume}{169}
       \field{year}{1989}
+    \endentry
+    \entry{salton1983étendu}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d25b35df7dd62e6cac3b6c2718cefd5a}{%
+           family={{Salton, Gerard et Fox, Edward A et Wu, Harry}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=40adb52e01bcc8e089ef45270ff2de57}{%
+           family={ACM\bibnamedelimb New\bibnamedelima York},
+           familyi={A\bibinitperiod\bibinitdelim N\bibinitperiod\bibinitdelim Y\bibinitperiod},
+           given={États-Unis},
+           giveni={É\bibinithyphendelim U\bibinitperiod},
+           suffix={NY},
+           suffixi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{d25b35df7dd62e6cac3b6c2718cefd5a}
+      \strng{fullhash}{d25b35df7dd62e6cac3b6c2718cefd5a}
+      \strng{bibnamehash}{d25b35df7dd62e6cac3b6c2718cefd5a}
+      \strng{authorbibnamehash}{d25b35df7dd62e6cac3b6c2718cefd5a}
+      \strng{authornamehash}{d25b35df7dd62e6cac3b6c2718cefd5a}
+      \strng{authorfullhash}{d25b35df7dd62e6cac3b6c2718cefd5a}
+      \strng{editorbibnamehash}{40adb52e01bcc8e089ef45270ff2de57}
+      \strng{editornamehash}{40adb52e01bcc8e089ef45270ff2de57}
+      \strng{editorfullhash}{40adb52e01bcc8e089ef45270ff2de57}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Communications de l'ACM}
+      \field{number}{11}
+      \field{title}{Récupération d'informations booléennes étendues}
+      \field{volume}{26}
+      \field{year}{1983}
+      \field{pages}{1022\bibrangedash 1036}
+      \range{pages}{15}
     \endentry
     \entry{salton1975vector}{article}{}
       \name{author}{1}{}{%
@@ -1036,34 +1175,6 @@
       \field{title}{Thèse malgache en ligne}
       \field{year}{2016}
       \warn{\item Entry 'these-malgache-en-ligne' (Bibliography/Website.bib): Invalid format '03/08/2023' of date field 'urldate' - ignoring}
-    \endentry
-    \entry{wiki-database}{online}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=9c677286866aad38f8e9b660f5411814}{%
-           family={{Wikipedia}},
-           familyi={W\bibinitperiod}}}%
-      }
-      \strng{namehash}{9c677286866aad38f8e9b660f5411814}
-      \strng{fullhash}{9c677286866aad38f8e9b660f5411814}
-      \strng{bibnamehash}{9c677286866aad38f8e9b660f5411814}
-      \strng{authorbibnamehash}{9c677286866aad38f8e9b660f5411814}
-      \strng{authornamehash}{9c677286866aad38f8e9b660f5411814}
-      \strng{authorfullhash}{9c677286866aad38f8e9b660f5411814}
-      \field{sortinit}{W}
-      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{{Base de données}}
-      \field{year}{2023}
-      \verb{urlraw}
-      \verb https://fr.wikipedia.org/wiki/Base_de_donn%C3%A9es
-      \endverb
-      \verb{url}
-      \verb https://fr.wikipedia.org/wiki/Base_de_donn%C3%A9es
-      \endverb
-      \warn{\item Entry 'wiki-database' (Bibliography/Website.bib): Invalid format '03/08/2023' of date field 'urldate' - ignoring}
     \endentry
     \entry{ir-on-web}{article}{}
       \name{author}{1}{}{%
