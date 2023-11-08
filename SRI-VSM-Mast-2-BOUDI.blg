@@ -1,43 +1,46 @@
 [0] Config.pm:306> INFO - This is Biber 2.18
 [0] Config.pm:309> INFO - Logfile is 'SRI-VSM-Mast-2-BOUDI.blg'
-[83] biber:340> INFO - === mer. oct.  4, 2023, 16:20:56
-[99] Biber.pm:418> INFO - Reading 'SRI-VSM-Mast-2-BOUDI.bcf'
-[200] Biber.pm:978> INFO - Found 40 citekeys in bib section 0
-[213] Biber.pm:4401> INFO - Processing section 0
-[223] Biber.pm:4592> INFO - Looking for bibtex file 'Bibliography/Article.bib' for section 0
-[224] bibtex.pm:1713> INFO - LaTeX decoding ...
-[246] bibtex.pm:1518> INFO - Found BibTeX data source 'Bibliography/Article.bib'
-[317] Biber.pm:4592> INFO - Looking for bibtex file 'Bibliography/Book.bib' for section 0
-[318] bibtex.pm:1713> INFO - LaTeX decoding ...
-[324] bibtex.pm:1518> INFO - Found BibTeX data source 'Bibliography/Book.bib'
-[350] Biber.pm:4592> INFO - Looking for bibtex file 'Bibliography/Course.bib' for section 0
-[351] bibtex.pm:1713> INFO - LaTeX decoding ...
-[354] bibtex.pm:1518> INFO - Found BibTeX data source 'Bibliography/Course.bib'
-[364] Biber.pm:4592> INFO - Looking for bibtex file 'Bibliography/Inproceedings.bib' for section 0
-[365] bibtex.pm:1713> INFO - LaTeX decoding ...
-[375] bibtex.pm:1518> INFO - Found BibTeX data source 'Bibliography/Inproceedings.bib'
-[382] Biber.pm:4592> INFO - Looking for bibtex file 'Bibliography/Journal.bib' for section 0
-[383] bibtex.pm:1713> INFO - LaTeX decoding ...
-[386] bibtex.pm:1518> INFO - Found BibTeX data source 'Bibliography/Journal.bib'
-[402] Biber.pm:4592> INFO - Looking for bibtex file 'Bibliography/Master-thesis.bib' for section 0
-[403] bibtex.pm:1713> INFO - LaTeX decoding ...
-[407] bibtex.pm:1518> INFO - Found BibTeX data source 'Bibliography/Master-thesis.bib'
-[414] Biber.pm:4592> INFO - Looking for bibtex file 'Bibliography/Phd-thesis.bib' for section 0
-[415] bibtex.pm:1713> INFO - LaTeX decoding ...
-[424] bibtex.pm:1518> INFO - Found BibTeX data source 'Bibliography/Phd-thesis.bib'
-[450] Biber.pm:4592> INFO - Looking for bibtex file 'Bibliography/Website.bib' for section 0
-[452] bibtex.pm:1713> INFO - LaTeX decoding ...
-[463] bibtex.pm:1518> INFO - Found BibTeX data source 'Bibliography/Website.bib'
-[550] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[551] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'variable = shifted' with 'variable = non-ignorable'
-[551] Biber.pm:4221> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'fr-FR'
-[551] Biber.pm:4227> INFO - No sort tailoring available for locale 'fr-FR'
-[593] bbl.pm:654> INFO - Writing 'SRI-VSM-Mast-2-BOUDI.bbl' with encoding 'UTF-8'
-[617] bbl.pm:757> INFO - Output to SRI-VSM-Mast-2-BOUDI.bbl
-[617] Biber.pm:130> WARN - legacy month field 'mar' in entry 'evaluation-of-ir-system' is not an integer - this will probably not sort properly.
-[618] Biber.pm:130> WARN - Entry 'these-malgache-en-ligne' (Bibliography/Website.bib): Invalid format '03/08/2023' of date field 'urldate' - ignoring
-[618] Biber.pm:130> WARN - Entry 'jdn-moteur-de-recherche' (Bibliography/Website.bib): Invalid format '03/08/2023' of date field 'urldate' - ignoring
-[618] Biber.pm:130> WARN - Entry 'mdn-search-engine' (Bibliography/Website.bib): Invalid format '03/08/2023' of date field 'urldate' - ignoring
-[618] Biber.pm:130> WARN - Entry 'oracle-database' (Bibliography/Website.bib): Invalid format '03/08/2023' of date field 'urldate' - ignoring
-[618] Biber.pm:130> WARN - Entry 'lebigdata' (Bibliography/Website.bib): Invalid format '03/08/2023' of date field 'urldate' - ignoring
-[618] Biber.pm:132> INFO - WARNINGS: 6
+[81] biber:340> INFO - === mer. nov.  8, 2023, 06:20:52
+[96] Biber.pm:418> INFO - Reading 'SRI-VSM-Mast-2-BOUDI.bcf'
+[295] Biber.pm:978> INFO - Found 57 citekeys in bib section 0
+[309] Biber.pm:4401> INFO - Processing section 0
+[319] Biber.pm:4592> INFO - Looking for bibtex file 'Bibliography/Article.bib' for section 0
+[320] bibtex.pm:1713> INFO - LaTeX decoding ...
+[344] bibtex.pm:1518> INFO - Found BibTeX data source 'Bibliography/Article.bib'
+[423] Biber.pm:4592> INFO - Looking for bibtex file 'Bibliography/Book.bib' for section 0
+[423] bibtex.pm:1713> INFO - LaTeX decoding ...
+[430] bibtex.pm:1518> INFO - Found BibTeX data source 'Bibliography/Book.bib'
+[455] Biber.pm:4592> INFO - Looking for bibtex file 'Bibliography/Course.bib' for section 0
+[456] bibtex.pm:1713> INFO - LaTeX decoding ...
+[459] bibtex.pm:1518> INFO - Found BibTeX data source 'Bibliography/Course.bib'
+[469] Biber.pm:4592> INFO - Looking for bibtex file 'Bibliography/Inproceedings.bib' for section 0
+[470] bibtex.pm:1713> INFO - LaTeX decoding ...
+[482] bibtex.pm:1518> INFO - Found BibTeX data source 'Bibliography/Inproceedings.bib'
+[489] Biber.pm:4592> INFO - Looking for bibtex file 'Bibliography/Journal.bib' for section 0
+[490] bibtex.pm:1713> INFO - LaTeX decoding ...
+[494] bibtex.pm:1518> INFO - Found BibTeX data source 'Bibliography/Journal.bib'
+[509] Biber.pm:4592> INFO - Looking for bibtex file 'Bibliography/Master-thesis.bib' for section 0
+[510] bibtex.pm:1713> INFO - LaTeX decoding ...
+[513] bibtex.pm:1518> INFO - Found BibTeX data source 'Bibliography/Master-thesis.bib'
+[520] Biber.pm:4592> INFO - Looking for bibtex file 'Bibliography/Phd-thesis.bib' for section 0
+[521] bibtex.pm:1713> INFO - LaTeX decoding ...
+[531] bibtex.pm:1518> INFO - Found BibTeX data source 'Bibliography/Phd-thesis.bib'
+[557] Biber.pm:4592> INFO - Looking for bibtex file 'Bibliography/Website.bib' for section 0
+[559] bibtex.pm:1713> INFO - LaTeX decoding ...
+[568] bibtex.pm:1518> INFO - Found BibTeX data source 'Bibliography/Website.bib'
+[599] Biber.pm:4592> INFO - Looking for bibtex file 'Bibliography/Realisation/Website.bib' for section 0
+[600] bibtex.pm:1713> INFO - LaTeX decoding ...
+[613] bibtex.pm:1518> INFO - Found BibTeX data source 'Bibliography/Realisation/Website.bib'
+[746] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[746] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[746] Biber.pm:4221> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'fr-FR'
+[746] Biber.pm:4227> INFO - No sort tailoring available for locale 'fr-FR'
+[803] bbl.pm:654> INFO - Writing 'SRI-VSM-Mast-2-BOUDI.bbl' with encoding 'UTF-8'
+[830] bbl.pm:757> INFO - Output to SRI-VSM-Mast-2-BOUDI.bbl
+[830] Biber.pm:130> WARN - legacy month field 'mar' in entry 'evaluation-of-ir-system' is not an integer - this will probably not sort properly.
+[830] Biber.pm:130> WARN - Entry 'these-malgache-en-ligne' (Bibliography/Website.bib): Invalid format '03/08/2023' of date field 'urldate' - ignoring
+[831] Biber.pm:130> WARN - Entry 'jdn-moteur-de-recherche' (Bibliography/Website.bib): Invalid format '03/08/2023' of date field 'urldate' - ignoring
+[831] Biber.pm:130> WARN - Entry 'mdn-search-engine' (Bibliography/Website.bib): Invalid format '03/08/2023' of date field 'urldate' - ignoring
+[831] Biber.pm:130> WARN - Entry 'oracle-database' (Bibliography/Website.bib): Invalid format '03/08/2023' of date field 'urldate' - ignoring
+[831] Biber.pm:130> WARN - Entry 'lebigdata' (Bibliography/Website.bib): Invalid format '03/08/2023' of date field 'urldate' - ignoring
+[831] Biber.pm:132> INFO - WARNINGS: 6

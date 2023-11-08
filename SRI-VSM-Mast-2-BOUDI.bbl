@@ -166,6 +166,27 @@
       \endverb
       \keyw{information ir lecture retrieval standard vorlesung}
     \endentry
+    \entry{base-de-donnees}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e8e723b894213376925f30fbb16d4be8}{%
+           family={{Base-de-donnees.com}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{e8e723b894213376925f30fbb16d4be8}
+      \strng{fullhash}{e8e723b894213376925f30fbb16d4be8}
+      \strng{bibnamehash}{e8e723b894213376925f30fbb16d4be8}
+      \strng{authorbibnamehash}{e8e723b894213376925f30fbb16d4be8}
+      \strng{authornamehash}{e8e723b894213376925f30fbb16d4be8}
+      \strng{authorfullhash}{e8e723b894213376925f30fbb16d4be8}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labeldatesource}{nodate}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.base-de-donnees.com/merise/}}
+      \field{note}{Accessed: November 7, 2023}
+      \field{title}{{Base-de-donnees.com}}
+    \endentry
     \entry{thesaurus-ir-web}{inproceedings}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=4f720caa993bc494d62d40857a400069}{%
@@ -434,6 +455,27 @@
       \verb https://devopedia.org/natural-language-processing
       \endverb
     \endentry
+    \entry{django}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f831bff1f5132f6edd2ec0e00e5b9af9}{%
+           family={{Django Software Foundation}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{f831bff1f5132f6edd2ec0e00e5b9af9}
+      \strng{fullhash}{f831bff1f5132f6edd2ec0e00e5b9af9}
+      \strng{bibnamehash}{f831bff1f5132f6edd2ec0e00e5b9af9}
+      \strng{authorbibnamehash}{f831bff1f5132f6edd2ec0e00e5b9af9}
+      \strng{authornamehash}{f831bff1f5132f6edd2ec0e00e5b9af9}
+      \strng{authorfullhash}{f831bff1f5132f6edd2ec0e00e5b9af9}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labeldatesource}{nodate}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.djangoproject.com/}}
+      \field{note}{Accessed: November 7, 2023}
+      \field{title}{{Django}}
+    \endentry
     \entry{ir-course}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=95c45461be2aab1d0c26ff0385815c15}{%
@@ -455,6 +497,69 @@
       \field{note}{Coours de recherche d'information, Université Mohamed Boudiaf - M'Sila}
       \field{title}{Information retrieval (IR)}
       \field{year}{2023}
+    \endentry
+    \entry{spacy}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=740566036eb93b81871a62204c06d327}{%
+           family={{Explosion AI}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{740566036eb93b81871a62204c06d327}
+      \strng{fullhash}{740566036eb93b81871a62204c06d327}
+      \strng{bibnamehash}{740566036eb93b81871a62204c06d327}
+      \strng{authorbibnamehash}{740566036eb93b81871a62204c06d327}
+      \strng{authornamehash}{740566036eb93b81871a62204c06d327}
+      \strng{authorfullhash}{740566036eb93b81871a62204c06d327}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labeldatesource}{nodate}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://spacy.io/}}
+      \field{note}{Accessed: November 7, 2023}
+      \field{title}{{spaCy}}
+    \endentry
+    \entry{git}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c4e38df11fc55ae1ee3d80194667fb0d}{%
+           family={{Git Community}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{c4e38df11fc55ae1ee3d80194667fb0d}
+      \strng{fullhash}{c4e38df11fc55ae1ee3d80194667fb0d}
+      \strng{bibnamehash}{c4e38df11fc55ae1ee3d80194667fb0d}
+      \strng{authorbibnamehash}{c4e38df11fc55ae1ee3d80194667fb0d}
+      \strng{authornamehash}{c4e38df11fc55ae1ee3d80194667fb0d}
+      \strng{authorfullhash}{c4e38df11fc55ae1ee3d80194667fb0d}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labeldatesource}{nodate}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://git-scm.com/}}
+      \field{note}{Accessed: November 7, 2023}
+      \field{title}{{Git - version control system}}
+    \endentry
+    \entry{github}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d3b7c913cd04ebfec0e9ec32cb6fd58c}{%
+           family={{GitHub}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{d3b7c913cd04ebfec0e9ec32cb6fd58c}
+      \strng{fullhash}{d3b7c913cd04ebfec0e9ec32cb6fd58c}
+      \strng{bibnamehash}{d3b7c913cd04ebfec0e9ec32cb6fd58c}
+      \strng{authorbibnamehash}{d3b7c913cd04ebfec0e9ec32cb6fd58c}
+      \strng{authornamehash}{d3b7c913cd04ebfec0e9ec32cb6fd58c}
+      \strng{authorfullhash}{d3b7c913cd04ebfec0e9ec32cb6fd58c}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labeldatesource}{nodate}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://github.com/}}
+      \field{note}{Accessed: November 7, 2023}
+      \field{title}{{GitHub}}
     \endentry
     \entry{model-ir}{book}{}
       \name{author}{1}{}{%
@@ -569,6 +674,27 @@
       \verb https://www.journaldunet.fr/web-tech/dictionnaire-du-webmastering/1203539-moteur-de-recherche-definition-traduction-et-acteurs/
       \endverb
       \warn{\item Entry 'jdn-moteur-de-recherche' (Bibliography/Website.bib): Invalid format '03/08/2023' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{pdfplumber}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=44bd6b3b3b7bd78a69cbd522b18b8fe9}{%
+           family={{JSvine}},
+           familyi={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{44bd6b3b3b7bd78a69cbd522b18b8fe9}
+      \strng{fullhash}{44bd6b3b3b7bd78a69cbd522b18b8fe9}
+      \strng{bibnamehash}{44bd6b3b3b7bd78a69cbd522b18b8fe9}
+      \strng{authorbibnamehash}{44bd6b3b3b7bd78a69cbd522b18b8fe9}
+      \strng{authornamehash}{44bd6b3b3b7bd78a69cbd522b18b8fe9}
+      \strng{authorfullhash}{44bd6b3b3b7bd78a69cbd522b18b8fe9}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labeldatesource}{nodate}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://github.com/jsvine/pdfplumber}}
+      \field{note}{Accessed: November 7, 2023}
+      \field{title}{{pdfplumber}}
     \endentry
     \entry{ri-sur-le-web}{thesis}{}
       \name{author}{1}{}{%
@@ -705,6 +831,27 @@
       \field{type}{phdthesis}
       \field{year}{2022}
     \endentry
+    \entry{vscode}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=140864078aeca1c7c35b4beb33c53c34}{%
+           family={{Microsoft}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labeldatesource}{nodate}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://code.visualstudio.com/}}
+      \field{note}{Accessed: November 7, 2023}
+      \field{title}{{Visual Studio Code}}
+    \endentry
     \entry{mdn-search-engine}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=fd2e1bf0766fdefa8b13261277cd4f7e}{%
@@ -733,6 +880,69 @@
       \endverb
       \warn{\item Entry 'mdn-search-engine' (Bibliography/Website.bib): Invalid format '03/08/2023' of date field 'urldate' - ignoring}
     \endentry
+    \entry{mysql}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=62a004b95946bb97541afa471dcca73a}{%
+           family={{MySQL}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{62a004b95946bb97541afa471dcca73a}
+      \strng{fullhash}{62a004b95946bb97541afa471dcca73a}
+      \strng{bibnamehash}{62a004b95946bb97541afa471dcca73a}
+      \strng{authorbibnamehash}{62a004b95946bb97541afa471dcca73a}
+      \strng{authornamehash}{62a004b95946bb97541afa471dcca73a}
+      \strng{authorfullhash}{62a004b95946bb97541afa471dcca73a}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labeldatesource}{nodate}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.mysql.com/fr/}}
+      \field{note}{Accessed: November 7, 2023}
+      \field{title}{{MySQL}}
+    \endentry
+    \entry{nltk}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=261ee67505cae37a2c1005ddf430ce22}{%
+           family={{NLTK Project}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{261ee67505cae37a2c1005ddf430ce22}
+      \strng{fullhash}{261ee67505cae37a2c1005ddf430ce22}
+      \strng{bibnamehash}{261ee67505cae37a2c1005ddf430ce22}
+      \strng{authorbibnamehash}{261ee67505cae37a2c1005ddf430ce22}
+      \strng{authornamehash}{261ee67505cae37a2c1005ddf430ce22}
+      \strng{authorfullhash}{261ee67505cae37a2c1005ddf430ce22}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labeldatesource}{nodate}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.nltk.org/}}
+      \field{note}{Accessed: November 7, 2023}
+      \field{title}{{NLTK}}
+    \endentry
+    \entry{numpy}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4cd095ab0bf9dceeb691e4f6237078f8}{%
+           family={{NumPy Community}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{4cd095ab0bf9dceeb691e4f6237078f8}
+      \strng{fullhash}{4cd095ab0bf9dceeb691e4f6237078f8}
+      \strng{bibnamehash}{4cd095ab0bf9dceeb691e4f6237078f8}
+      \strng{authorbibnamehash}{4cd095ab0bf9dceeb691e4f6237078f8}
+      \strng{authornamehash}{4cd095ab0bf9dceeb691e4f6237078f8}
+      \strng{authorfullhash}{4cd095ab0bf9dceeb691e4f6237078f8}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labeldatesource}{nodate}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://numpy.org/}}
+      \field{note}{Accessed: November 7, 2023}
+      \field{title}{{NumPy}}
+    \endentry
     \entry{oracle-database}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=30162ed78b6c10f731411f2fc440c24f}{%
@@ -745,6 +955,7 @@
       \strng{authorbibnamehash}{30162ed78b6c10f731411f2fc440c24f}
       \strng{authornamehash}{30162ed78b6c10f731411f2fc440c24f}
       \strng{authorfullhash}{30162ed78b6c10f731411f2fc440c24f}
+      \field{extraname}{1}
       \field{sortinit}{O}
       \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
       \field{extradatescope}{labelyear}
@@ -760,6 +971,28 @@
       \verb https://www.oracle.com/fr/database/what-is-database/
       \endverb
       \warn{\item Entry 'oracle-database' (Bibliography/Website.bib): Invalid format '03/08/2023' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{oracleDB}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=30162ed78b6c10f731411f2fc440c24f}{%
+           family={{Oracle}},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{fullhash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{bibnamehash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{authorbibnamehash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{authornamehash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{authorfullhash}{30162ed78b6c10f731411f2fc440c24f}
+      \field{extraname}{2}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{labeldatesource}{nodate}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.oracle.com/fr/database/systeme-gestion-base-de-donnees-sgbd-definition/}}
+      \field{note}{Accessed: November 7, 2023}
+      \field{title}{{Oracle Database: Système de Gestion de Base de Données (SGBD) - Définition}}
     \endentry
     \entry{paradis:tel-00005009}{thesis}{}
       \name{author}{1}{}{%
@@ -837,6 +1070,43 @@
       \field{year}{2020}
       \field{pages}{1\bibrangedash 36}
       \range{pages}{36}
+    \endentry
+    \entry{fitz}{misc}{}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://pymupdf.readthedocs.io/en/latest/index.html}}
+      \field{note}{Accessed: November 7, 2023}
+      \field{title}{{PyMuPDF (fitz)}}
+    \endentry
+    \entry{python}{manual}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c7b5508dc5e59a2846d22617276cc27c}{%
+           family={{Python Software Foundation}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{c7b5508dc5e59a2846d22617276cc27c}
+      \strng{fullhash}{c7b5508dc5e59a2846d22617276cc27c}
+      \strng{bibnamehash}{c7b5508dc5e59a2846d22617276cc27c}
+      \strng{authorbibnamehash}{c7b5508dc5e59a2846d22617276cc27c}
+      \strng{authornamehash}{c7b5508dc5e59a2846d22617276cc27c}
+      \strng{authorfullhash}{c7b5508dc5e59a2846d22617276cc27c}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: November 7, 2023}
+      \field{title}{Python Documentation}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.python.org/
+      \endverb
+      \verb{url}
+      \verb https://www.python.org/
+      \endverb
     \endentry
     \entry{classification-text-documents-ml}{journal}{}
       \name{author}{1}{}{%
@@ -1027,6 +1297,27 @@
       \field{pages}{613\bibrangedash 620}
       \range{pages}{8}
     \endentry
+    \entry{scikit-learn}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=64288955ec1628b061254b56453e17a4}{%
+           family={{scikit-learn contributors}},
+           familyi={s\bibinitperiod}}}%
+      }
+      \strng{namehash}{64288955ec1628b061254b56453e17a4}
+      \strng{fullhash}{64288955ec1628b061254b56453e17a4}
+      \strng{bibnamehash}{64288955ec1628b061254b56453e17a4}
+      \strng{authorbibnamehash}{64288955ec1628b061254b56453e17a4}
+      \strng{authornamehash}{64288955ec1628b061254b56453e17a4}
+      \strng{authorfullhash}{64288955ec1628b061254b56453e17a4}
+      \field{sortinit}{s}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labeldatesource}{nodate}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://scikit-learn.org/}}
+      \field{note}{Accessed: November 7, 2023}
+      \field{title}{{scikit-learn}}
+    \endentry
     \entry{vsm}{journal}{}
       \name{author}{2}{}{%
         {{un=2,uniquepart=given,hash=b86b524cae95c2f93aa6320838ea395b}{%
@@ -1096,6 +1387,15 @@
       \verb https://tel.archives-ouvertes.fr/tel-01110721/document
       \endverb
     \endentry
+    \entry{spellchecker}{misc}{}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://pypi.org/project/pyspellchecker/}}
+      \field{note}{Accessed: November 7, 2023}
+      \field{title}{{Spellchecker}}
+    \endentry
     \entry{automatic-nlp}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=7610665c421663c53179571c4b6ddc22}{%
@@ -1152,6 +1452,27 @@
       \verb https://www.theses.fr/112289355
       \endverb
     \endentry
+    \entry{UMLorg}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fa7bb2e261dd261ee120d821b7ff2f33}{%
+           family={{UML Organization}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{fa7bb2e261dd261ee120d821b7ff2f33}
+      \strng{fullhash}{fa7bb2e261dd261ee120d821b7ff2f33}
+      \strng{bibnamehash}{fa7bb2e261dd261ee120d821b7ff2f33}
+      \strng{authorbibnamehash}{fa7bb2e261dd261ee120d821b7ff2f33}
+      \strng{authornamehash}{fa7bb2e261dd261ee120d821b7ff2f33}
+      \strng{authorfullhash}{fa7bb2e261dd261ee120d821b7ff2f33}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{labeldatesource}{nodate}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{http://uml.org/}}
+      \field{note}{Accessed: November 7, 2023}
+      \field{title}{{Unified Modeling Language}}
+    \endentry
     \entry{these-malgache-en-ligne}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=54360fd8bc424c400b9f243dff3a75fe}{%
@@ -1175,6 +1496,27 @@
       \field{title}{Thèse malgache en ligne}
       \field{year}{2016}
       \warn{\item Entry 'these-malgache-en-ligne' (Bibliography/Website.bib): Invalid format '03/08/2023' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{mvcwiki}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b6aea1a416c89509a7df1cbb69249cb6}{%
+           family={{Wikipedia contributors}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{fullhash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{bibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authorbibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authornamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authorfullhash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labeldatesource}{nodate}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://fr.wikipedia.org/wiki/Modèle-vue-contrôleur}}
+      \field{note}{Accessed: November 7, 2023}
+      \field{title}{{Modèle-vue-contrôleur}}
     \endentry
     \entry{ir-on-web}{article}{}
       \name{author}{1}{}{%

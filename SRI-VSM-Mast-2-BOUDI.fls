@@ -1087,6 +1087,11 @@ INPUT ./Parts/Realisation.tex
 INPUT Parts/Realisation.tex
 INPUT ./Parts/Realisation.tex
 INPUT Parts/Realisation.tex
+INPUT ./Figures/Realisation/mvc.png
+INPUT ./Figures/Realisation/mvc.png
+INPUT Figures/Realisation/mvc.png
+INPUT ./Figures/Realisation/mvc.png
+INPUT ./Figures/Realisation/mvc.png
 INPUT ./Parts/Conclusion.tex
 OUTPUT Parts/Conclusion.aux
 INPUT ./Parts/Conclusion.tex
