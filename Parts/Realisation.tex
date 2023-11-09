@@ -91,6 +91,9 @@ Citons les fonctionnalités de base qui sont le plus importants pour ce système
     \item \textbf{Page de resultat et visualisation de document}: permet d'afficher les resultats avec des paginations, ainsi que la possibilité de visualiser le resumé ou la partie du document. Il est aussi possible de visualiser un document en entier.
 \end{enumerate}
 
+\subsubsection{Les fonctionnalités de base en diagrammes}
+Diagramme de cas d'utilisation, sequence et classe
+
 \subsection{Technologies et outils utilisés}
 \subsubsection{Technologies}
 Pour develloper ce SRI, on a utilisé des téchnologies orientés vers l'intelligence artificiel implementé dans un application web. On aura utilisé une base de données pour stocker les données tel que les documents, les informations de l'utilisateur, etc. Ci-dessous la liste des téchnologies utilisés pour la réalisation de ce système.
@@ -98,75 +101,287 @@ Pour develloper ce SRI, on a utilisé des téchnologies orientés vers l'intelli
 \begin{itemize}
     \item \textbf{Framework Django}: est un framework web developpé en langage Python tilisant l'architecture MVT (Model-View-Template). A bien noter que dans Django, View est l'equivalent d'un Controlleur et que Template est l'equivalent de Vue. Ce choix est dû au fait qu'il est facile d'integré des librairies d'intelligence artificiel dans ce framework, ainsi que les fonctionnalités pré-concus facilitera beaucoup le devellopement \citep*{django}.
     \item \textbf{MySQL}: pour stocker les données comme on a dit ci-dessus. Elle est gratuite et largement suffisant pour ce genre de système en terme de capacité de stockage et en terme de rapidité de récuperation des données \citep*{mysql}.
-    \item \textbf{Spacy}: est un librairy python permettant de faire un traitement de langage naturel. Il utilise un modèle de machine learning pré-entrainé pour différentes langages. Comme pour la langue française par exemple il y a les modèle \emph{frcorewebnewssm}. Ce librairie permet de segmenter des textes en français, supprimer les mots vides, et recupérer la racine des mots, c'est ce librairie qui se charge de l'indexation dans ce SRI \citep*{spacy}.
-    \item \textbf{NLTK}: ou Natural Language Toolkit est aussi ule librairie de traitement de langage naturel \citep*{nltk}
-    \item Numpy \citep*{numpy}
-    \item ScikitLearn \citep*{scikit-learn}
-    \item PDFPlumber \citep*{pdfplumber}
-    \item FItz library \citep*{fitz}
-    \item Spellchecker library \citep*{spellchecker}
+    \item \textbf{Spacy}: est un librairy python permettant de faire un traitement de langage naturel. Il utilise un modèle de machine learning pré-entrainé pour différentes langages. Comme pour la langue française tel que le modèle \emph{\texttt{fr\_core\_web\_news\_sm}}, \emph{\texttt{fr\_core\_web\_news\_md}} et \emph{\texttt{fr\_core\_web\_news\_lg}}. Ce librairie permet de segmenter des textes en français, supprimer les mots vides, et recupérer la racine des mots, c'est ce librairie qui se charge de l'indexation dans ce SRI \citep*{spacy}.
+    \item \textbf{NLTK}: ou Natural Language Toolkit est aussi ule librairie de traitement de langage naturel. Il permet aussi d'utiliser la base de connaissance tel que \emph{WordNet} pour trouver des synonymes des mots \citep*{nltk}.
+    \item \textbf{Numpy}: est un librairie open source pour les calculs scientifiques avec python. Il est rapide et performant pour une vectorisation et calcul matriciel de N dimension \citep*{numpy}.
+    \item \textbf{ScikitLearn}: est une bibliothèque logicielle libre d'apprentissage automatique pour le langage de programmation Python. Elle propose divers algorithmes de classification, de régression et de regroupement, notamment des machines à vecteurs de support (SVM), des forêts aléatoires (Random Forest), du boosting de gradient (Gradient boosting), des k-moyennes et DBSCAN, et est conçue pour interagir avec les bibliothèques numériques et scientifiques Python, NumPy et SciPy \citep*{scikit-learn}.
+    \item \textbf{PDFPlumber}: est une librairie permettant d'extraire les informations detaillés pour chaque texte, rectangle, ligne et des tables dans un document pdf \citep*{pdfplumber}.
+    \item \textbf{PyMuPDF}: PyMuPDF est une bibliothèque Python très performant pour l'extraction de données, l'analyse, la conversion et la manipulation de documents PDF et d'autres documents \citep*{fitz}. Dans le cadre de ce système, cette librairie se charge d'extraire les conténus des documents PDF\@.
+    \item \textbf{Spellchecker library}: Pure Python Spell est utilisé pour corriger des fautes d'orthographes. Elle utilise l'algorithme de \emph{distance de Levenshtein} pour determiner le vrai mot \citep*{spellchecker}. Dans le cadre de ce système, cette librairie se charge de corriger la faute d'orthographe dans les mots clés de l'utilisateur qui composent son requête.
 \end{itemize}
 
 \subsubsection{Langage de programmation}
-Description des langages de programmation utilisés pour la mise en œuvre du logiciel, par exemple, Python, Java, ou JavaScript. Justification de l'utilisation de ces langages en fonction de leur adaptabilité aux exigences spécifiques du logiciel.
+Diverses langages de programmation sont utilisés dans le cadre de ce système. Pour la programmation de base (Côté serveur), on a utilisé le langage de programmation \textbf{Python} par sa facilité d'intéragir avec les librairies de Machine Learning (ML) et du Deep Learning (DL). Python est un langage open source, multiplateforme, specialisé dans le domaine de l'intelligence artificiel et de l'analyse de données \citep{python}.
 
-\begin{itemize}
-    \item Python \citep*{python}
-    \item SQL
-\end{itemize}
+Pour la partie interface utilisateur, le langage HTML, CSS et JavaScript sont utilisés. Et le langage SQL pour le langage de requête a la base de données.
 
 \subsubsection{Outils}
-Présentation des outils de développement utilisés, comme les environnements de développement intégrés (IDE), les systèmes de contrôle de version, et les outils de test. Explication de la façon dont ces outils ont facilité le processus de conception et de développement du logiciel.
+Diverses outils sont utilisés dans le cadre de ce système:
 
 \begin{itemize}
-    \item Visual Studio Code (Explication de ses diverses extensions) \citep*{vscode}
-    \item Git et Github (Système de controle de version / Explication de la facilité de suivre des modifications) \citep*{git, github}
-    \item Machine utilisé pour le développement (CPU, GPU, RAM, HDD, OS)
-    \item Outil de test de django
+    \item \textbf{Environnement de Developpement Integré (IDE)}: on a utilisé \emph{Visual Studio Code}, qui est un outils crée par Microsoft, OpenSource, gratuit et propose des diverses extensions pour faciliter le devellopement (compréhension du langage python par exemple) \citep*{vscode}.
+    \item \textbf{Gestion de version}: \emph{Git} et \emph{Github} sont l'un de plus populaire pour mieux organiser les versions d'un système et propose système de travail en équipe \citep*{git, github}
+    \item \textbf{Ordinateur utilisé}: ce système est realisé avec un ordinateur de processeur \textbf{Pentium G3200 @ 3300 Ghz}, avec \textbf{8GB de RAM}, et une \textbf{carte graphique Intel Graphic HD 4800} sous un système d'exploitation \textbf{KALI Linux 2022.3}.
+    \item \textbf{Outil de test}: l'outil de test est integré directement dans le framework Django.
 \end{itemize}
 
 \section{Développement du logiciel}
-\subsection{Présentation des différentes étapes du processus de développement}
+\subsection{Etapes du processus de développement}
 \subsubsection{Planification}
-Explication du processus de planification, y compris l'identification des fonctionnalités clés, la répartition des tâches et la définition des jalons du projet. Discussion sur la manière dont la planification a facilité le développement du logiciel.
+L'identification des donctionnalités se fait par l'analyse des moteurs de recherche existants pour determiner les fonctionnalités interressantes ainsi que de trouver les fonctionnalités manquantes et des lacunes. Une fois la liste des fonctionnalités necessaires determinés, l'identification des acteurs du système est mis en place. Une fois terminé, la modélisation de ces informations est faite en utilisant les diagrammes proposé par l'approche UML\@.
 
 \subsubsection{Programmation}
-Description des étapes de programmation, y compris la mise en œuvre des fonctionnalités principales du logiciel et la résolution des problèmes techniques rencontrés lors du processus de développement. Illustration de certains segments de code pertinents pour la compréhension du développement.
+D'abord, le système de securité est mis en place pour pouvoir deposer des documents, y compris la creation de compte, authentification ainsi que la mise en place de certains contraintes pour les utilisaeurs. Ensuite, la fonctionnalité d'indexation des documents, y comprys la création des index inversés, et tous les traitements rattachés a l'étape d'indexation (normalisation, stemmatisation). Ainsi le developpement de la partie recherche ou l'utilisateur peut recuperer la liste des documents qui repondent a son besoin, y compris la page de resultat. Et après la gestion des téléchargement des documents, gestion d'apercu es documents. Enfin la fonctionnalité de gestion du système par l'administrateur comme supprésion des documents, des utilisateurs, modification des droits d'accès.
 
-\subsubsection{Tests}
-Présentation de la stratégie de test adoptée pour évaluer le bon fonctionnement du logiciel. Description des tests unitaires, des tests d'intégration et des tests de validation effectués pour assurer la qualité du logiciel.
+Illustrons quelques algorithmes pour le fonctionnement de ce système.
+Algorithme de Processus de recherche, indexation des documents
 
-\subsection{Défis rencontrés lors du développement et solutions mises en œuvre}
-\subsubsection{Contraintes techniques}
-Discussion sur les problèmes techniques spécifiques rencontrés lors du développement et des solutions techniques mises en place pour les surmonter. Analyse des obstacles et des stratégies d'atténuation adoptées pour assurer la progression continue du projet.
+\begin{algorithm}
+    \caption{Mise à jour des Vecteurs TF-IDF}
+    \begin{algorithmic}[1]
+        \State Récupérer tous les index inversés de la base de données.
+        \State Prétraiter les termes extraits de chaque index inversé.
+        \State Initialiser un vecteuriseur TF-IDF et l'ajuster sur les termes obtenus.
+        \State Récupérer toutes les valeurs TF-IDF de la base de données.
+        \State Extraire les identifiants de document de chaque valeur TF-IDF.
+        \For{chaque identifiant de document}
+            \State Récupérer le contenu du document correspondant à l'identifiant.
+            \State Transformer le contenu en un vecteur TF-IDF en utilisant le vecteuriseur.
+            \State Arrondir les valeurs du vecteur à quatre décimales.
+            \State Convertir le vecteur en format JSON.
+            \State Mettre à jour la valeur TF-IDF correspondante avec le nouveau vecteur.
+        \EndFor
+    \end{algorithmic}
+\end{algorithm}
 
-\subsubsection{Gestion des délais}
-Évaluation des défis liés à la gestion du temps et des échéances du projet. Présentation des techniques de gestion de projet mises en place pour respecter les délais et assurer la livraison du logiciel dans les délais impartis.
+\begin{algorithm}
+    \caption{Mise à jour des Vecteurs TF-IDF}
+    \begin{algorithmic}[1]
+    \State \textbf{Données :} Indexes Inversés, Valeurs TF-IDF, Documents
+    \State \textbf{Résultat :} Mise à jour des Vecteurs TF-IDF
+    
+    \State \textbf{Récupérer tous les index inversés :}
+    \State inverted\_indexes $\leftarrow$ Index.objects.all()
+    \State terms $\leftarrow$ [inverted\_index.term \textbf{pour} inverted\_index \textbf{dans} inverted\_indexes]
+    \State terms $\leftarrow$ [preprocess\_text(term) \textbf{pour} term \textbf{dans} terms]
+    
+    \State \textbf{Initialiser un vecteuriseur TF-IDF :}
+    \State vectorizer $\leftarrow$ TfidfVectorizer()
+    \State vectorizer.fit\_transform(terms)
+    
+    \State \textbf{Récupérer toutes les valeurs TF-IDF de la base de données :}
+    \State tfidf\_values $\leftarrow$ TfidfValues.objects.all()
+    \State doc\_ids $\leftarrow$ [tfidf\_value.document\_id\_id \textbf{pour} tfidf\_value \textbf{dans} tfidf\_values]
+    
+    \For{chaque doc\_id \textbf{dans} doc\_ids}
+        \State document\_terms $\leftarrow$ Documents.objects.get(pk=doc\_id).content.split()
+        \State document\_vector $\leftarrow$ vectorizer.transform([" ".join(document\_terms)]).toarray()[0]
+        
+        \State document\_vector $\leftarrow$ np.round(document\_vector, 4)
+        \State document\_vector\_json $\leftarrow$ json.dumps(document\_vector.tolist()) \textbf{  // Convertir en JSON}
+        
+        \State tfidf\_value $\leftarrow$ TfidfValues.objects.get(document\_id=doc\_id)
+        \State tfidf\_value.tfidf\_vectors $\leftarrow$ document\_vector\_json
+        \State tfidf\_value.save()
+    \EndFor
+    \end{algorithmic}
+    \end{algorithm}
+    
+    \begin{algorithm}
+    \caption{Algorithme de Traitement de Document}
+    \begin{algorithmic}[1]
+    \State \textbf{Données :} Requête HTTP
+    \State \textbf{Résultat :} Redirection de l'utilisateur ou rendu du formulaire de téléchargement
+    
+    \State \textbf{Entrée :} request : HttpRequest
+    \State \textbf{Sortie :} Redirection de l'utilisateur ou rendu du formulaire de téléchargement
+    
+    \State Assurez-vous que l'utilisateur est connecté
+    
+    \If{La méthode de la requête est 'POST'}
+        \State Extraire le titre, l'auteur et la catégorie du document de la requête
+        \State Vérifier l'existence du fichier et le sauvegarder si nécessaire
+        
+        \State Extraire le contenu textuel et le résumé du fichier
+        \State Diviser le contenu en jetons individuels
+        \State Convertir les jetons en vecteurs numériques
+        
+        \State Sauvegarder le document et les données associées
+        \State Mettre à jour l'index inversé pour chaque terme
+        \State Mettre à jour les vecteurs TF-IDF
+        
+        \State Rediriger l'utilisateur vers la page de téléchargement
+    \Else
+        \State Rendre le formulaire de téléchargement avec les catégories disponibles
+    \EndIf
+    \end{algorithmic}
+    \end{algorithm}
 
-\subsubsection{Collaboration d'équipe}
-Discussion sur les enjeux liés à la collaboration au sein de l'équipe de développement et des mesures prises pour favoriser une communication efficace et une coordination harmonieuse entre les membres de l'équipe.
+    \begin{algorithm}
+        \caption{Gérer le Fichier Téléchargé}
+        \begin{algorithmic}[1]
+        \Function{handle\_uploaded\_file}{$f, dossier$}
+            \State \textbf{Ouvrir} $destination$ \textbf{en mode} "wb+" \textbf{comme} $destination$
+            \For{\textbf{chaque} $chunk$ \textbf{dans} $f.chunks()$}
+                \State $destination.write(chunk)$
+            \EndFor
+        \EndFunction
+        \end{algorithmic}
+    \end{algorithm}
 
-\section{Tests et validation du logiciel}
-\subsection{Stratégies de test utilisées pour évaluer la performance et la fonctionnalité du logiciel}
-\subsubsection{Tests unitaires}
-Description des tests unitaires réalisés pour vérifier le bon fonctionnement des composants individuels du logiciel.
+    \begin{algorithm}
+        \caption{Gérer le Fichier Téléchargé}
+        \begin{algorithmic}[1]
+        \Procedure{handle\_uploaded\_file}{$f, dossier$}
+            \State Ouvrir le fichier de destination en mode écriture binaire.
+            \For{chaque morceau de données dans les morceaux du fichier}
+                \State Écrire le morceau de données dans le fichier de destination.
+            \EndFor
+        \EndProcedure
+        \end{algorithmic}
+    \end{algorithm}
 
-\subsubsection{Tests d'intégration}
-Présentation des tests d'intégration effectués pour évaluer l'interopérabilité des différents modules du logiciel.
 
-\subsubsection{Tests de validation}
-Explication des tests de validation effectués pour vérifier si le logiciel répond aux exigences spécifiées dans le cahier des charges.
+    \begin{algorithm}
+        \caption{Indexer la Requête}
+        \begin{algorithmic}[1]
+        \Procedure{index}{$request: HttpRequest$}
+            \State {\# Page de recherche et traite l'appariément requête-documents \#}
+            \State
+            \State \textbf{Arguments:}
+            \State $request$: La requête contenant les mots clés de l'utilisateur
+            \State
+            \State \textbf{Renvoie:}
+            \State $HttpResponse$: La page de recherche ou la page de résultats de recherche
+            \State
+            \If{("query" dans $request.GET$)}
+                \State $query \gets request.GET['query']$
+            \Else
+                \State $query \gets ""$
+            \EndIf
+            \State
+            \If{("filter" dans $request.GET$)}
+                \State $filter\_field \gets request.GET['filter']$
+            \Else
+                \State $filter\_field \gets "content"$
+            \EndIf
+            \State
+            \If{($query \neq ""$)}
+                \State $start \gets maintenant()$
+                \State $end \gets None$
+                \State $documents \gets []$
+                \State
+                \State $inverted\_indexes \gets Index.objects.all()$
+                \State
+                \If{($inverted\_indexes.count() > 0$)}
+                    \State $terms \gets [inverted\_index.term$ \textbf{pour} $inverted\_index$ \textbf{dans} $inverted\_indexes]$
+                    \State $terms \gets [preprocess\_text(term)$ \textbf{pour} $term$ \textbf{dans} $terms]$
+                    \State
+                    \State $vectorizer \gets TfidfVectorizer()$
+                    \State $vectorizer.fit\_transform(terms)$
+                    \State
+                    \State $correct\_query\_terms \gets []$
+                    \State $query\_terms \gets tokenize(query)$
+                    \State
+                    \For{$term$ \textbf{dans} $query\_terms$}
+                        \State $correct\_term \gets correct\_word(term)$
+                        \If{$correct\_term$ est \textbf{None}}
+                            \State $correct\_query\_terms$.append($term$)
+                        \Else
+                            \State $correct\_query\_terms$.append($correct\_term$)
+                        \EndIf
+                    \EndFor
+                    \State
+                    \State $query\_terms \gets correct\_query\_terms$
+                    \State $query\_vector \gets vectorizer.transform([" ".join(query\_terms)]).toarray()[0]$
+                    \State
+                    \If{($filter\_field == "content"$)}
+                        \State $selected\_docs \gets search(query\_terms=query\_terms, query\_vector=query\_vector)$
+                        \If{($len(selected\_docs) > 0$)}
+                            \State $documents \gets Documents.findByIdsWithScore(ids = selected\_docs)$
+                        \EndIf
+                    \EndIf
+                    \State
+                    \If{($filter\_field == "title"$)}
+                        \State $selected\_docs \gets searchBy(query\_terms=query\_terms, query\_vector=query\_vector, field="title")$
+                        \If{($len(selected\_docs) > 0$)}
+                            \State $documents \gets Documents.findByIdsWithScore(ids = selected\_docs)$
+                        \EndIf
+                    \EndIf
+                    \State
+                    \If{($filter\_field == "author"$)}
+                        \State $query\_terms \gets query.split()$
+                        \State $selected\_docs \gets searchBy(query\_terms=query\_terms, query\_vector=query\_vector, field="author")$
+                        \If{($len(selected\_docs) > 0$)}
+                            \State $documents \gets Documents.findByIdsWithScore(ids = selected\_docs)$
+                        \EndIf
+                    \EndIf
+                \Else
+                    \State \textbf{pass}
+                \EndIf
+                \State
+                \State $documents$.extend($documents$)
+                \State $documents$.extend($documents$)
+                \State $documents$.extend($documents$)
+                \State $documents$.extend($documents$)
+                \State $documents$.extend($documents$)
+                \State
+                \If{('page' dans $request.GET$)}
+                    \State $page\_number \gets request.GET['page']$
+                \Else
+                    \State $page\_number \gets 1$
+                \EndIf
+                \State
+                \If{('perpage' dans $request.GET$)}
+                    \State $per\_page \gets request.GET['perpage']$
+                \Else
+                    \State $per\_page \gets 5$
+                \EndIf
+                \State
+                \State $paginator \gets Paginator(object\_list=documents, per\_page=per\_page)$
+                \State $page\_obj \gets paginator.get\_page(number=page\_number)$
+                \State
+                \State $end \gets maintenant()$
+                \State $response\_time \gets (end - start).total\_seconds()$
+                \State
+                \State \textbf{Renvoyer} $render(request=request, template\_name="client/results.html", context=\{... \})$
+            \Else
+                \If{($request.session.has\_key('query')$)}
+                    \State $request.session.pop('query')$
+                \EndIf
+                \State
+                \State \textbf{Renvoyer} $render(request=request, template\_name="client/index.html", context=\{... \})$
+            \EndIf
+        \EndProcedure
+        \end{algorithmic}
+    \end{algorithm}
+        
+% \subsubsection{Tests}
 
-\subsection{Résultats des tests et analyse critique des performances du logiciel}
-\subsubsection{Résultats des tests}
-Présentation des résultats détaillés des tests effectués, y compris les rapports de tests, les captures d'écran et les données de performance.
+\subsection{Défis rencontrés lors du developpement}
+Certains contraintes téchniques sont rencontrés, dont l'une le plus critique c'est que MySQL est plutott lent en terme d'insertion des données volumineux, car pour un document d'environ 80 pages, on aura environ 1000 à 2000 index. Ce qui entraine le ralentissement du système, car il faut environ 30seconde ou mçeme une minute pour indexer un document. Mais ce problème a été solutionné par l'utilisation des transaction. Une autre problème etait au niveau de choix de technologies a utiliser et des librairies.
 
-\subsubsection{Identification des problèmes}
-Discussion sur les éventuels problèmes ou erreurs identifiés au cours des tests, avec analyse critique des mesures prises pour corriger ces problèmes.
+% \section{Tests et validation du logiciel}
+% \subsection{Stratégies de test utilisées pour évaluer la performance et la fonctionnalité du logiciel}
+% \subsubsection{Tests unitaires}
+% Description des tests unitaires réalisés pour vérifier le bon fonctionnement des composants individuels du logiciel.
+% 
+% \subsubsection{Tests d'intégration}
+% Présentation des tests d'intégration effectués pour évaluer l'interopérabilité des différents modules du logiciel.
+% 
+% \subsubsection{Tests de validation}
+% Explication des tests de validation effectués pour vérifier si le logiciel répond aux exigences spécifiées dans le cahier des charges.
+% 
+% \subsection{Résultats des tests et analyse critique des performances du logiciel}
+% \subsubsection{Résultats des tests}
+% Présentation des résultats détaillés des tests effectués, y compris les rapports de tests, les captures d'écran et les données de performance.
+% 
+% \subsubsection{Identification des problèmes}
+% Discussion sur les éventuels problèmes ou erreurs identifiés au cours des tests, avec analyse critique des mesures prises pour corriger ces problèmes.
 
 \section{Implémentation du logiciel dans un contexte réel}
 \subsection{Processus d'implémentation}
-Explication du processus d'implémentation du logiciel dans un environnement réel, en mettant l'accent sur les étapes clés et les considérations spécifiques prises en compte lors du déploiement.
+Pour implementer ce logiciel, il faut des thèses et mémoires malagasy (Master, Doctorat, Article, Révue scientifique) pour alimenter la bae de données. Puis catégoriser ces documents afin de faciliter l'indexation de ces documents. Une fois ces documents indexés, le système est fonctionnel.
 
 \subsection{Évaluation de l'efficacité de l'implémentation}
 Analyse de l'efficacité de l'implémentation du logiciel en fonction des objectifs initiaux et des résultats observés dans le contexte réel.
@@ -188,17 +403,17 @@ Comparaison des performances réelles du logiciel avec les objectifs initiaux d�
 Identification des points forts et des limitations du logiciel en fonction des retours d'expérience des utilisateurs et des évaluations techniques, en mettant l'accent sur les domaines nécessitant d'éventuelles améliorations ou ajustements.
 
 \subsection{Implications et recommandations}
-Discussion des implications des résultats obtenus, avec des recommandations pratiques pour l'amélioration continue du logiciel ainsi que des suggestions pour des développements futurs ou des extensions potentielles.
+Catégorisation des documents automatiques, extraction automatiques des titres, resumés, liste des bibbliographies, auteur, date de soutenance, encadreur ainsi que les membres de jury. Recupération des articles connexte. Création de bibliographie en connaissant ces informations.
 
-\section{Réflexions sur l'expérience de développement}
-\subsection{Analyse critique des leçons apprises}
-Analyse réfléchie des principaux enseignements tirés de l'expérience de développement du logiciel, en mettant l'accent sur les succès, les défis et les stratégies d'adaptation ou d'amélioration.
-
-\subsection{Évaluation de l'efficacité des stratégies de développement}
-Évaluation de l'efficacité des différentes stratégies de développement utilisées tout au long du processus, en mettant en évidence les approches qui ont bien fonctionné et celles qui auraient pu être améliorées.
-
-\subsection{Suggestions pour des améliorations futures}
-Proposition de suggestions concrètes pour améliorer les processus de développement, les stratégies de gestion de projet et les approches techniques pour de futurs projets similaires.
-
-\subsection{Perspectives de recherche future}
-Discussion sur les pistes de recherche future potentielles basées sur les lacunes identifiées dans le cadre du projet actuel, en mettant l'accent sur les domaines qui méritent une exploration plus approfondie et des développements ultérieurs.
+% \section{Réflexions sur l'expérience de développement}
+% \subsection{Analyse critique des leçons apprises}
+% Analyse réfléchie des principaux enseignements tirés de l'expérience de développement du logiciel, en mettant l'accent sur les succès, les défis et les stratégies d'adaptation ou d'amélioration.
+% 
+% \subsection{Évaluation de l'efficacité des stratégies de développement}
+% Évaluation de l'efficacité des différentes stratégies de développement utilisées tout au long du processus, en mettant en évidence les approches qui ont bien fonctionné et celles qui auraient pu être améliorées.
+% 
+% \subsection{Suggestions pour des améliorations futures}
+% Proposition de suggestions concrètes pour améliorer les processus de développement, les stratégies de gestion de projet et les approches techniques pour de futurs projets similaires.
+% 
+% \subsection{Perspectives de recherche future}
+% Discussion sur les pistes de recherche future potentielles basées sur les lacunes identifiées dans le cadre du projet actuel, en mettant l'accent sur les domaines qui méritent une exploration plus approfondie et des développements ultérieurs.
