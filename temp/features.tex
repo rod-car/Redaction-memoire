@@ -30,3 +30,157 @@
 %     \item Possibilité d'avoir un aperçu du document
 %     \item Système orienté web (Terminé)
 % \end{itemize}
+
+
+% \begin{algorithm}
+%     \caption{Faire une recherche}
+%     \begin{algorithmic}[1]
+%         \Procedure{index}{$request: HttpRequest$} \Comment{Page de recherche et traite l'appariément requête-documents}
+%             \State
+%             \State \textbf{Arguments:}
+%             \State $request$: La requête contenant les mots clés de l'utilisateur
+%             \State
+%             \State \textbf{Renvoie:}
+%             \State $HttpResponse$: La page de recherche ou la page de résultats de recherche
+%             \State
+%             \If{("query" dans $request.GET$)}
+%                 \State $query \gets request.GET['query']$
+%             \Else
+%                 \State $query \gets ""$
+%             \EndIf
+%             \State
+%             \If{("filter" dans $request.GET$)}
+%                 \State $filter\_field \gets request.GET['filter']$
+%             \Else
+%                 \State $filter\_field \gets "content"$
+%             \EndIf
+%             \State
+%             \If{($query \neq ""$)}
+%                 \State $start \gets maintenant()$
+%                 \State $end \gets None$
+%                 \State $documents \gets []$
+%                 \State
+%                 \State $inverted\_indexes \gets Index.objects.all()$
+%                 \State
+%                 \If{($inverted\_indexes.count() > 0$)}
+%                     \State $terms \gets [inverted\_index.term$ \textbf{pour} $inverted\_index$ \textbf{dans} $inverted\_indexes]$
+%                     \State $terms \gets [preprocess\_text(term)$ \textbf{pour} $term$ \textbf{dans} $terms]$
+%                     \State
+%                     \State $vectorizer \gets TfidfVectorizer()$
+%                     \State $vectorizer.fit\_transform(terms)$
+%                     \State
+%                     \State $correct\_query\_terms \gets []$
+%                     \State $query\_terms \gets tokenize(query)$
+%                     \State
+%                     \For{$term$ \textbf{dans} $query\_terms$}
+%                         \State $correct\_term \gets correct\_word(term)$
+%                         \If{$correct\_term$ est \textbf{None}}
+%                             \State $correct\_query\_terms$.append($term$)
+%                         \Else
+%                             \State $correct\_query\_terms$.append($correct\_term$)
+%                         \EndIf
+%                     \EndFor
+%                     \State
+%                     \State $query\_terms \gets correct\_query\_terms$
+%                     \State $query\_vector \gets vectorizer.transform([" ".join(query\_terms)]).toarray()[0]$
+%                     \State
+%                     \If{($filter\_field == "content"$)}
+%                         \State $selected\_docs \gets search(query\_terms=query\_terms, query\_vector=query\_vector)$
+%                         \If{($len(selected\_docs) > 0$)}
+%                             \State $documents \gets Documents.findByIdsWithScore(ids = selected\_docs)$
+%                         \EndIf
+%                     \EndIf
+%                     \State
+%                     \If{($filter\_field == "title"$)}
+%                         \State $selected\_docs \gets searchBy(query\_terms=query\_terms, query\_vector=query\_vector, field="title")$
+%                         \If{($len(selected\_docs) > 0$)}
+%                             \State $documents \gets Documents.findByIdsWithScore(ids = selected\_docs)$
+%                         \EndIf
+%                     \EndIf
+%                     \State
+%                     \If{($filter\_field == "author"$)}
+%                         \State $query\_terms \gets query.split()$
+%                         \State $selected\_docs \gets searchBy(query\_terms=query\_terms, query\_vector=query\_vector, field="author")$
+%                         \If{($len(selected\_docs) > 0$)}
+%                             \State $documents \gets Documents.findByIdsWithScore(ids = selected\_docs)$
+%                         \EndIf
+%                     \EndIf
+%                 \Else
+%                     \State \textbf{pass}
+%                 \EndIf
+%                 \State
+%                 \If{('page' dans $request.GET$)}
+%                     \State $page\_number \gets request.GET['page']$
+%                 \Else
+%                     \State $page\_number \gets 1$
+%                 \EndIf
+%                 \State
+%                 \If{('perpage' dans $request.GET$)}
+%                     \State $per\_page \gets request.GET['perpage']$
+%                 \Else
+%                     \State $per\_page \gets 5$
+%                 \EndIf
+%                 \State
+%                 \State $paginator \gets Paginator(object\_list=documents, per\_page=per\_page)$
+%                 \State $page\_obj \gets paginator.get\_page(number=page\_number)$
+%                 \State
+%                 \State $end \gets maintenant()$
+%                 \State $response\_time \gets (end - start).total\_seconds()$
+%                 \State
+%                 \State \textbf{Renvoyer} $render(request=request, template\_name="client/results.html", context=\{... \})$
+%             \Else
+%                 \If{($request.session.has\_key('query')$)}
+%                     \State $request.session.pop('query')$
+%                 \EndIf
+%                 \State
+%                 \State \textbf{Renvoyer} $render(request=request, template\_name="client/index.html", context=\{... \})$
+%             \EndIf
+%         \EndProcedure
+%     \end{algorithmic}
+% \end{algorithm}
+
+% \begin{algorithm}
+%     \caption{Mise à jour des Vecteurs TF-IDF}
+%     \begin{algorithmic}[1]
+%     \State \textbf{Données :} Indexes Inversés, Valeurs TF-IDF, Documents
+%     \State \textbf{Résultat :} Mise à jour des Vecteurs TF-IDF
+%     
+%     \State \textbf{Récupérer tous les index inversés :}
+%     \State inverted\_indexes $\leftarrow$ Index.objects.all()
+%     \State terms $\leftarrow$ [inverted\_index.term \textbf{pour} inverted\_index \textbf{dans} inverted\_indexes]
+%     \State terms $\leftarrow$ [preprocess\_text(term) \textbf{pour} term \textbf{dans} terms]
+%     
+%     \State \textbf{Initialiser un vecteuriseur TF-IDF :}
+%     \State vectorizer $\leftarrow$ TfidfVectorizer()
+%     \State vectorizer.fit\_transform(terms)
+%     
+%     \State \textbf{Récupérer toutes les valeurs TF-IDF de la base de données :}
+%     \State tfidf\_values $\leftarrow$ TfidfValues.objects.all()
+%     \State doc\_ids $\leftarrow$ [tfidf\_value.document\_id\_id \textbf{pour} tfidf\_value \textbf{dans} tfidf\_values]
+%     
+%     \For{chaque doc\_id \textbf{dans} doc\_ids}
+%         \State document\_terms $\leftarrow$ Documents.objects.get(pk=doc\_id).content.split()
+%         \State document\_vector $\leftarrow$ vectorizer.transform([" ".join(document\_terms)]).toarray()[0]
+%         
+%         \State document\_vector $\leftarrow$ np.round(document\_vector, 4)
+%         \State document\_vector\_json $\leftarrow$ json.dumps(document\_vector.tolist()) \textbf{  // Convertir en JSON}
+%         
+%         \State tfidf\_value $\leftarrow$ TfidfValues.objects.get(document\_id=doc\_id)
+%         \State tfidf\_value.tfidf\_vectors $\leftarrow$ document\_vector\_json
+%         \State tfidf\_value.save()
+%     \EndFor
+%     \end{algorithmic}
+% \end{algorithm}
+
+
+% \begin{algorithm}
+%     \caption{Gérer le Fichier Téléchargé}
+%     \begin{algorithmic}[1]
+%     \Function{handle\_uploaded\_file}{$f, dossier$}
+%         \State \textbf{Ouvrir} $destination$ \textbf{en mode} "wb+" \textbf{comme} $destination$
+%         \For{\textbf{chaque} $chunk$ \textbf{dans} $f.chunks()$}
+%             \State $destination.write(chunk)$
+%         \EndFor
+%     \EndFunction
+%     \end{algorithmic}
+% \end{algorithm}

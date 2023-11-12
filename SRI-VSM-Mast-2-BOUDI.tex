@@ -21,7 +21,7 @@
 
 % \usepackage[ruled,vlined]{algorithm2e}
 \usepackage{algorithm}
-\usepackage[noend]{algpseudocode}
+\usepackage{algpseudocode}
 
 \usepackage{enumitem}
 \usepackage[hidelinks]{hyperref}
@@ -132,11 +132,11 @@
 
 \chapter*{Résumé}
 \addcontentsline{toc}{chapter}{Résumé}
-Resumé
+Resumé a rediger
 
 \chapter*{Remerciements}
 \addcontentsline{toc}{chapter}{Remerciements}
-Remerciements
+Remerciements a rediger
 
 \phantomsection
 \addcontentsline{toc}{chapter}{Table des matières}
@@ -150,6 +150,11 @@ Remerciements
 \cleardoublepage
 
 \listoftables
+\cleardoublepage
+
+\cleardoublepage
+\renewcommand{\listalgorithmname}{Liste des algorithmes}
+\listofalgorithms
 \cleardoublepage
 
 \pagenumbering{arabic}
